@@ -1,0 +1,100 @@
+{
+  "hero": {
+    "greeting": "こんにちは、私は",
+    "name": "シュエ・アーロン",
+    "handle": "通称 Casual Attitude",
+    "title": "ゲーム開発者 & クリエイティブテクノロジスト",
+    "headline": "感情的でインタラクティブな体験をインディーズと商業タイトルで創造するゲーム開発者。",
+    "valueProp": "独立スタジオを設立してから、GoogleやDevsistersなどのパートナーと協力し、感情、創造性、技術をつなぐゲームを設計・開発しています。",
+    "availability": "新しいコラボレーションやクリエイティブなゲームプロジェクトに対応（リモートフレンドリー）。",
+    "cta": {
+      "contact": "お問い合わせ",
+      "resume": "履歴書を見る"
+    }
+  },
+  "nav": {
+    "about": "について",
+    "projects": "プロジェクト",
+    "experience": "経験",
+    "contact": "連絡先"
+  },
+  "about": {
+    "title": "私について",
+    "bio": "私はシュエ・アーロンです。開発シーンではCasual Attitudeとして知られています。私の旅は台北科技大学のプログラミングクラブから始まり、そこで運営を担当し、Googleと提携して機械学習コースを開催しました。その経験が、技術と創造性を組み合わせた体験を創造する情熱を生みました。",
+    "journey": "過去6年間、私はゲーム開発サイクル全体に携わってきました — コンセプトと企画からコーディングとリリースまで。独立スタジオを設立し、Soul of Butterflies – Incubationをリリースし、ストーリーデザイン、パズルシステム、クラウドファンディングから商業リリースまで担当しました。",
+    "current": "その後、Buho Interactiveに参加し、米国向けの感情学習ゲームプロジェクトに貢献し、その後リアルタイムアクションタイトルの開発を主導しました。現在、CookieRunフランチャイズのクリエイターであるDevsistersとのアウトソーシングプロジェクトを管理しています。",
+    "passion": "私の技術ツールキットはUnity、Flutter、Web技術（Vue + TypeScript）にまたがっていますが、最も私を駆り立てるのは、感情を呼び起こすインタラクティブな世界を作り、それらの世界を実現するチームを構築することです。",
+    "process": {
+      "title": "私のプロセス",
+      "concept": {
+        "title": "コンセプト",
+        "description": "ビジョン、ムード、主要なインタラクションを定義します。"
+      },
+      "prototype": {
+        "title": "プロトタイプ",
+        "description": "早く作り、早くテストし、頻繁に反復します。"
+      },
+      "collaborate": {
+        "title": "協力",
+        "description": "アート、サウンド、QAと密接に協力します。"
+      },
+      "deploy": {
+        "title": "デプロイ",
+        "description": "ビルドパイプラインとQAループを自動化します。"
+      },
+      "reflect": {
+        "title": "振り返り",
+        "description": "フィードバックを集め、磨き、学びを記録します。"
+      }
+    },
+    "education": {
+      "title": "学歴",
+      "degree": "コンピュータサイエンス学士",
+      "school": "国立台北科技大学",
+      "year": "2022"
+    },
+    "languages": {
+      "title": "言語",
+      "english": "日常",
+      "mandarin": "ネイティブ",
+      "japanese": "学習中"
+    }
+  },
+  "projects": {
+    "title": "注目プロジェクト",
+    "viewLive": "ライブ版を見る",
+    "viewRepo": "コードを見る",
+    "watchVideo": "デモを見る",
+    "role": "役割",
+    "company": "会社",
+    "year": "年",
+    "context": "背景",
+    "approach": "アプローチ",
+    "outcome": "成果"
+  },
+  "experience": {
+    "title": "職務経験"
+  },
+  "techStack": {
+    "title": "技術スタック"
+  },
+  "contact": {
+    "title": "連絡しましょう",
+    "description": "新しいプロジェクト、クリエイティブなアイデア、またはあなたのビジョンの一部になる機会について話し合うことをいつでも歓迎します。",
+    "email": "メール",
+    "discord": "Discord",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "wechat": "WeChat"
+  },
+  "footer": {
+    "copyright": "© 2025 シュエ・アーロン. Next.js & TypeScriptで構築。",
+    "madeWith": "❤️ で作成 by Casual Attitude"
+  },
+  "theme": {
+    "light": "ライト",
+    "dark": "ダーク",
+    "system": "システム"
+  }
+}
+

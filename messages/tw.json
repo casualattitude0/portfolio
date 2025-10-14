@@ -1,0 +1,100 @@
+{
+  "hero": {
+    "greeting": "嗨，我是",
+    "name": "薛賀升",
+    "handle": "又稱 Casual Attitude",
+    "title": "遊戲開發者 & 創意技術專家",
+    "headline": "遊戲開發者，專注於打造具有情感連結與互動體驗的獨立與商業遊戲。",
+    "valueProp": "從創立獨立工作室到與 Google 和 Devsisters 等夥伴合作，我設計並開發連結情感、創意與技術的遊戲。",
+    "availability": "開放新的合作機會與創意遊戲專案（支援遠端工作）。",
+    "cta": {
+      "contact": "聯絡我",
+      "resume": "查看履歷"
+    }
+  },
+  "nav": {
+    "about": "關於",
+    "projects": "專案",
+    "experience": "經歷",
+    "contact": "聯絡"
+  },
+  "about": {
+    "title": "關於我",
+    "bio": "我是薛賀升 — 不過大家都叫我 Casual Attitude。我的旅程始於台北科技大學程式設計研究社，在那裡我擔任營運長，並與 Google 合作舉辦機器學習課程。那段經歷點燃了我對創造結合技術與創意體驗的熱情。",
+    "journey": "過去六年來，我參與了完整的遊戲開發循環 — 從概念企劃到程式開發與發行。我創立了獨立工作室並推出《Soul of Butterflies – Incubation》，負責故事設計、解謎系統，以及從群眾募資到商業發行的全程。",
+    "current": "之後，我加入了 Buho Interactive，參與美國市場的情緒學習遊戲專案，後來領導即時動作遊戲的開發。目前，我正在管理與 Devsisters（CookieRun 系列的創作者）的外包專案。",
+    "passion": "我的技術工具箱涵蓋 Unity、Flutter 和 Web 技術（Vue + TypeScript），但最驅動我的是打造能喚起情感的互動世界，以及建立能實現這些世界的團隊。",
+    "process": {
+      "title": "我的流程",
+      "concept": {
+        "title": "概念",
+        "description": "定義願景、氛圍與核心互動。"
+      },
+      "prototype": {
+        "title": "原型",
+        "description": "快速建立、提早測試、頻繁迭代。"
+      },
+      "collaborate": {
+        "title": "協作",
+        "description": "與美術、音效和 QA 密切合作。"
+      },
+      "deploy": {
+        "title": "部署",
+        "description": "自動化建置流程與 QA 循環。"
+      },
+      "reflect": {
+        "title": "反思",
+        "description": "收集回饋、打磨並記錄學習。"
+      }
+    },
+    "education": {
+      "title": "學歷",
+      "degree": "資訊工程學士",
+      "school": "國立台北科技大學",
+      "year": "2022"
+    },
+    "languages": {
+      "title": "語言能力",
+      "english": "日常使用",
+      "mandarin": "母語",
+      "japanese": "學習中"
+    }
+  },
+  "projects": {
+    "title": "精選專案",
+    "viewLive": "查看作品",
+    "viewRepo": "查看程式碼",
+    "watchVideo": "觀看展示",
+    "role": "角色",
+    "company": "公司",
+    "year": "年份",
+    "context": "背景",
+    "approach": "方法",
+    "outcome": "成果"
+  },
+  "experience": {
+    "title": "工作經歷"
+  },
+  "techStack": {
+    "title": "技術堆疊"
+  },
+  "contact": {
+    "title": "聯絡我",
+    "description": "我隨時歡迎討論新專案、創意想法，或成為您願景的一部分。",
+    "email": "電子郵件",
+    "discord": "Discord",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "wechat": "微信"
+  },
+  "footer": {
+    "copyright": "© 2025 薛沛恩. 使用 Next.js & TypeScript 建立。",
+    "madeWith": "用 ❤️ 製作 by Casual Attitude"
+  },
+  "theme": {
+    "light": "淺色",
+    "dark": "深色",
+    "system": "系統"
+  }
+}
+
