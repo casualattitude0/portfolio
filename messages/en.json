@@ -1,0 +1,100 @@
+{
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Xue Aaron",
+    "handle": "aka Casual Attitude",
+    "title": "Game Developer & Creative Technologist",
+    "headline": "Game developer crafting emotional and interactive experiences across indie and commercial titles.",
+    "valueProp": "From founding an indie studio to collaborating with partners like Google and Devsisters, I design and build games that connect emotion, creativity, and technology.",
+    "availability": "Open to new collaborations and creative game projects (remote-friendly).",
+    "cta": {
+      "contact": "Get in Touch",
+      "resume": "View Resume"
+    }
+  },
+  "nav": {
+    "about": "About",
+    "projects": "Projects",
+    "experience": "Experience",
+    "contact": "Contact"
+  },
+  "about": {
+    "title": "About Me",
+    "bio": "I'm Xue Aaron — but most people in the dev scene know me as Casual Attitude. My journey began at the NTUT Programming Club, where I led operations and partnered with Google to host a machine learning course. That experience sparked my love for creating experiences that mix technology and creativity.",
+    "journey": "Over the past six years, I've worked across the entire game development cycle — from concept and planning to code and release. I founded an independent studio and launched Soul of Butterflies – Incubation, handling story design, puzzle systems, and crowdfunding to commercial release.",
+    "current": "After that, I joined Buho Interactive, contributing to a U.S. emotional-learning game project and later leading development on real-time action titles. Today, I'm managing outsourcing projects with Devsisters, creators of the CookieRun franchise.",
+    "passion": "My technical toolkit spans Unity, Flutter, and web technologies (Vue + TypeScript), but what drives me most is crafting interactive worlds that evoke emotion and building teams that make those worlds real.",
+    "process": {
+      "title": "My Process",
+      "concept": {
+        "title": "Concept",
+        "description": "Define the vision, mood, and key interactions."
+      },
+      "prototype": {
+        "title": "Prototype",
+        "description": "Build fast, test early, iterate often."
+      },
+      "collaborate": {
+        "title": "Collaborate",
+        "description": "Work closely with art, sound, and QA."
+      },
+      "deploy": {
+        "title": "Deploy",
+        "description": "Automate build pipelines and QA loops."
+      },
+      "reflect": {
+        "title": "Reflect",
+        "description": "Gather feedback, polish, and document learnings."
+      }
+    },
+    "education": {
+      "title": "Education",
+      "degree": "B.S. in Computer Science",
+      "school": "National Taipei University of Technology",
+      "year": "2022"
+    },
+    "languages": {
+      "title": "Languages",
+      "english": "Everyday",
+      "mandarin": "Native",
+      "japanese": "Learning"
+    }
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "viewLive": "View Live",
+    "viewRepo": "View Code",
+    "watchVideo": "Watch Demo",
+    "role": "Role",
+    "company": "Company",
+    "year": "Year",
+    "context": "Context",
+    "approach": "Approach",
+    "outcome": "Outcome"
+  },
+  "experience": {
+    "title": "Work Experience"
+  },
+  "techStack": {
+    "title": "Tech Stack"
+  },
+  "contact": {
+    "title": "Let's Connect",
+    "description": "I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.",
+    "email": "Email",
+    "discord": "Discord",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "wechat": "WeChat"
+  },
+  "footer": {
+    "copyright": "© 2025 Xue Aaron. Built with Next.js & TypeScript.",
+    "madeWith": "Made with ❤️ by Casual Attitude"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  }
+}
+

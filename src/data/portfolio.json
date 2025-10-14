@@ -1,0 +1,213 @@
+{
+    "person": {
+      "name": "Xue Aaron",
+      "handle": "Casual Attitude",
+      "label": "Game Developer & Creative Technologist",
+      "location": {
+        "city": "Taipei",
+        "country": "Taiwan",
+        "timezone": "Asia/Taipei"
+      },
+      "headline": "Game developer crafting emotional and interactive experiences across indie and commercial titles.",
+      "valueProp": "From founding an indie studio to collaborating with partners like Google and Devsisters, I design and build games that connect emotion, creativity, and technology.",
+      "availability": "Open to new collaborations and creative game projects (remote-friendly).",
+      "contact": {
+        "email": "casualattitude0@gmail.com",
+        "preferred": "form",
+        "social": {
+          "linkedin": "",
+          "twitter": "",
+          "github": "",
+          "discord": ""
+        }
+      }
+    },
+    "projects": [
+      {
+        "title": "Soul of Butterflies – Incubation",
+        "role": "Founder / Game Director / Developer",
+        "clientOrCompany": "Independent Studio",
+        "year": 2024,
+        "summary": "A narrative puzzle adventure independently developed, crowdfunded, exhibited, and commercially released.",
+        "context": "Led full-cycle development — concept, story, system design, music direction, localization, and crowdfunding management.",
+        "problem": "Create an immersive, story-driven indie game with limited team resources.",
+        "approach": "Handled all design and development tasks, coordinated art and sound collaborators, and managed promotion through crowdfunding.",
+        "outcome": {
+          "metric": "Successfully crowdfunded and released commercially",
+          "details": "Exhibited at gaming events and received positive player feedback."
+        },
+        "links": {
+          "live": "https://store.steampowered.com/app/2391350/Soul_of_Butterflies_Incubation/",
+          "repo": "",
+          "video": ""
+        },
+        "assets": [
+          {
+            "src": "",
+            "alt": "Gameplay scene from Soul of Butterflies – Incubation"
+          }
+        ]
+      },
+      {
+        "title": "Emotional Management – Interactive Game",
+        "role": "Game Planner / Unity Developer",
+        "clientOrCompany": "Buho Interactive",
+        "year": 2024,
+        "summary": "An emotional-learning educational game for the U.S. market, built to support students' emotional regulation through interactive play.",
+        "context": "Collaborated with U.S. educational partners and development teams to prototype and deliver interactive modules.",
+        "problem": "Build a game that helps children identify and manage emotions effectively through play.",
+        "approach": "Developed Unity prototypes, designed core gameplay flows, and adjusted based on user testing.",
+        "outcome": {
+          "metric": "Completed and launched with smooth delivery",
+          "details": "Helped refine gameplay to fit educational use and emotional learning objectives."
+        },
+        "links": {
+          "live": "",
+          "video": ""
+        },
+        "assets": [
+          {
+            "src": "",
+            "alt": "UI from Emotional Management interactive scenes"
+          }
+        ]
+      },
+      {
+        "title": "Unity CI/CD Automation Pipeline",
+        "role": "DevOps Engineer / Tool Developer",
+        "clientOrCompany": "Internal Tool",
+        "year": 2025,
+        "summary": "Developed a CI/CD automation pipeline for Unity builds using Fastlane, integrating Discord bot commands for remote control and TestFlight uploads.",
+        "context": "Built to streamline internal mobile game testing and deployment workflows for the development team.",
+        "problem": "Manual Unity build and deployment to TestFlight was time-consuming and error-prone, slowing iteration speed.",
+        "approach": "Implemented Fastlane scripts for build automation, set up Unity Cloud build steps, and connected a custom Discord bot to trigger remote builds and uploads via API.",
+        "outcome": {
+          "metric": "Reduced release prep time by 70%",
+          "details": "Enabled remote-controlled builds directly from Discord, increasing iteration efficiency for QA and design teams."
+        },
+        "links": {
+          "live": "",
+          "repo": "",
+          "video": ""
+        },
+        "assets": [
+          {
+            "src": "",
+            "alt": "Discord bot interface controlling Unity builds"
+          }
+        ]
+      },
+      {
+        "title": "Wacky Boat (CookieRun IP – Outsourcing Project)",
+        "role": "Game Planner / Developer / Project Manager",
+        "clientOrCompany": "Interactive Entertainment Co. (with Devsisters)",
+        "year": 2025,
+        "summary": "A fast-paced mobile action game based on the CookieRun IP, built collaboratively with Devsisters.",
+        "context": "Handled production management, game design, and real-time system implementation.",
+        "problem": "Deliver high-quality gameplay that fits the CookieRun IP and commercial timelines.",
+        "approach": "Coordinated with client teams, managed schedules, and developed gameplay mechanics in Unity.",
+        "outcome": {
+          "metric": "Successfully delivered project milestones to Devsisters",
+          "details": "Contributed to key gameplay systems and ensured stable, optimized performance."
+        },
+        "links": {
+          "live": "",
+          "video": ""
+        },
+        "assets": [
+          {
+            "src": "",
+            "alt": "Gameplay from Wacky Boat prototype"
+          }
+        ]
+      },
+      {
+        "title": "Tarowl: Pocket Tarot",
+        "role": "Independent Developer",
+        "clientOrCompany": "Personal Project",
+        "year": 2023,
+        "summary": "An AI-powered tarot reading app built with Flutter and TypeScript backend using Google Cloud Platform.",
+        "context": "Developed end-to-end mobile experience — UI, AI tarot reading logic, and backend integration.",
+        "problem": "Create a personalized, intuitive mobile tarot reading experience with AI support.",
+        "approach": "Built full-stack solution using Flutter and GCP services, focused on accessible UI/UX.",
+        "outcome": {
+          "metric": "Released to app store and iterated via user feedback",
+          "details": "Maintained ongoing updates and improvements."
+        },
+        "links": {
+          "live": "",
+          "repo": "",
+          "video": ""
+        },
+        "assets": [
+          {
+            "src": "",
+            "alt": "Tarowl mobile UI screenshot"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Interactive Entertainment Co., Ltd.",
+        "role": "Game Planner / Unity Developer",
+        "period": "Mar 2024 – Present",
+        "description": "Leading game planning, Unity development support, and project progress management for multiple commercial titles."
+      },
+      {
+        "company": "Independent Studio",
+        "role": "Founder / Game Developer",
+        "period": "Sep 2022 – Mar 2024",
+        "description": "Developed and released the indie game 'Soul of Butterflies – Incubation' through crowdfunding and event exhibitions."
+      },
+      {
+        "company": "NPC – NTUT Programming Club",
+        "role": "Chief of Operations",
+        "period": "2019 – 2022",
+        "description": "Organized and hosted events, including Google's Machine Learning Course, and managed cross-disciplinary collaborations among students."
+      }
+    ],
+    "testimonials": [],
+    "services": [
+      {
+        "name": "Game Design & Prototyping",
+        "scope": "Concept design, gameplay mechanics, flowcharts, and prototyping in Unity.",
+        "timeline": "2–6 weeks",
+        "notes": "Ideal for teams exploring early-stage ideas or validating mechanics."
+      },
+      {
+        "name": "Game Production & Project Management",
+        "scope": "Scheduling, milestone tracking, and communication between art, design, and engineering.",
+        "timeline": "Ongoing",
+        "notes": "Focused on ensuring delivery quality and timeline alignment."
+      }
+    ],
+    "writing": [],
+    "education": {
+      "school": "National Taipei University of Technology",
+      "degree": "B.S. in Computer Science",
+      "graduationYear": 2022
+    },
+    "languages": {
+      "English": "Everyday",
+      "Mandarin": "Native",
+      "Japanese": "Learning"
+    },
+    "techStack": [
+        { "name": "Unity", "icon": "/icons/unity.svg" },
+        { "name": "C#", "icon": "/icons/csharp.svg" },
+        { "name": "Flutter", "icon": "/icons/flutter.svg" },
+        { "name": "TypeScript", "icon": "/icons/typescript.svg" },
+        { "name": "Vue.js", "icon": "/icons/vue.svg" },
+        { "name": "Google Cloud Platform", "icon": "/icons/gcp.svg" },
+        { "name": "Firebase", "icon": "/icons/firebase.svg" },
+        { "name": "Fastlane", "icon": "/icons/fastlane.svg" },
+        { "name": "Discord.js", "icon": "/icons/discordjs.svg" },
+        { "name": "CI/CD", "icon": "/icons/cicd.svg" },
+        { "name": "Git", "icon": "/icons/git.svg" },
+        { "name": "Figma", "icon": "/icons/figma.svg" },
+        { "name": "Python", "icon": "/icons/python.svg" },
+        { "name": "C++", "icon": "/icons/cpp.svg" }
+    ]
+  }
+
