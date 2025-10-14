@@ -1,8 +1,112 @@
 @import "tailwindcss";
 
-:root {
+:root,
+html.light {
   --background: #ffffff;
   --foreground: #171717;
+}
+
+html.dark {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+}
+
+/* Force light theme styles when light class is present */
+html.light {
+  color-scheme: light;
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
+/* Force light theme overrides */
+html.light .bg-gray-50 {
+  background-color: #f9fafb !important;
+}
+
+html.light .bg-gray-100 {
+  background-color: #f3f4f6 !important;
+}
+
+html.light .bg-white {
+  background-color: #ffffff !important;
+}
+
+html.light .text-gray-900 {
+  color: #111827 !important;
+}
+
+html.light .text-gray-700 {
+  color: #374151 !important;
+}
+
+html.light .text-gray-600 {
+  color: #4b5563 !important;
+}
+
+html.light .text-gray-500 {
+  color: #6b7280 !important;
+}
+
+html.light .border-gray-200 {
+  border-color: #e5e7eb !important;
+}
+
+/* Tech Stack specific overrides */
+html.light .bg-gradient-to-b {
+  background: linear-gradient(to bottom, #ffffff, #f9fafb) !important;
+}
+
+html.light .shadow-lg {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+}
+
+html.light .bg-gradient-to-br {
+  background: linear-gradient(to bottom right, #dbeafe, #f3e8ff) !important;
+}
+
+html.light .font-semibold {
+  font-weight: 600 !important;
+}
+
+html.light .text-lg {
+  color: #111827 !important;
+}
+
+/* Header specific light theme improvements */
+html.light .bg-white\/80 {
+  background-color: rgba(255, 255, 255, 0.95) !important;
+  backdrop-filter: blur(24px) !important;
+}
+
+html.light .border-gray-200\/50 {
+  border-color: rgba(229, 231, 235, 0.8) !important;
+}
+
+html.light .shadow-2xl {
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15) !important;
+}
+
+html.light .hover\:bg-gray-100:hover {
+  background-color: #f3f4f6 !important;
+}
+
+html.light .text-gray-500 {
+  color: #6b7280 !important;
+}
+
+html.light .text-gray-400 {
+  color: #9ca3af !important;
+}
+
+/* Navigation button text colors for light theme */
+html.light .font-bold {
+  color: #374151 !important;
+}
+
+html.light .font-semibold {
+  color: #374151 !important;
 }
 
 @theme inline {
@@ -12,21 +116,15 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* Custom scrollbar */
@@ -34,28 +132,31 @@ body {
   width: 10px;
 }
 
-::-webkit-scrollbar-track {
+::-webkit-scrollbar-track,
+html.light ::-webkit-scrollbar-track {
   background: #f1f1f1;
 }
 
-.dark ::-webkit-scrollbar-track {
+html.dark ::-webkit-scrollbar-track {
   background: #0a0a0a;
 }
 
-::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb,
+html.light ::-webkit-scrollbar-thumb {
   background: #d1d1d1;
   border-radius: 5px;
 }
 
-.dark ::-webkit-scrollbar-thumb {
+html.dark ::-webkit-scrollbar-thumb {
   background: #404040;
 }
 
-::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover,
+html.light ::-webkit-scrollbar-thumb:hover {
   background: #b1b1b1;
 }
 
-.dark ::-webkit-scrollbar-thumb:hover {
+html.dark ::-webkit-scrollbar-thumb:hover {
   background: #525252;
 }
 
