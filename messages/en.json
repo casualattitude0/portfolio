@@ -21,9 +21,9 @@
   },
   "about": {
     "title": "About Me",
-    "bio": "I'm Xue Aaron — but most people in the dev scene know me as Casual Attitude. My journey began at the NTUT Programming Club, where I led operations and partnered with Google to host a machine learning course. That experience sparked my love for creating experiences that mix technology and creativity.",
-    "journey": "Over the past six years, I've worked across the entire game development cycle — from concept and planning to code and release. I founded an independent studio and launched Soul of Butterflies – Incubation, handling story design, puzzle systems, and crowdfunding to commercial release.",
-    "current": "After that, I joined Buho Interactive, contributing to a U.S. emotional-learning game project and later leading development on real-time action titles. Today, I'm managing outsourcing projects with Devsisters, creators of the CookieRun franchise.",
+    "bio": "I'm Xue Aaron — though most people in the dev community know me as Casual Attitude. My journey began at the NTUT Programming Club, where I led operations and partnered with Google to host a machine learning course. That experience sparked my passion for creating experiences that blend technology and creativity.",
+    "journey": "Over the past six years, I've worked across the entire game development cycle — from concept and planning to coding and release. I founded an independent studio and launched Soul of Butterflies – Incubation, handling story design, puzzle systems, and everything from crowdfunding to commercial release.",
+    "current": "After that, I joined Buho Interactive, contributing to a U.S. emotional-learning game project and later leading development on real-time action titles. Today, I'm managing outsourcing projects with Devsisters, the creators of the CookieRun franchise.",
     "passion": "My technical toolkit spans Unity, Flutter, and web technologies (Vue + TypeScript), but what drives me most is crafting interactive worlds that evoke emotion and building teams that make those worlds real.",
     "process": {
       "title": "My Process",

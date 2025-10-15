@@ -23,7 +23,7 @@
       "role": "遊戲企劃 / 開發者 / 專案經理",
       "clientOrCompany": "buho Interactive Entertainment Co. (與 Devsisters 合作)",
       "year": "2024 – 現在",
-      "summary": "基於 CookieRun IP 的交易卡牌遊戲（TCG）Braverse 的網頁互動式教學。",
+      "summary": "基於 CookieRun IP 的交易卡牌遊戲（TCG）Braverse 的網頁互動式教學系統。",
       "techs": ["Unity", "C#", "遊戲設計"],
       "outcome": {
         "metric": "開發中",
@@ -39,7 +39,7 @@
       "role": "遊戲企劃 / 開發者 / 專案經理",
       "clientOrCompany": "buho Interactive Entertainment Co.",
       "year": "2024 – 現在",
-      "summary": "目前開發中的快節奏手機動作遊戲，具備模組化核心遊戲系統和自動化 CI/CD 流程。",
+      "summary": "目前開發中的快節奏手機動作遊戲，具備模組化核心遊戲系統和自動化 CI/CD 流程，實現流暢的開發流程。",
       "techs": ["Unity", "C#", "CI/CD", "Fastlane", "iOS"],
       "outcome": {
         "metric": "具備自動部署流程的開發中",
@@ -55,7 +55,7 @@
       "role": "創辦人 / 遊戲總監 / 開發者",
       "clientOrCompany": "獨立工作室",
       "year": 2024,
-      "summary": "獨立開發、群眾募資、展出並商業發行的敘事解謎冒險遊戲。",
+      "summary": "獨立開發、群眾募資、在遊戲活動中展出並商業發行的敘事解謎冒險遊戲。",
       "techs": ["Unity", "C#", "Steam", "遊戲設計"],
       "outcome": {
         "metric": "群眾募資成功並商業發行",
@@ -72,7 +72,7 @@
       "role": "獨立開發者",
       "clientOrCompany": "個人專案",
       "year": 2024,
-      "summary": "使用 Flutter 和 TypeScript 後端建置的 AI 驅動塔羅牌占卜應用程式，採用 Google Cloud Platform。",
+      "summary": "使用 Flutter 前端和 TypeScript 後端建置的 AI 驅動塔羅牌占卜應用程式，採用 Google Cloud Platform 服務。",
       "techs": ["Flutter", "TypeScript", "Google Cloud Platform", "Firebase"],
       "outcome": {
         "metric": "發布至應用商店並根據使用者回饋迭代",
@@ -89,7 +89,7 @@
       "role": "遊戲企劃 / Unity 開發者",
       "clientOrCompany": "Buho Interactive",
       "year": 2023,
-      "summary": "針對美國市場的情緒學習教育遊戲，透過互動遊玩支援學生的情緒調節。",
+      "summary": "針對美國市場的情緒學習教育遊戲，透過互動遊戲玩法支援學生的情緒調節。",
       "techs": ["Unity", "C#", "遊戲設計"],
       "outcome": {
         "metric": "順利完成並發行",
@@ -116,7 +116,7 @@
     },
     {
       "company": "NPC – 台北科技大學程式設計研究社",
-      "role": "營運長",
+      "role": "社長",
       "period": "2019年 – 2022年",
       "description": "組織並舉辦活動，包括 Google 機器學習課程，並管理學生間的跨領域合作。"
     }

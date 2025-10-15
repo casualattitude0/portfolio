@@ -23,7 +23,7 @@
       "role": "Game Designer / Developer / Project Manager",
       "clientOrCompany": "buho Interactive Entertainment Co. (with Devsisters)",
       "year": "2024 – Present",
-      "summary": "A web-based interactive tutorial teaching players how to play Braverse, a Trading Card Game (TCG) based on the CookieRun IP.",
+      "summary": "A web-based interactive tutorial teaching players how to play Braverse, a Trading Card Game (TCG) based on the CookieRun IP franchise.",
       "techs": ["Unity", "C#", "Game Design"],
       "outcome": {
         "metric": "In active development",
@@ -39,7 +39,7 @@
       "role": "Game Designer / Developer / Project Manager",
       "clientOrCompany": "buho Interactive Entertainment Co.",
       "year": "2024 – Present",
-      "summary": "A fast-paced mobile action game currently under development, featuring a modular core gameplay system and automated CI/CD pipeline.",
+      "summary": "A fast-paced mobile action game currently under development, featuring a modular core gameplay system and automated CI/CD pipeline for streamlined development.",
       "techs": ["Unity", "C#", "CI/CD", "Fastlane", "iOS"],
       "outcome": {
         "metric": "Active development with automated deployment pipeline",
@@ -55,7 +55,7 @@
       "role": "Founder / Game Director / Developer",
       "clientOrCompany": "Independent Studio",
       "year": 2024,
-      "summary": "A narrative puzzle adventure independently developed, crowdfunded, exhibited, and commercially released.",
+      "summary": "A narrative puzzle adventure independently developed, crowdfunded, exhibited at gaming events, and commercially released.",
       "techs": ["Unity", "C#", "Steam", "Game Design"],
       "outcome": {
         "metric": "Successfully crowdfunded and released commercially",
@@ -72,7 +72,7 @@
       "role": "Independent Developer",
       "clientOrCompany": "Personal Project",
       "year": 2024,
-      "summary": "An AI-powered tarot reading app built with Flutter and TypeScript backend using Google Cloud Platform.",
+      "summary": "An AI-powered tarot reading app built with Flutter frontend and TypeScript backend using Google Cloud Platform services.",
       "techs": ["Flutter", "TypeScript", "Google Cloud Platform", "Firebase"],
       "outcome": {
         "metric": "Released to app store and iterated via user feedback",
@@ -89,7 +89,7 @@
       "role": "Game Designer / Unity Developer",
       "clientOrCompany": "Buho Interactive",
       "year": 2023,
-      "summary": "An emotional-learning educational game for the U.S. market, built to support students' emotional regulation through interactive play.",
+      "summary": "An emotional-learning educational game for the U.S. market, designed to support students' emotional regulation through interactive gameplay.",
       "techs": ["Unity", "C#", "Game Design"],
       "outcome": {
         "metric": "Completed and launched with smooth delivery",
