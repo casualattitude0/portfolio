@@ -24,6 +24,80 @@
     },
     "projects": [
       {
+        "title": "Unity CI/CD Automation Pipeline",
+        "role": "DevOps Engineer / Tool Developer",
+        "clientOrCompany": "Internal Tool",
+        "year": 2025,
+        "summary": "Developed a CI/CD automation pipeline for Unity builds using Fastlane, integrating Discord bot commands for remote control and TestFlight uploads.",
+        "context": "Built to streamline internal mobile game testing and deployment workflows for the development team.",
+        "problem": "Manual Unity build and deployment to TestFlight was time-consuming and error-prone, slowing iteration speed.",
+        "approach": "Implemented Fastlane scripts for build automation, set up Unity Cloud build steps, and connected a custom Discord bot to trigger remote builds and uploads via API.",
+        "outcome": {
+          "metric": "Reduced release prep time by 70%",
+          "details": "Enabled remote-controlled builds directly from Discord, increasing iteration efficiency for QA and design teams."
+        },
+        "links": {
+          "live": "",
+          "repo": "https://github.com/casualattitude0/unity-fastlane-tool",
+          "video": "",
+          "repo2": "https://github.com/casualattitude0/discord_cicd_bot"
+        },
+        "assets": [
+          {
+            "src": "",
+            "alt": "Discord bot interface controlling Unity builds"
+          }
+        ]
+      },
+      {
+        "title": "Braverse (CookieRun IP – Outsourcing Project)",
+        "role": "Game Designer / Developer / Project Manager",
+        "clientOrCompany": "buho Interactive Entertainment Co. (with Devsisters)",
+        "year": "2024 – Present",
+        "summary": "A web-based interactive tutorial teaching players how to play Braverse, a Trading Card Game (TCG) based on the CookieRun IP.",
+        "context": "Currently under development — handling game design, tutorial flow, and production management for Devsisters.",
+        "problem": "Create an engaging, easy-to-understand web tutorial that teaches complex TCG mechanics to players.",
+        "approach": "Designed interactive tutorial modules, coordinated with Devsisters, and managed development workflow.",
+        "outcome": {
+          "metric": "In active development",
+          "details": "Building tutorial systems and ensuring gameplay clarity for new players learning Braverse TCG mechanics."
+        },
+        "links": {
+          "live": "",
+          "video": ""
+        },
+        "assets": [
+          {
+            "src": "",
+            "alt": "Braverse web tutorial interface"
+          }
+        ]
+      },
+      {
+        "title": "Wacky Boat",
+        "role": "Game Designer / Developer / Project Manager",
+        "clientOrCompany": "buho Interactive Entertainment Co.",
+        "year": "2024 – Present",
+        "summary": "A fast-paced mobile action game currently under development, featuring a modular core gameplay system and automated CI/CD pipeline.",
+        "context": "Building production infrastructure and core gameplay tools to enable team iteration and real-time testing on iOS.",
+        "problem": "Enable rapid iteration and testing for mobile gameplay while maintaining stable development workflow.",
+        "approach": "Developed a core gameplay system as a reusable tool for team members, and built a CI/CD pipeline for automated iOS builds and real-time environment testing.",
+        "outcome": {
+          "metric": "Active development with automated deployment pipeline",
+          "details": "Core gameplay system enables team to iterate efficiently; CI/CD pipeline streamlines iOS testing and builds."
+        },
+        "links": {
+          "live": "",
+          "video": ""
+        },
+        "assets": [
+          {
+            "src": "",
+            "alt": "Wacky Boat gameplay system in development"
+          }
+        ]
+      },
+      {
         "title": "Soul of Butterflies – Incubation",
         "role": "Founder / Game Director / Developer",
         "clientOrCompany": "Independent Studio",
@@ -49,83 +123,10 @@
         ]
       },
       {
-        "title": "Emotional Management – Interactive Game",
-        "role": "Game Planner / Unity Developer",
-        "clientOrCompany": "Buho Interactive",
-        "year": 2024,
-        "summary": "An emotional-learning educational game for the U.S. market, built to support students' emotional regulation through interactive play.",
-        "context": "Collaborated with U.S. educational partners and development teams to prototype and deliver interactive modules.",
-        "problem": "Build a game that helps children identify and manage emotions effectively through play.",
-        "approach": "Developed Unity prototypes, designed core gameplay flows, and adjusted based on user testing.",
-        "outcome": {
-          "metric": "Completed and launched with smooth delivery",
-          "details": "Helped refine gameplay to fit educational use and emotional learning objectives."
-        },
-        "links": {
-          "live": "",
-          "video": ""
-        },
-        "assets": [
-          {
-            "src": "",
-            "alt": "UI from Emotional Management interactive scenes"
-          }
-        ]
-      },
-      {
-        "title": "Unity CI/CD Automation Pipeline",
-        "role": "DevOps Engineer / Tool Developer",
-        "clientOrCompany": "Internal Tool",
-        "year": 2025,
-        "summary": "Developed a CI/CD automation pipeline for Unity builds using Fastlane, integrating Discord bot commands for remote control and TestFlight uploads.",
-        "context": "Built to streamline internal mobile game testing and deployment workflows for the development team.",
-        "problem": "Manual Unity build and deployment to TestFlight was time-consuming and error-prone, slowing iteration speed.",
-        "approach": "Implemented Fastlane scripts for build automation, set up Unity Cloud build steps, and connected a custom Discord bot to trigger remote builds and uploads via API.",
-        "outcome": {
-          "metric": "Reduced release prep time by 70%",
-          "details": "Enabled remote-controlled builds directly from Discord, increasing iteration efficiency for QA and design teams."
-        },
-        "links": {
-          "live": "",
-          "repo": "",
-          "video": ""
-        },
-        "assets": [
-          {
-            "src": "",
-            "alt": "Discord bot interface controlling Unity builds"
-          }
-        ]
-      },
-      {
-        "title": "Wacky Boat (CookieRun IP – Outsourcing Project)",
-        "role": "Game Planner / Developer / Project Manager",
-        "clientOrCompany": "Interactive Entertainment Co. (with Devsisters)",
-        "year": 2025,
-        "summary": "A fast-paced mobile action game based on the CookieRun IP, built collaboratively with Devsisters.",
-        "context": "Handled production management, game design, and real-time system implementation.",
-        "problem": "Deliver high-quality gameplay that fits the CookieRun IP and commercial timelines.",
-        "approach": "Coordinated with client teams, managed schedules, and developed gameplay mechanics in Unity.",
-        "outcome": {
-          "metric": "Successfully delivered project milestones to Devsisters",
-          "details": "Contributed to key gameplay systems and ensured stable, optimized performance."
-        },
-        "links": {
-          "live": "",
-          "video": ""
-        },
-        "assets": [
-          {
-            "src": "",
-            "alt": "Gameplay from Wacky Boat prototype"
-          }
-        ]
-      },
-      {
         "title": "Tarowl: Pocket Tarot",
         "role": "Independent Developer",
         "clientOrCompany": "Personal Project",
-        "year": 2023,
+        "year": 2024,
         "summary": "An AI-powered tarot reading app built with Flutter and TypeScript backend using Google Cloud Platform.",
         "context": "Developed end-to-end mobile experience — UI, AI tarot reading logic, and backend integration.",
         "problem": "Create a personalized, intuitive mobile tarot reading experience with AI support.",
@@ -145,14 +146,38 @@
             "alt": "Tarowl mobile UI screenshot"
           }
         ]
+      },
+      {
+        "title": "Emotional Management – Interactive Game",
+        "role": "Game Designer / Unity Developer",
+        "clientOrCompany": "Buho Interactive",
+        "year": 2023,
+        "summary": "An emotional-learning educational game for the U.S. market, built to support students' emotional regulation through interactive play.",
+        "context": "Collaborated with U.S. educational partners and development teams to prototype and deliver interactive modules.",
+        "problem": "Build a game that helps children identify and manage emotions effectively through play.",
+        "approach": "Developed Unity prototypes, designed core gameplay flows, and adjusted based on user testing.",
+        "outcome": {
+          "metric": "Completed and launched with smooth delivery",
+          "details": "Helped refine gameplay to fit educational use and emotional learning objectives."
+        },
+        "links": {
+          "live": "",
+          "video": ""
+        },
+        "assets": [
+          {
+            "src": "",
+            "alt": "UI from Emotional Management interactive scenes"
+          }
+        ]
       }
     ],
     "experience": [
       {
-        "company": "Interactive Entertainment Co., Ltd.",
-        "role": "Game Planner / Unity Developer",
+        "company": "buho Interactive Entertainment Co., Ltd.",
+        "role": "Game Designer / Unity Developer",
         "period": "Mar 2024 – Present",
-        "description": "Leading game planning, Unity development support, and project progress management for multiple commercial titles."
+        "description": "Leading game planning, Unity development, and project management for multiple commercial titles including Braverse (CookieRun IP with Devsisters) and Wacky Boat. Built core gameplay systems, CI/CD pipelines, and production infrastructure."
       },
       {
         "company": "Independent Studio",
