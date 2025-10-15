@@ -23,7 +23,7 @@
       "role": "ゲームプランナー / 開発者 / プロジェクトマネージャー",
       "clientOrCompany": "buho Interactive Entertainment Co. (Devsistersと協力)",
       "year": "2024年 – 現在",
-      "summary": "CookieRun IPをベースにしたトレーディングカードゲーム（TCG）Braverseのプレイ方法を教えるWebベースのインタラクティブチュートリアル。",
+      "summary": "CookieRun IPをベースにしたトレーディングカードゲーム（TCG）Braverseのプレイ方法を教えるWebベースのインタラクティブチュートリアルです。",
       "techs": ["Unity", "C#", "ゲームデザイン"],
       "outcome": {
         "metric": "開発中",
@@ -39,7 +39,7 @@
       "role": "ゲームプランナー / 開発者 / プロジェクトマネージャー",
       "clientOrCompany": "buho Interactive Entertainment Co.",
       "year": "2024年 – 現在",
-      "summary": "開発中の高速モバイルアクションゲーム。モジュラー式のコアゲームプレイシステムと自動化されたCI/CDパイプラインを特徴とする。",
+      "summary": "開発中の高速モバイルアクションゲーム。モジュラー式のコアゲームプレイシステムと自動化されたCI/CDパイプラインを特徴としています。",
       "techs": ["Unity", "C#", "CI/CD", "Fastlane", "iOS"],
       "outcome": {
         "metric": "自動デプロイパイプラインを備えた開発中",
@@ -55,7 +55,7 @@
       "role": "創設者 / ゲームディレクター / 開発者",
       "clientOrCompany": "独立スタジオ",
       "year": 2024,
-      "summary": "独立開発、クラウドファンディング、展示、商業リリースされたナラティブパズルアドベンチャー。",
+      "summary": "独立開発、クラウドファンディング、展示、商業リリースされたナラティブパズルアドベンチャーです。",
       "techs": ["Unity", "C#", "Steam", "ゲームデザイン"],
       "outcome": {
         "metric": "クラウドファンディング成功、商業リリース",
@@ -72,7 +72,7 @@
       "role": "独立開発者",
       "clientOrCompany": "個人プロジェクト",
       "year": 2024,
-      "summary": "FlutterとGoogle Cloud Platformを使用したTypeScriptバックエンドで構築されたAI搭載タロットリーディングアプリ。",
+      "summary": "FlutterフロントエンドとTypeScriptバックエンドで構築されたAI搭載タロットリーディングアプリです。Google Cloud Platformサービスを使用しています。",
       "techs": ["Flutter", "TypeScript", "Google Cloud Platform", "Firebase"],
       "outcome": {
         "metric": "アプリストアにリリース、ユーザーフィードバックで反復",
@@ -89,7 +89,7 @@
       "role": "ゲームプランナー / Unity開発者",
       "clientOrCompany": "Buho Interactive",
       "year": 2023,
-      "summary": "米国市場向けの感情学習教育ゲーム。インタラクティブなプレイを通じて学生の感情調整をサポートするために構築。",
+      "summary": "米国市場向けの感情学習教育ゲーム。インタラクティブなゲームプレイを通じて学生の感情調整をサポートするために設計されました。",
       "techs": ["Unity", "C#", "ゲームデザイン"],
       "outcome": {
         "metric": "スムーズな配信で完成・リリース",
@@ -116,7 +116,7 @@
     },
     {
       "company": "NPC – 台北科技大学プログラミングクラブ",
-      "role": "運営責任者",
+      "role": "部長",
       "period": "2019年 – 2022年",
       "description": "Googleの機械学習コースを含むイベントの企画・開催、学生間の学際的なコラボレーションを管理。"
     }
