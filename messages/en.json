@@ -15,7 +15,7 @@
   "nav": {
     "about": "About",
     "projects": "Projects",
-    "experience": "Experience",
+    "experience": "Resume",
     "contact": "Contact"
   },
   "about": {
@@ -78,7 +78,7 @@
     "noProjects": "No projects found with selected filters."
   },
   "experience": {
-    "title": "Work Experience"
+    "title": "Resume"
   },
   "techStack": {
     "title": "Tech Stack"
