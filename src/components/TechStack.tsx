@@ -338,6 +338,30 @@ function getCategoryColor(category: string): string {
 export function TechStack({ techStack }: TechStackProps) {
   const t = useTranslations('techStack');
   const rows = createRows();
+  const [isMounted, setIsMounted] = useState(false);
+  const [particles, setParticles] = useState<Array<{
+    x: number[];
+    y: number[];
+    duration: number;
+    delay: number;
+    left: string;
+    top: string;
+  }>>([]);
+
+  useEffect(() => {
+    setIsMounted(true);
+    // Generate particles only on client side
+    setParticles(
+      Array.from({ length: 20 }, () => ({
+        x: [0, Math.random() * 100 - 50],
+        y: [0, Math.random() * 100 - 50],
+        duration: 3 + Math.random() * 2,
+        delay: Math.random() * 2,
+        left: `${Math.random() * 100}%`,
+        top: `${Math.random() * 100}%`,
+      }))
+    );
+  }, []);
 
   return (
     <section className="relative py-20 px-4 sm:px-6 lg:px-8 overflow-hidden bg-gradient-to-b from-white to-gray-50 dark:from-gray-800 dark:to-gray-900">
@@ -384,30 +408,32 @@ export function TechStack({ techStack }: TechStackProps) {
             Technologies & Tools I Work With
           </motion.p>
 
-          {/* Floating particles */}
-          <div className="absolute inset-0 pointer-events-none">
-            {[...Array(20)].map((_, i) => (
-              <motion.div
-                key={i}
-                className="absolute w-1 h-1 bg-blue-400 rounded-full opacity-20"
-                animate={{
-                  x: [0, Math.random() * 100 - 50],
-                  y: [0, Math.random() * 100 - 50],
-                  opacity: [0.2, 0.8, 0.2],
-                }}
-                transition={{
-                  duration: 3 + Math.random() * 2,
-                  repeat: Infinity,
-                  repeatType: "reverse",
-                  delay: Math.random() * 2,
-                }}
-                style={{
-                  left: `${Math.random() * 100}%`,
-                  top: `${Math.random() * 100}%`,
-                }}
-              />
-            ))}
-          </div>
+          {/* Floating particles - only render on client */}
+          {isMounted && (
+            <div className="absolute inset-0 pointer-events-none">
+              {particles.map((particle, i) => (
+                <motion.div
+                  key={i}
+                  className="absolute w-1 h-1 bg-blue-400 rounded-full opacity-20"
+                  animate={{
+                    x: particle.x,
+                    y: particle.y,
+                    opacity: [0.2, 0.8, 0.2],
+                  }}
+                  transition={{
+                    duration: particle.duration,
+                    repeat: Infinity,
+                    repeatType: "reverse",
+                    delay: particle.delay,
+                  }}
+                  style={{
+                    left: particle.left,
+                    top: particle.top,
+                  }}
+                />
+              ))}
+            </div>
+          )}
         </motion.div>
       </div>
 
