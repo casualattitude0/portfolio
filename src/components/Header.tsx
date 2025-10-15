@@ -4,17 +4,13 @@ import { useEffect, useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { ThemeToggle } from './ThemeToggle';
 import { LanguageSwitcher } from './LanguageSwitcher';
-import { motion, useScroll, useTransform } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { Mail, Github, Linkedin } from 'lucide-react';
 
 export function Header() {
   const t = useTranslations('nav');
   const tHero = useTranslations('hero');
   const [isScrolled, setIsScrolled] = useState(false);
-  const { scrollY } = useScroll();
-
-  const headerOpacity = useTransform(scrollY, [200, 400], [0, 1]);
-  const navOpacity = useTransform(scrollY, [300, 450], [0, 1]);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -28,27 +24,27 @@ export function Header() {
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
-      const offset = 80;
+      const headerOffset = 80;
       const elementPosition = element.getBoundingClientRect().top;
-      const offsetPosition = elementPosition + window.pageYOffset - offset;
+      const offsetPosition = elementPosition + window.scrollY - headerOffset;
       
+      // Instant jump
       window.scrollTo({
         top: offsetPosition,
-        behavior: 'smooth'
+        behavior: 'auto'
       });
     }
   };
 
   return (
     <motion.header
-      style={{ opacity: headerOpacity }}
       className="fixed top-0 left-0 right-0 z-50 bg-white/80 dark:bg-black/80 backdrop-blur-xl border-b border-gray-200/50 dark:border-gray-800/50"
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo/Brand */}
           <motion.button
-            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+            onClick={() => window.scrollTo({ top: 0, behavior: 'auto' })}
             className="text-xl font-semibold text-gray-900 dark:text-white tracking-tight"
             whileHover={{ opacity: 0.7 }}
             transition={{ duration: 0.2 }}
@@ -58,7 +54,6 @@ export function Header() {
 
           {/* Navigation - Desktop */}
           <motion.nav 
-            style={{ opacity: navOpacity }}
             className="hidden md:flex items-center space-x-1"
           >
             <NavButton onClick={() => scrollToSection('about')}>
@@ -78,7 +73,6 @@ export function Header() {
           {/* Social Links & Controls */}
           <div className="flex items-center gap-2">
             <motion.div 
-              style={{ opacity: navOpacity }}
               className="hidden sm:flex items-center gap-1 mr-2"
             >
               <a
