@@ -7,6 +7,7 @@
     "headline": "Game developer crafting emotional and interactive experiences across indie and commercial titles.",
     "valueProp": "From founding an indie studio to collaborating with partners like Google and Devsisters, I design and build games that connect emotion, creativity, and technology.",
     "availability": "Open to new collaborations and creative game projects (remote-friendly).",
+    "scroll": "Scroll",
     "cta": {
       "contact": "Get in Touch",
       "resume": "View Resume"
@@ -55,6 +56,9 @@
     },
     "languages": {
       "title": "Languages",
+      "englishLabel": "English",
+      "mandarinLabel": "中文",
+      "japaneseLabel": "日本語",
       "english": "Everyday",
       "mandarin": "Native",
       "japanese": "Learning"
@@ -62,6 +66,7 @@
   },
   "projects": {
     "title": "Featured Projects",
+    "description": "Selected projects spanning game development, web applications, and creative technologies",
     "viewLive": "View Live",
     "viewRepo": "View Code",
     "watchVideo": "Watch Demo",
@@ -81,7 +86,8 @@
     "title": "Resume"
   },
   "techStack": {
-    "title": "Tech Stack"
+    "title": "Tech Stack",
+    "description": "Technologies & Tools I Work With"
   },
   "contact": {
     "title": "Let's Connect",

@@ -65,7 +65,7 @@ export function Projects({ projects }: ProjectsProps) {
             {t('title')}
           </h2>
           <p className="text-lg text-gray-500 dark:text-gray-500 font-light max-w-2xl mx-auto">
-            Selected projects spanning game development, web applications, and creative technologies
+            {t('description')}
           </p>
         </motion.div>
 

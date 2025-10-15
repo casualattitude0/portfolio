@@ -1,0 +1,157 @@
+{
+  "projects": [
+    {
+      "title": "Unity CI/CD 自動化流程",
+      "role": "DevOps 工程師 / 工具開發者",
+      "clientOrCompany": "內部工具",
+      "year": 2025,
+      "summary": "使用 Fastlane 開發 Unity 建置的 CI/CD 自動化流程，整合 Discord 機器人指令進行遠端控制和 TestFlight 上傳。",
+      "techs": ["Unity", "Fastlane", "CI/CD", "Discord", "GitHub Actions", "iOS"],
+      "outcome": {
+        "metric": "將發布準備時間減少 70%",
+        "details": "直接從 Discord 實現遠端控制建置，提升 QA 和設計團隊的迭代效率。"
+      },
+      "links": {
+        "live": "",
+        "repo": "https://github.com/casualattitude0/unity-fastlane-tool",
+        "video": "",
+        "repo2": "https://github.com/casualattitude0/discord_cicd_bot"
+      }
+    },
+    {
+      "title": "Braverse（CookieRun IP – 外包專案）",
+      "role": "遊戲企劃 / 開發者 / 專案經理",
+      "clientOrCompany": "buho Interactive Entertainment Co. (與 Devsisters 合作)",
+      "year": "2024 – 現在",
+      "summary": "基於 CookieRun IP 的交易卡牌遊戲（TCG）Braverse 的網頁互動式教學。",
+      "techs": ["Unity", "C#", "遊戲設計"],
+      "outcome": {
+        "metric": "開發中",
+        "details": "建置教學系統，確保新玩家學習 Braverse TCG 機制時的遊戲清晰度。"
+      },
+      "links": {
+        "live": "",
+        "video": ""
+      }
+    },
+    {
+      "title": "Wacky Boat",
+      "role": "遊戲企劃 / 開發者 / 專案經理",
+      "clientOrCompany": "buho Interactive Entertainment Co.",
+      "year": "2024 – 現在",
+      "summary": "目前開發中的快節奏手機動作遊戲，具備模組化核心遊戲系統和自動化 CI/CD 流程。",
+      "techs": ["Unity", "C#", "CI/CD", "Fastlane", "iOS"],
+      "outcome": {
+        "metric": "具備自動部署流程的開發中",
+        "details": "核心遊戲系統讓團隊能夠有效迭代；CI/CD 流程簡化 iOS 測試和建置。"
+      },
+      "links": {
+        "live": "",
+        "video": ""
+      }
+    },
+    {
+      "title": "Soul of Butterflies – Incubation",
+      "role": "創辦人 / 遊戲總監 / 開發者",
+      "clientOrCompany": "獨立工作室",
+      "year": 2024,
+      "summary": "獨立開發、群眾募資、展出並商業發行的敘事解謎冒險遊戲。",
+      "techs": ["Unity", "C#", "Steam", "遊戲設計"],
+      "outcome": {
+        "metric": "群眾募資成功並商業發行",
+        "details": "在遊戲活動中展出，獲得玩家正面回饋。"
+      },
+      "links": {
+        "live": "https://store.steampowered.com/app/2391350/Soul_of_Butterflies_Incubation/",
+        "repo": "",
+        "video": ""
+      }
+    },
+    {
+      "title": "Tarowl: Pocket Tarot",
+      "role": "獨立開發者",
+      "clientOrCompany": "個人專案",
+      "year": 2024,
+      "summary": "使用 Flutter 和 TypeScript 後端建置的 AI 驅動塔羅牌占卜應用程式，採用 Google Cloud Platform。",
+      "techs": ["Flutter", "TypeScript", "Google Cloud Platform", "Firebase"],
+      "outcome": {
+        "metric": "發布至應用商店並根據使用者回饋迭代",
+        "details": "持續進行更新和改進。"
+      },
+      "links": {
+        "live": "",
+        "repo": "",
+        "video": ""
+      }
+    },
+    {
+      "title": "情緒管理 – 互動遊戲",
+      "role": "遊戲企劃 / Unity 開發者",
+      "clientOrCompany": "Buho Interactive",
+      "year": 2023,
+      "summary": "針對美國市場的情緒學習教育遊戲，透過互動遊玩支援學生的情緒調節。",
+      "techs": ["Unity", "C#", "遊戲設計"],
+      "outcome": {
+        "metric": "順利完成並發行",
+        "details": "協助改進遊戲玩法以符合教育用途和情緒學習目標。"
+      },
+      "links": {
+        "live": "",
+        "video": ""
+      }
+    }
+  ],
+  "experience": [
+    {
+      "company": "buho Interactive Entertainment Co., Ltd.",
+      "role": "遊戲企劃 / Unity 開發者",
+      "period": "2024年3月 – 現在",
+      "description": "主導多個商業專案的遊戲企劃、Unity 開發和專案管理，包括 Braverse（與 Devsisters 合作的 CookieRun IP）和 Wacky Boat。建置核心遊戲系統、CI/CD 流程和製作基礎設施。"
+    },
+    {
+      "company": "獨立工作室",
+      "role": "創辦人 / 遊戲開發者",
+      "period": "2022年9月 – 2024年3月",
+      "description": "透過群眾募資和活動展示開發並發行獨立遊戲《Soul of Butterflies – Incubation》。"
+    },
+    {
+      "company": "NPC – 台北科技大學程式設計研究社",
+      "role": "營運長",
+      "period": "2019年 – 2022年",
+      "description": "組織並舉辦活動，包括 Google 機器學習課程，並管理學生間的跨領域合作。"
+    }
+  ],
+  "techStack": [
+    { "name": "Unity", "icon": "unity" },
+    { "name": "C#", "icon": "csharp" },
+    { "name": "C++", "icon": "cpp" },
+    { "name": "Python", "icon": "python" },
+    { "name": "TypeScript", "icon": "typescript" },
+    { "name": "JavaScript", "icon": "javascript" },
+    { "name": "Flutter", "icon": "flutter" },
+    { "name": "React", "icon": "react" },
+    { "name": "Next.js", "icon": "nextjs" },
+    { "name": "Vue.js", "icon": "vuejs" },
+    { "name": "Node.js", "icon": "nodejs" },
+    { "name": "Tailwind CSS", "icon": "tailwindcss" },
+    { "name": "Google Cloud Platform", "icon": "gcp" },
+    { "name": "Firebase", "icon": "firebase" },
+    { "name": "Docker", "icon": "docker" },
+    { "name": "CI/CD", "icon": "cicd" },
+    { "name": "Fastlane", "icon": "fastlane" },
+    { "name": "GitHub Actions", "icon": "githubactions" },
+    { "name": "Git", "icon": "git" },
+    { "name": "Figma", "icon": "figma" },
+    { "name": "Photoshop", "icon": "photoshop" },
+    { "name": "Blender", "icon": "blender" },
+    { "name": "Notion", "icon": "notion" },
+    { "name": "Slack", "icon": "slack" },
+    { "name": "MongoDB", "icon": "mongodb" },
+    { "name": "PostgreSQL", "icon": "postgresql" },
+    { "name": "Android", "icon": "android" },
+    { "name": "iOS", "icon": "ios" },
+    { "name": "Steam", "icon": "steam" },
+    { "name": "Discord", "icon": "discord" }
+  ]
+}
+

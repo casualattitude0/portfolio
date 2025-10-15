@@ -179,7 +179,7 @@ export function Hero() {
           className="flex flex-col items-center gap-2"
         >
           <span className="text-sm text-gray-400 dark:text-gray-500">
-            Scroll
+            {t('scroll')}
           </span>
           <ChevronDown className="w-5 h-5 text-gray-400 dark:text-gray-500" strokeWidth={1.5} />
         </motion.div>

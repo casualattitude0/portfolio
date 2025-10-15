@@ -1,0 +1,157 @@
+{
+  "projects": [
+    {
+      "title": "Unity CI/CD 自動化パイプライン",
+      "role": "DevOpsエンジニア / ツール開発者",
+      "clientOrCompany": "内部ツール",
+      "year": 2025,
+      "summary": "Fastlaneを使用したUnityビルドのCI/CD自動化パイプラインを開発し、Discordボットコマンドを統合してリモート制御とTestFlightアップロードを実現。",
+      "techs": ["Unity", "Fastlane", "CI/CD", "Discord", "GitHub Actions", "iOS"],
+      "outcome": {
+        "metric": "リリース準備時間を70%削減",
+        "details": "Discordから直接リモート制御ビルドを可能にし、QAとデザインチームの反復効率を向上。"
+      },
+      "links": {
+        "live": "",
+        "repo": "https://github.com/casualattitude0/unity-fastlane-tool",
+        "video": "",
+        "repo2": "https://github.com/casualattitude0/discord_cicd_bot"
+      }
+    },
+    {
+      "title": "Braverse（CookieRun IP – 外部委託プロジェクト）",
+      "role": "ゲームプランナー / 開発者 / プロジェクトマネージャー",
+      "clientOrCompany": "buho Interactive Entertainment Co. (Devsistersと協力)",
+      "year": "2024年 – 現在",
+      "summary": "CookieRun IPをベースにしたトレーディングカードゲーム（TCG）Braverseのプレイ方法を教えるWebベースのインタラクティブチュートリアル。",
+      "techs": ["Unity", "C#", "ゲームデザイン"],
+      "outcome": {
+        "metric": "開発中",
+        "details": "チュートリアルシステムを構築し、新規プレイヤーがBraverse TCGメカニクスを学ぶためのゲームプレイの明確性を確保。"
+      },
+      "links": {
+        "live": "",
+        "video": ""
+      }
+    },
+    {
+      "title": "Wacky Boat",
+      "role": "ゲームプランナー / 開発者 / プロジェクトマネージャー",
+      "clientOrCompany": "buho Interactive Entertainment Co.",
+      "year": "2024年 – 現在",
+      "summary": "開発中の高速モバイルアクションゲーム。モジュラー式のコアゲームプレイシステムと自動化されたCI/CDパイプラインを特徴とする。",
+      "techs": ["Unity", "C#", "CI/CD", "Fastlane", "iOS"],
+      "outcome": {
+        "metric": "自動デプロイパイプラインを備えた開発中",
+        "details": "コアゲームプレイシステムによりチームが効率的に反復可能に。CI/CDパイプラインがiOSテストとビルドを合理化。"
+      },
+      "links": {
+        "live": "",
+        "video": ""
+      }
+    },
+    {
+      "title": "Soul of Butterflies – Incubation",
+      "role": "創設者 / ゲームディレクター / 開発者",
+      "clientOrCompany": "独立スタジオ",
+      "year": 2024,
+      "summary": "独立開発、クラウドファンディング、展示、商業リリースされたナラティブパズルアドベンチャー。",
+      "techs": ["Unity", "C#", "Steam", "ゲームデザイン"],
+      "outcome": {
+        "metric": "クラウドファンディング成功、商業リリース",
+        "details": "ゲームイベントで展示され、プレイヤーから好評を得た。"
+      },
+      "links": {
+        "live": "https://store.steampowered.com/app/2391350/Soul_of_Butterflies_Incubation/",
+        "repo": "",
+        "video": ""
+      }
+    },
+    {
+      "title": "Tarowl: Pocket Tarot",
+      "role": "独立開発者",
+      "clientOrCompany": "個人プロジェクト",
+      "year": 2024,
+      "summary": "FlutterとGoogle Cloud Platformを使用したTypeScriptバックエンドで構築されたAI搭載タロットリーディングアプリ。",
+      "techs": ["Flutter", "TypeScript", "Google Cloud Platform", "Firebase"],
+      "outcome": {
+        "metric": "アプリストアにリリース、ユーザーフィードバックで反復",
+        "details": "継続的なアップデートと改善を維持。"
+      },
+      "links": {
+        "live": "",
+        "repo": "",
+        "video": ""
+      }
+    },
+    {
+      "title": "感情管理 – インタラクティブゲーム",
+      "role": "ゲームプランナー / Unity開発者",
+      "clientOrCompany": "Buho Interactive",
+      "year": 2023,
+      "summary": "米国市場向けの感情学習教育ゲーム。インタラクティブなプレイを通じて学生の感情調整をサポートするために構築。",
+      "techs": ["Unity", "C#", "ゲームデザイン"],
+      "outcome": {
+        "metric": "スムーズな配信で完成・リリース",
+        "details": "教育利用と感情学習目標に適合するようゲームプレイを改良。"
+      },
+      "links": {
+        "live": "",
+        "video": ""
+      }
+    }
+  ],
+  "experience": [
+    {
+      "company": "buho Interactive Entertainment Co., Ltd.",
+      "role": "ゲームプランナー / Unity開発者",
+      "period": "2024年3月 – 現在",
+      "description": "Braverse（DevsistersとのCookieRun IP）やWacky Boatを含む複数の商業タイトルのゲーム企画、Unity開発、プロジェクト管理をリード。コアゲームプレイシステム、CI/CDパイプライン、プロダクションインフラを構築。"
+    },
+    {
+      "company": "独立スタジオ",
+      "role": "創設者 / ゲーム開発者",
+      "period": "2022年9月 – 2024年3月",
+      "description": "クラウドファンディングとイベント展示を通じてインディーゲーム『Soul of Butterflies – Incubation』を開発・リリース。"
+    },
+    {
+      "company": "NPC – 台北科技大学プログラミングクラブ",
+      "role": "運営責任者",
+      "period": "2019年 – 2022年",
+      "description": "Googleの機械学習コースを含むイベントの企画・開催、学生間の学際的なコラボレーションを管理。"
+    }
+  ],
+  "techStack": [
+    { "name": "Unity", "icon": "unity" },
+    { "name": "C#", "icon": "csharp" },
+    { "name": "C++", "icon": "cpp" },
+    { "name": "Python", "icon": "python" },
+    { "name": "TypeScript", "icon": "typescript" },
+    { "name": "JavaScript", "icon": "javascript" },
+    { "name": "Flutter", "icon": "flutter" },
+    { "name": "React", "icon": "react" },
+    { "name": "Next.js", "icon": "nextjs" },
+    { "name": "Vue.js", "icon": "vuejs" },
+    { "name": "Node.js", "icon": "nodejs" },
+    { "name": "Tailwind CSS", "icon": "tailwindcss" },
+    { "name": "Google Cloud Platform", "icon": "gcp" },
+    { "name": "Firebase", "icon": "firebase" },
+    { "name": "Docker", "icon": "docker" },
+    { "name": "CI/CD", "icon": "cicd" },
+    { "name": "Fastlane", "icon": "fastlane" },
+    { "name": "GitHub Actions", "icon": "githubactions" },
+    { "name": "Git", "icon": "git" },
+    { "name": "Figma", "icon": "figma" },
+    { "name": "Photoshop", "icon": "photoshop" },
+    { "name": "Blender", "icon": "blender" },
+    { "name": "Notion", "icon": "notion" },
+    { "name": "Slack", "icon": "slack" },
+    { "name": "MongoDB", "icon": "mongodb" },
+    { "name": "PostgreSQL", "icon": "postgresql" },
+    { "name": "Android", "icon": "android" },
+    { "name": "iOS", "icon": "ios" },
+    { "name": "Steam", "icon": "steam" },
+    { "name": "Discord", "icon": "discord" }
+  ]
+}
+

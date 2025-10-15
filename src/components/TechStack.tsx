@@ -156,7 +156,7 @@ export function TechStack({ techStack }: TechStackProps) {
           </h2>
           
           <p className="text-gray-500 dark:text-gray-500 text-lg font-light">
-            Technologies & Tools I Work With
+            {t('description')}
           </p>
         </motion.div>
 
