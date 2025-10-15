@@ -1,17 +1,28 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { motion, useScroll, useTransform } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { Mail, Github, Linkedin, ChevronDown } from 'lucide-react';
 import { ThemeToggle } from './ThemeToggle';
 import { LanguageSwitcher } from './LanguageSwitcher';
 
 export function Hero() {
   const t = useTranslations('hero');
-  const { scrollY } = useScroll();
 
-  const heroY = useTransform(scrollY, [0, 500], [0, 150]);
-  const heroOpacity = useTransform(scrollY, [0, 400], [1, 0]);
+  const scrollToSection = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      const headerOffset = 80;
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.scrollY - headerOffset;
+      
+      // Instant jump
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'auto'
+      });
+    }
+  };
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -42,7 +53,7 @@ export function Hero() {
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.5, duration: 0.8 }}
-        className="absolute top-6 right-6 flex items-center gap-3 z-10"
+        className="absolute top-6 right-6 flex items-center gap-3 z-50"
       >
         <ThemeToggle />
         <LanguageSwitcher />
@@ -53,10 +64,6 @@ export function Hero() {
         variants={containerVariants}
         initial="hidden"
         animate="visible"
-        style={{
-          y: heroY,
-          opacity: heroOpacity,
-        }}
         className="max-w-4xl mx-auto text-center relative z-10"
       >
         {/* Greeting */}
@@ -114,12 +121,18 @@ export function Hero() {
           <a
             href="#contact"
             className="px-8 py-3 bg-blue-600 dark:bg-blue-600 text-white rounded-xl font-normal hover:bg-blue-700 dark:hover:bg-blue-700 transition-colors duration-200"
+            onClick={(e) => {
+              e.preventDefault();
+              scrollToSection('contact');
+            }}
           >
             {t('cta.contact')}
           </a>
           
           <a
-            href="#about"
+            href="/docs_portfolio/2025-01-25_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="px-8 py-3 rounded-xl font-normal border border-gray-300 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-900 transition-colors duration-200"
           >
             {t('cta.resume')}
@@ -156,12 +169,7 @@ export function Hero() {
         animate={{ opacity: 1 }}
         transition={{ delay: 2, duration: 0.8 }}
         className="absolute bottom-8 left-1/2 transform -translate-x-1/2 cursor-pointer"
-        onClick={() => {
-          const aboutSection = document.getElementById('about');
-          if (aboutSection) {
-            aboutSection.scrollIntoView({ behavior: 'smooth' });
-          }
-        }}
+        onClick={() => scrollToSection('about')}
       >
         <motion.div 
           animate={{ y: [0, 8, 0] }}

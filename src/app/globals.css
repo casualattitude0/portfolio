@@ -7,10 +7,6 @@
 
 @variant dark (&:where(.dark, .dark *));
 
-html {
-  scroll-behavior: smooth;
-}
-
 /* Light theme (default) */
 :root,
 html,
