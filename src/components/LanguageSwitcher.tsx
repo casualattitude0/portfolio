@@ -18,8 +18,8 @@ export function LanguageSwitcher() {
 
   return (
     <div className="relative group">
-      <button className="flex items-center gap-2 p-2 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors">
-        <Languages className="w-5 h-5" />
+      <button className="flex items-center gap-1.5 px-3 py-2 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors">
+        <Languages className="w-4 h-4" strokeWidth={1.5} />
         <span className="text-sm font-medium">
           {languages.find((l) => l.code === currentLocale)?.label}
         </span>
