@@ -1,0 +1,157 @@
+{
+  "projects": [
+    {
+      "title": "Unity CI/CD Automation Pipeline",
+      "role": "DevOps Engineer / Tool Developer",
+      "clientOrCompany": "Internal Tool",
+      "year": 2025,
+      "summary": "Developed a CI/CD automation pipeline for Unity builds using Fastlane, integrating Discord bot commands for remote control and TestFlight uploads.",
+      "techs": ["Unity", "Fastlane", "CI/CD", "Discord", "GitHub Actions", "iOS"],
+      "outcome": {
+        "metric": "Reduced release prep time by 70%",
+        "details": "Enabled remote-controlled builds directly from Discord, increasing iteration efficiency for QA and design teams."
+      },
+      "links": {
+        "live": "",
+        "repo": "https://github.com/casualattitude0/unity-fastlane-tool",
+        "video": "",
+        "repo2": "https://github.com/casualattitude0/discord_cicd_bot"
+      }
+    },
+    {
+      "title": "Braverse (CookieRun IP – Outsourcing Project)",
+      "role": "Game Designer / Developer / Project Manager",
+      "clientOrCompany": "buho Interactive Entertainment Co. (with Devsisters)",
+      "year": "2024 – Present",
+      "summary": "A web-based interactive tutorial teaching players how to play Braverse, a Trading Card Game (TCG) based on the CookieRun IP.",
+      "techs": ["Unity", "C#", "Game Design"],
+      "outcome": {
+        "metric": "In active development",
+        "details": "Building tutorial systems and ensuring gameplay clarity for new players learning Braverse TCG mechanics."
+      },
+      "links": {
+        "live": "",
+        "video": ""
+      }
+    },
+    {
+      "title": "Wacky Boat",
+      "role": "Game Designer / Developer / Project Manager",
+      "clientOrCompany": "buho Interactive Entertainment Co.",
+      "year": "2024 – Present",
+      "summary": "A fast-paced mobile action game currently under development, featuring a modular core gameplay system and automated CI/CD pipeline.",
+      "techs": ["Unity", "C#", "CI/CD", "Fastlane", "iOS"],
+      "outcome": {
+        "metric": "Active development with automated deployment pipeline",
+        "details": "Core gameplay system enables team to iterate efficiently; CI/CD pipeline streamlines iOS testing and builds."
+      },
+      "links": {
+        "live": "",
+        "video": ""
+      }
+    },
+    {
+      "title": "Soul of Butterflies – Incubation",
+      "role": "Founder / Game Director / Developer",
+      "clientOrCompany": "Independent Studio",
+      "year": 2024,
+      "summary": "A narrative puzzle adventure independently developed, crowdfunded, exhibited, and commercially released.",
+      "techs": ["Unity", "C#", "Steam", "Game Design"],
+      "outcome": {
+        "metric": "Successfully crowdfunded and released commercially",
+        "details": "Exhibited at gaming events and received positive player feedback."
+      },
+      "links": {
+        "live": "https://store.steampowered.com/app/2391350/Soul_of_Butterflies_Incubation/",
+        "repo": "",
+        "video": ""
+      }
+    },
+    {
+      "title": "Tarowl: Pocket Tarot",
+      "role": "Independent Developer",
+      "clientOrCompany": "Personal Project",
+      "year": 2024,
+      "summary": "An AI-powered tarot reading app built with Flutter and TypeScript backend using Google Cloud Platform.",
+      "techs": ["Flutter", "TypeScript", "Google Cloud Platform", "Firebase"],
+      "outcome": {
+        "metric": "Released to app store and iterated via user feedback",
+        "details": "Maintained ongoing updates and improvements."
+      },
+      "links": {
+        "live": "",
+        "repo": "",
+        "video": ""
+      }
+    },
+    {
+      "title": "Emotional Management – Interactive Game",
+      "role": "Game Designer / Unity Developer",
+      "clientOrCompany": "Buho Interactive",
+      "year": 2023,
+      "summary": "An emotional-learning educational game for the U.S. market, built to support students' emotional regulation through interactive play.",
+      "techs": ["Unity", "C#", "Game Design"],
+      "outcome": {
+        "metric": "Completed and launched with smooth delivery",
+        "details": "Helped refine gameplay to fit educational use and emotional learning objectives."
+      },
+      "links": {
+        "live": "",
+        "video": ""
+      }
+    }
+  ],
+  "experience": [
+    {
+      "company": "buho Interactive Entertainment Co., Ltd.",
+      "role": "Game Designer / Unity Developer",
+      "period": "Mar 2024 – Present",
+      "description": "Leading game planning, Unity development, and project management for multiple commercial titles including Braverse (CookieRun IP with Devsisters) and Wacky Boat. Built core gameplay systems, CI/CD pipelines, and production infrastructure."
+    },
+    {
+      "company": "Independent Studio",
+      "role": "Founder / Game Developer",
+      "period": "Sep 2022 – Mar 2024",
+      "description": "Developed and released the indie game 'Soul of Butterflies – Incubation' through crowdfunding and event exhibitions."
+    },
+    {
+      "company": "NPC – NTUT Programming Club",
+      "role": "Chief of Operations",
+      "period": "2019 – 2022",
+      "description": "Organized and hosted events, including Google's Machine Learning Course, and managed cross-disciplinary collaborations among students."
+    }
+  ],
+  "techStack": [
+    { "name": "Unity", "icon": "unity" },
+    { "name": "C#", "icon": "csharp" },
+    { "name": "C++", "icon": "cpp" },
+    { "name": "Python", "icon": "python" },
+    { "name": "TypeScript", "icon": "typescript" },
+    { "name": "JavaScript", "icon": "javascript" },
+    { "name": "Flutter", "icon": "flutter" },
+    { "name": "React", "icon": "react" },
+    { "name": "Next.js", "icon": "nextjs" },
+    { "name": "Vue.js", "icon": "vuejs" },
+    { "name": "Node.js", "icon": "nodejs" },
+    { "name": "Tailwind CSS", "icon": "tailwindcss" },
+    { "name": "Google Cloud Platform", "icon": "gcp" },
+    { "name": "Firebase", "icon": "firebase" },
+    { "name": "Docker", "icon": "docker" },
+    { "name": "CI/CD", "icon": "cicd" },
+    { "name": "Fastlane", "icon": "fastlane" },
+    { "name": "GitHub Actions", "icon": "githubactions" },
+    { "name": "Git", "icon": "git" },
+    { "name": "Figma", "icon": "figma" },
+    { "name": "Photoshop", "icon": "photoshop" },
+    { "name": "Blender", "icon": "blender" },
+    { "name": "Notion", "icon": "notion" },
+    { "name": "Slack", "icon": "slack" },
+    { "name": "MongoDB", "icon": "mongodb" },
+    { "name": "PostgreSQL", "icon": "postgresql" },
+    { "name": "Android", "icon": "android" },
+    { "name": "iOS", "icon": "ios" },
+    { "name": "Steam", "icon": "steam" },
+    { "name": "Discord", "icon": "discord" }
+  ]
+}
+

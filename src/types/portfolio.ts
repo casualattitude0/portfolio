@@ -26,22 +26,23 @@ export interface Project {
   title: string;
   role: string;
   clientOrCompany: string;
-  year: number;
+  year: number | string;
   summary: string;
-  context: string;
-  problem: string;
-  approach: string;
+  context?: string;
+  problem?: string;
+  approach?: string;
   techs?: string[];
   outcome: {
     metric: string;
     details: string;
   };
   links: {
-    live: string;
-    repo: string;
-    video: string;
+    live?: string;
+    repo?: string;
+    video?: string;
+    repo2?: string;
   };
-  assets: Array<{
+  assets?: Array<{
     src: string;
     alt: string;
   }>;

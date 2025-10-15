@@ -7,6 +7,7 @@
     "headline": "遊戲開發者，專注於打造具有情感連結與互動體驗的獨立與商業遊戲。",
     "valueProp": "從創立獨立工作室到與 Google 和 Devsisters 等夥伴合作，我設計並開發連結情感、創意與技術的遊戲。",
     "availability": "開放新的合作機會與創意遊戲專案（支援遠端工作）。",
+    "scroll": "向下滾動",
     "cta": {
       "contact": "聯絡我",
       "resume": "查看履歷"
@@ -55,6 +56,9 @@
     },
     "languages": {
       "title": "語言能力",
+      "englishLabel": "English",
+      "mandarinLabel": "中文",
+      "japaneseLabel": "日本語",
       "english": "日常使用",
       "mandarin": "母語",
       "japanese": "學習中"
@@ -62,6 +66,7 @@
   },
   "projects": {
     "title": "精選專案",
+    "description": "精選遊戲開發、網頁應用與創意技術專案",
     "viewLive": "查看作品",
     "viewRepo": "查看程式碼",
     "watchVideo": "觀看展示",
@@ -81,7 +86,8 @@
     "title": "履歷"
   },
   "techStack": {
-    "title": "技術堆疊"
+    "title": "技術堆疊",
+    "description": "使用的技術與工具"
   },
   "contact": {
     "title": "聯絡我",

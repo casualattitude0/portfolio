@@ -101,7 +101,7 @@ export function About() {
             <div className="space-y-3">
               <div className="flex justify-between items-center">
                 <span className="font-semibold text-gray-900 dark:text-white">
-                  English
+                  {t('languages.englishLabel')}
                 </span>
                 <span className="text-gray-500 dark:text-gray-500">
                   {t('languages.english')}
@@ -109,7 +109,7 @@ export function About() {
               </div>
               <div className="flex justify-between items-center">
                 <span className="font-semibold text-gray-900 dark:text-white">
-                  Mandarin
+                  {t('languages.mandarinLabel')}
                 </span>
                 <span className="text-gray-500 dark:text-gray-500">
                   {t('languages.mandarin')}
@@ -117,7 +117,7 @@ export function About() {
               </div>
               <div className="flex justify-between items-center">
                 <span className="font-semibold text-gray-900 dark:text-white">
-                  Japanese
+                  {t('languages.japaneseLabel')}
                 </span>
                 <span className="text-gray-500 dark:text-gray-500">
                   {t('languages.japanese')}

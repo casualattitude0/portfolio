@@ -7,6 +7,7 @@
     "headline": "感情的でインタラクティブな体験をインディーズと商業タイトルで創造するゲーム開発者。",
     "valueProp": "独立スタジオを設立してから、GoogleやDevsistersなどのパートナーと協力し、感情、創造性、技術をつなぐゲームを設計・開発しています。",
     "availability": "新しいコラボレーションやクリエイティブなゲームプロジェクトに対応（リモートフレンドリー）。",
+    "scroll": "スクロール",
     "cta": {
       "contact": "お問い合わせ",
       "resume": "履歴書を見る"
@@ -55,6 +56,9 @@
     },
     "languages": {
       "title": "言語",
+      "englishLabel": "English",
+      "mandarinLabel": "中文",
+      "japaneseLabel": "日本語",
       "english": "日常",
       "mandarin": "ネイティブ",
       "japanese": "学習中"
@@ -62,6 +66,7 @@
   },
   "projects": {
     "title": "注目プロジェクト",
+    "description": "ゲーム開発、Webアプリケーション、クリエイティブテクノロジーにまたがる厳選プロジェクト",
     "viewLive": "ライブ版を見る",
     "viewRepo": "コードを見る",
     "watchVideo": "デモを見る",
@@ -81,7 +86,8 @@
     "title": "履歴書"
   },
   "techStack": {
-    "title": "技術スタック"
+    "title": "技術スタック",
+    "description": "使用している技術とツール"
   },
   "contact": {
     "title": "連絡しましょう",
