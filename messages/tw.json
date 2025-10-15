@@ -15,7 +15,7 @@
   "nav": {
     "about": "關於",
     "projects": "專案",
-    "experience": "經歷",
+    "experience": "履歷",
     "contact": "聯絡"
   },
   "about": {
@@ -78,7 +78,7 @@
     "noProjects": "沒有符合篩選條件的專案。"
   },
   "experience": {
-    "title": "工作經歷"
+    "title": "履歷"
   },
   "techStack": {
     "title": "技術堆疊"
