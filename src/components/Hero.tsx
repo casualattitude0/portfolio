@@ -16,10 +16,10 @@ export function Hero() {
       const elementPosition = element.getBoundingClientRect().top;
       const offsetPosition = elementPosition + window.scrollY - headerOffset;
       
-      // Instant jump
+      // Smooth scroll
       window.scrollTo({
         top: offsetPosition,
-        behavior: 'auto'
+        behavior: 'smooth'
       });
     }
   };
@@ -47,7 +47,7 @@ export function Hero() {
   };
 
   return (
-    <section className="min-h-screen flex items-center justify-center relative px-4 sm:px-6 lg:px-8 bg-white dark:bg-black">
+    <section id="hero" className="min-h-screen flex items-center justify-center relative px-4 sm:px-6 lg:px-8 bg-white dark:bg-black">
       {/* Top Controls */}
       <motion.div 
         initial={{ opacity: 0, y: -20 }}
