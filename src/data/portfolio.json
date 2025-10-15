@@ -32,6 +32,7 @@
         "context": "Built to streamline internal mobile game testing and deployment workflows for the development team.",
         "problem": "Manual Unity build and deployment to TestFlight was time-consuming and error-prone, slowing iteration speed.",
         "approach": "Implemented Fastlane scripts for build automation, set up Unity Cloud build steps, and connected a custom Discord bot to trigger remote builds and uploads via API.",
+        "techs": ["Unity", "Fastlane", "CI/CD", "Discord", "GitHub Actions", "iOS"],
         "outcome": {
           "metric": "Reduced release prep time by 70%",
           "details": "Enabled remote-controlled builds directly from Discord, increasing iteration efficiency for QA and design teams."
@@ -58,6 +59,7 @@
         "context": "Currently under development — handling game design, tutorial flow, and production management for Devsisters.",
         "problem": "Create an engaging, easy-to-understand web tutorial that teaches complex TCG mechanics to players.",
         "approach": "Designed interactive tutorial modules, coordinated with Devsisters, and managed development workflow.",
+        "techs": ["Unity", "C#", "Game Design"],
         "outcome": {
           "metric": "In active development",
           "details": "Building tutorial systems and ensuring gameplay clarity for new players learning Braverse TCG mechanics."
@@ -82,6 +84,7 @@
         "context": "Building production infrastructure and core gameplay tools to enable team iteration and real-time testing on iOS.",
         "problem": "Enable rapid iteration and testing for mobile gameplay while maintaining stable development workflow.",
         "approach": "Developed a core gameplay system as a reusable tool for team members, and built a CI/CD pipeline for automated iOS builds and real-time environment testing.",
+        "techs": ["Unity", "C#", "CI/CD", "Fastlane", "iOS"],
         "outcome": {
           "metric": "Active development with automated deployment pipeline",
           "details": "Core gameplay system enables team to iterate efficiently; CI/CD pipeline streamlines iOS testing and builds."
@@ -106,6 +109,7 @@
         "context": "Led full-cycle development — concept, story, system design, music direction, localization, and crowdfunding management.",
         "problem": "Create an immersive, story-driven indie game with limited team resources.",
         "approach": "Handled all design and development tasks, coordinated art and sound collaborators, and managed promotion through crowdfunding.",
+        "techs": ["Unity", "C#", "Steam", "Game Design"],
         "outcome": {
           "metric": "Successfully crowdfunded and released commercially",
           "details": "Exhibited at gaming events and received positive player feedback."
@@ -131,6 +135,7 @@
         "context": "Developed end-to-end mobile experience — UI, AI tarot reading logic, and backend integration.",
         "problem": "Create a personalized, intuitive mobile tarot reading experience with AI support.",
         "approach": "Built full-stack solution using Flutter and GCP services, focused on accessible UI/UX.",
+        "techs": ["Flutter", "TypeScript", "Google Cloud Platform", "Firebase"],
         "outcome": {
           "metric": "Released to app store and iterated via user feedback",
           "details": "Maintained ongoing updates and improvements."
@@ -156,6 +161,7 @@
         "context": "Collaborated with U.S. educational partners and development teams to prototype and deliver interactive modules.",
         "problem": "Build a game that helps children identify and manage emotions effectively through play.",
         "approach": "Developed Unity prototypes, designed core gameplay flows, and adjusted based on user testing.",
+        "techs": ["Unity", "C#", "Game Design"],
         "outcome": {
           "metric": "Completed and launched with smooth delivery",
           "details": "Helped refine gameplay to fit educational use and emotional learning objectives."

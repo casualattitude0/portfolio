@@ -31,6 +31,7 @@ export interface Project {
   context: string;
   problem: string;
   approach: string;
+  techs?: string[];
   outcome: {
     metric: string;
     details: string;

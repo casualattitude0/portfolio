@@ -70,7 +70,12 @@
     "year": "年",
     "context": "背景",
     "approach": "アプローチ",
-    "outcome": "成果"
+    "outcome": "成果",
+    "sortLatest": "最新",
+    "sortOldest": "最古",
+    "filterByTech": "技術で絞り込む",
+    "allTechs": "すべての技術",
+    "noProjects": "選択したフィルターに一致するプロジェクトはありません。"
   },
   "experience": {
     "title": "職務経験"
