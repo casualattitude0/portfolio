@@ -70,7 +70,12 @@
     "year": "Year",
     "context": "Context",
     "approach": "Approach",
-    "outcome": "Outcome"
+    "outcome": "Outcome",
+    "sortLatest": "Latest",
+    "sortOldest": "Oldest",
+    "filterByTech": "Filter by Technology",
+    "allTechs": "All Technologies",
+    "noProjects": "No projects found with selected filters."
   },
   "experience": {
     "title": "Work Experience"
