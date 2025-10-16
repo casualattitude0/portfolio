@@ -131,7 +131,7 @@ const enhancedTechStack = [
   { name: 'MongoDB', icon: 'mongodb', category: 'database' },
 ];
 
-export function TechStack({ techStack }: TechStackProps) {
+export function TechStack({ }: TechStackProps) {
   const t = useTranslations('techStack');
   const [isMounted, setIsMounted] = useState(false);
 

@@ -37,7 +37,7 @@ jobs:
       - name: Build
         run: pnpm build
         env:
-          NEXT_PUBLIC_BASE_PATH: /attitude-portfolio
+          NEXT_PUBLIC_BASE_PATH: /portfolio
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

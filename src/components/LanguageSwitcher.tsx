@@ -28,7 +28,7 @@ export function LanguageSwitcher() {
         {languages.map((lang) => (
           <button
             key={lang.code}
-            onClick={() => router.push(pathname, { locale: lang.code as any })}
+            onClick={() => router.push(pathname, { locale: lang.code as string })}
             className={`w-full text-left px-4 py-2 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors first:rounded-t-lg last:rounded-b-lg ${
               currentLocale === lang.code
                 ? 'bg-gray-100 dark:bg-gray-700 font-semibold'

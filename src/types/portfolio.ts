@@ -73,13 +73,28 @@ export interface TechStack {
   icon: string;
 }
 
+export interface Testimonial {
+  name: string;
+  role: string;
+  company: string;
+  content: string;
+  avatar?: string;
+}
+
+export interface Writing {
+  title: string;
+  description: string;
+  url: string;
+  publishedAt: string;
+}
+
 export interface PortfolioData {
   person: Person;
   projects: Project[];
   experience: Experience[];
-  testimonials: any[];
+  testimonials: Testimonial[];
   services: Service[];
-  writing: any[];
+  writing: Writing[];
   education: Education;
   languages: Record<string, string>;
   techStack: TechStack[];
