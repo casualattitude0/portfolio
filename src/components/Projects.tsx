@@ -2,7 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
-import { ExternalLink, Github, Play, ArrowUpDown, Filter } from 'lucide-react';
+import { ExternalLink, Github, Play } from 'lucide-react';
 import type { Project } from '@/types/portfolio';
 import { useState, useMemo } from 'react';
 

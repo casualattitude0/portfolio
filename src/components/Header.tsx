@@ -10,7 +10,7 @@ import { Mail, Github, Linkedin, Menu, X } from 'lucide-react';
 export function Header() {
   const t = useTranslations('nav');
   const tHero = useTranslations('hero');
-  const [isScrolled, setIsScrolled] = useState(false);
+  const [, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isInHero, setIsInHero] = useState(true);
 
