@@ -33,7 +33,7 @@ print_error() {
 
 # Step 1: Build Next.js app
 print_status "Building Next.js application..."
-NEXT_PUBLIC_BASE_PATH=/portfolio npm run build
+NEXT_PUBLIC_BASE_PATH= npm run build
 
 if [ $? -eq 0 ]; then
     print_success "Build completed successfully!"
@@ -42,19 +42,23 @@ else
     exit 1
 fi
 
-# Step 2: Navigate to the out directory (build output)
+# Step 2: Add CNAME for custom domain
+print_status "Adding CNAME for custom domain..."
+echo "casualattitude.site" > out/CNAME
+
+# Step 3: Navigate to the out directory (build output)
 print_status "Navigating to build output directory..."
 cd out
 
-# Step 3: Initialize git repository
+# Step 4: Initialize git repository
 print_status "Initializing git repository..."
 git init
 
-# Step 4: Add all files to git
+# Step 5: Add all files to git
 print_status "Adding files to git..."
 git add .
 
-# Step 5: Create initial commit
+# Step 6: Create initial commit
 print_status "Creating initial commit..."
 git commit -m "feat: deploy portfolio to GitHub Pages
 
@@ -63,7 +67,7 @@ git commit -m "feat: deploy portfolio to GitHub Pages
 - Add .nojekyll file for proper static hosting
 - Set up git repository for deployment"
 
-# Step 6: Add GitHub remote using SSH
+# Step 7: Add GitHub remote using SSH
 print_status "Adding GitHub remote using SSH..."
 # Check if remote already exists
 if git remote get-url origin >/dev/null 2>&1; then
@@ -73,7 +77,7 @@ else
     git remote add origin git@github.com:casualattitude0/portfolio.git
 fi
 
-# Step 7: Push to gh-pages branch
+# Step 8: Push to gh-pages branch
 print_status "Pushing to gh-pages branch..."
 git branch -M gh-pages
 
@@ -83,7 +87,7 @@ git push -f origin gh-pages
 
 if [ $? -eq 0 ]; then
     print_success "Successfully pushed to GitHub Pages!"
-    print_success "Your portfolio should be available at: https://casualattitude0.github.io/portfolio/"
+    print_success "Your portfolio should be available at: https://casualattitude.site"
 else
     print_error "Failed to push to GitHub Pages!"
     print_error "Please check your SSH key configuration:"
@@ -94,9 +98,9 @@ else
     exit 1
 fi
 
-# Step 8: Return to project root
+# Step 9: Return to project root
 cd ..
 
 print_success "🎉 Deployment completed successfully!"
-print_status "Your portfolio is now live at: https://casualattitude0.github.io/portfolio/"
+print_status "Your portfolio is now live at: https://casualattitude.site"
 print_status "GitHub Pages will take a few minutes to update the live site."
