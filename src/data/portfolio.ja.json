@@ -1,6 +1,23 @@
 {
   "projects": [
     {
+      "title": "A Slime",
+      "role": "フルスタック開発者",
+      "clientOrCompany": "個人プロジェクト",
+      "year": 2026,
+      "summary": "RAG（Chroma + LangChain）、ツール使用、FastAPIバックエンドのVue 3チャットUIを備えたローカルAIアシスタント。Google Gemini、Ollama、NVIDIA NIMに対応し、オプションのTauriデスクトップシェルも提供。",
+      "techs": ["Python", "Vue.js", "TypeScript", "FastAPI", "LangChain", "Tauri"],
+      "outcome": {
+        "metric": "Webおよびデスクトップクライアントを備えたフルスタックローカルAIエージェント",
+        "details": "ドキュメント取り込みパイプライン、WebSocketチャット、カレンダー/検索ツール、マルチプロバイダーLLMルーティングをセルフホスト型スタックで実装。"
+      },
+      "links": {
+        "live": "",
+        "repo": "https://github.com/casualattitude0/a-slime",
+        "video": ""
+      }
+    },
+    {
       "title": "Unity CI/CD 自動化パイプライン",
       "role": "DevOpsエンジニア / ツール開発者",
       "clientOrCompany": "内部ツール",

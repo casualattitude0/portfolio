@@ -24,6 +24,32 @@
     },
     "projects": [
       {
+        "title": "A Slime",
+        "role": "Full-Stack Developer",
+        "clientOrCompany": "Personal Project",
+        "year": 2026,
+        "summary": "A local AI assistant with RAG (Chroma + LangChain), tool use, and a Vue 3 chat UI backed by FastAPI. Supports Google Gemini, Ollama, and NVIDIA NIM, with an optional Tauri desktop shell.",
+        "context": "Built as a self-hosted alternative to cloud-only chat assistants, with document-grounded answers and extensible tool use.",
+        "problem": "Generic chat UIs lack local document retrieval, multi-model flexibility, and a unified web plus desktop experience.",
+        "approach": "Implemented LangChain agents with Chroma RAG ingest, FastAPI WebSocket server, Vue 3 frontend, optional Tauri shell, and pluggable Gemini/Ollama/NVIDIA backends.",
+        "techs": ["Python", "Vue.js", "TypeScript", "FastAPI", "LangChain", "Tauri"],
+        "outcome": {
+          "metric": "Full-stack local AI agent with web and desktop clients",
+          "details": "Document ingestion pipeline, WebSocket chat, calendar/search tools, and multi-provider LLM routing in a self-hosted stack."
+        },
+        "links": {
+          "live": "",
+          "repo": "https://github.com/casualattitude0/a-slime",
+          "video": ""
+        },
+        "assets": [
+          {
+            "src": "",
+            "alt": "A Slime chat UI with local RAG and tool use"
+          }
+        ]
+      },
+      {
         "title": "Unity CI/CD Automation Pipeline",
         "role": "DevOps Engineer / Tool Developer",
         "clientOrCompany": "Internal Tool",
