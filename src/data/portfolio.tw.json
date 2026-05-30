@@ -1,6 +1,23 @@
 {
   "projects": [
     {
+      "title": "A Slime",
+      "role": "全端開發者",
+      "clientOrCompany": "個人專案",
+      "year": 2026,
+      "summary": "具備 RAG（Chroma + LangChain）、工具使用，以及 FastAPI 後端的 Vue 3 聊天介面的本地 AI 助手。支援 Google Gemini、Ollama 和 NVIDIA NIM，並提供可選的 Tauri 桌面殼層。",
+      "techs": ["Python", "Vue.js", "TypeScript", "FastAPI", "LangChain", "Tauri"],
+      "outcome": {
+        "metric": "具備網頁與桌面客戶端的全端本地 AI agent",
+        "details": "自建架構中實作文檔擷取流程、WebSocket 聊天、日曆/搜尋工具，以及多提供者 LLM 路由。"
+      },
+      "links": {
+        "live": "",
+        "repo": "https://github.com/casualattitude0/a-slime",
+        "video": ""
+      }
+    },
+    {
       "title": "Unity CI/CD 自動化流程",
       "role": "DevOps 工程師 / 工具開發者",
       "clientOrCompany": "內部工具",
