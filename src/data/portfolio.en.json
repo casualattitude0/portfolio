@@ -18,6 +18,23 @@
       }
     },
     {
+      "title": "PHP Quiz Email Demo",
+      "role": "Full-Stack Developer",
+      "clientOrCompany": "Personal Project",
+      "year": 2026,
+      "summary": "A reusable PHP multi-step quiz template with client-side scoring and i18n (en / zh-Hant / ja). Submits responses to Google Forms and sends HTML result emails via Resend or Google Apps Script. Includes a GitHub Pages demo of the Goblin Identification Office personality quiz.",
+      "techs": ["PHP", "JavaScript", "Google Forms", "Resend", "GitHub Pages", "GitHub Actions"],
+      "outcome": {
+        "metric": "End-to-end quiz flow from wizard UI to form capture and email delivery",
+        "details": "Wizard UI with locale switching, Google Form POST integration, Resend/Apps Script email pipeline, and automated GitHub Pages deployment."
+      },
+      "links": {
+        "live": "https://casualattitude0.github.io/php-quiz-email-demo/",
+        "repo": "https://github.com/casualattitude0/php-quiz-email-demo",
+        "video": ""
+      }
+    },
+    {
       "title": "Unity CI/CD Automation Pipeline",
       "role": "DevOps Engineer / Tool Developer",
       "clientOrCompany": "Internal Tool",
@@ -143,6 +160,8 @@
     { "name": "C#", "icon": "csharp" },
     { "name": "C++", "icon": "cpp" },
     { "name": "Python", "icon": "python" },
+    { "name": "FastAPI", "icon": "fastapi" },
+    { "name": "LangChain", "icon": "langchain" },
     { "name": "TypeScript", "icon": "typescript" },
     { "name": "JavaScript", "icon": "javascript" },
     { "name": "Flutter", "icon": "flutter" },

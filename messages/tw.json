@@ -3,10 +3,10 @@
     "greeting": "嗨，我是",
     "name": "薛賀升",
     "handle": "又稱 Casual Attitude",
-    "title": "遊戲開發者 & 創意技術專家",
-    "headline": "遊戲開發者，專注於打造具有情感連結與互動體驗的獨立與商業遊戲。",
-    "valueProp": "從創立獨立工作室到與 Google 和 Devsisters 等夥伴合作，我設計並開發連結情感、創意與技術的遊戲。",
-    "availability": "開放新的合作機會與創意遊戲專案（支援遠端工作）。",
+    "title": "創意技術專家 & AI 建構者",
+    "headline": "打造互動體驗與 Agentic AI 系統 — 從獨立遊戲到自架 AI 助理。",
+    "valueProp": "從創立獨立工作室、與 Google 和 Devsisters 等夥伴合作發行，到設計 RAG 管線與具工具能力的 Agent，我連結情感、創意與智慧系統。",
+    "availability": "開放創意技術合作、AI/Agent 專案與遊戲工作（支援遠端）。",
     "scroll": "向下滾動",
     "cta": {
       "contact": "聯絡我",
@@ -21,31 +21,31 @@
   },
   "about": {
     "title": "關於我",
-    "bio": "我是薛賀升 — 不過大家都叫我 Casual Attitude。我的旅程始於台北科技大學程式設計研究社，在那裡我擔任營運長，並與 Google 合作舉辦機器學習課程。那段經歷點燃了我對創造結合技術與創意體驗的熱情。",
-    "journey": "過去六年來，我參與了完整的遊戲開發循環 — 從概念企劃到程式開發與發行。我創立了獨立工作室並推出《Soul of Butterflies – Incubation》，負責故事設計、解謎系統，以及從群眾募資到商業發行的全流程。",
-    "current": "之後，我加入了 Buho Interactive，參與美國市場的情緒學習遊戲專案，後來領導即時動作遊戲的開發。目前，我正在管理與 Devsisters（CookieRun 系列的創作者）的外包專案。",
-    "passion": "我的技術工具箱涵蓋 Unity、Flutter 和 Web 技術（Vue + TypeScript），但最驅動我的是打造能喚起情感的互動世界，以及建立能實現這些世界的團隊。",
+    "bio": "我是薛賀升 — 不過大家都叫我 Casual Attitude。我是一位創意技術專家，專注於互動媒體與 AI 的交會點。我的起點在台北科技大學程式設計研究社，擔任營運長並與 Google 合作舉辦機器學習課程 — 那是我將智慧系統應用到真實產品的第一步。",
+    "journey": "過去六年來，我參與了完整的遊戲開發循環 — 從概念企劃到程式開發與發行。我創立了獨立工作室並推出《Soul of Butterflies – Incubation》，負責故事設計、解謎系統，以及從群眾募資到商業發行的全流程。同樣的自驅力也用在 AI 上：Tarowl 是部署在 GCP 的 AI 應用，A Slime 則是具備 RAG、LangChain、工具使用能力，並有 Web 與桌面客戶端的本地 Agent。",
+    "current": "目前在 Buho Interactive 領導商業專案開發，包括 Braverse（與 Devsisters 合作的 CookieRun IP）和 Wacky Boat，並建置讓團隊快速交付的 CI/CD 基礎設施。在客戶工作之外，我持續建構 Agentic 系統 — 文件擷取管線、多 LLM 路由、WebSocket 聊天，以及日曆/搜尋工具。",
+    "passion": "我本質上是獨立解決問題的人：把模糊目標拆成可驗證的小塊、在求助前先交付可運作的原型、自動化重複工作（CI/CD、Agent 管線），再依回饋迭代。工具箱涵蓋 Unity 與 C# 做遊戲；Python、FastAPI、LangChain 做 AI；Vue 與 TypeScript 做 Web；需要時用 Flutter 與 GCP。",
     "process": {
       "title": "我的流程",
       "concept": {
         "title": "概念",
-        "description": "定義願景、氛圍與核心互動。"
+        "description": "拆解問題；在寫程式前定義限制、使用者流程與成功標準。"
       },
       "prototype": {
         "title": "原型",
-        "description": "快速建立、提早測試、頻繁迭代改進。"
+        "description": "獨立完成最小可行端到端切片 — 可玩關卡、可運作 Agent 或上線 API — 以驗證假設。"
       },
       "collaborate": {
         "title": "協作",
-        "description": "與美術、音效和 QA 團隊密切合作。"
+        "description": "核心循環跑通後再引入美術、QA 或利害關係人；減少無效協調。"
       },
       "deploy": {
         "title": "部署",
-        "description": "自動化建置流程與 QA 循環。"
+        "description": "自動化建置、測試與 Agent 管線，讓交付可重複、不靠個人英雄式加班。"
       },
       "reflect": {
         "title": "反思",
-        "description": "收集回饋、打磨並記錄學習成果。"
+        "description": "記錄什麼失敗、什麼可擴展、什麼可重用 — 供下次獨立衝刺或團隊交接。"
       }
     },
     "education": {
@@ -108,4 +108,3 @@
     "system": "系統"
   }
 }
-
