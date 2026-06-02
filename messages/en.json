@@ -3,10 +3,10 @@
     "greeting": "Hi, I'm",
     "name": "Xue Aaron",
     "handle": "aka Casual Attitude",
-    "title": "Game Developer & Creative Technologist",
-    "headline": "Game developer crafting emotional and interactive experiences across indie and commercial titles.",
-    "valueProp": "From founding an indie studio to collaborating with partners like Google and Devsisters, I design and build games that connect emotion, creativity, and technology.",
-    "availability": "Open to new collaborations and creative game projects (remote-friendly).",
+    "title": "Creative Technologist & AI Builder",
+    "headline": "Building interactive experiences and agentic AI systems — from indie games to self-hosted assistants.",
+    "valueProp": "From founding an indie studio and shipping with partners like Google and Devsisters, to designing RAG pipelines and tool-using agents, I connect emotion, creativity, and intelligent systems.",
+    "availability": "Open to creative tech collaborations, AI/agent projects, and game work (remote-friendly).",
     "scroll": "Scroll",
     "cta": {
       "contact": "Get in Touch",
@@ -21,31 +21,31 @@
   },
   "about": {
     "title": "About Me",
-    "bio": "I'm Xue Aaron — though most people in the dev community know me as Casual Attitude. My journey began at the NTUT Programming Club, where I led operations and partnered with Google to host a machine learning course. That experience sparked my passion for creating experiences that blend technology and creativity.",
-    "journey": "Over the past six years, I've worked across the entire game development cycle — from concept and planning to coding and release. I founded an independent studio and launched Soul of Butterflies – Incubation, handling story design, puzzle systems, and everything from crowdfunding to commercial release.",
-    "current": "After that, I joined Buho Interactive, contributing to a U.S. emotional-learning game project and later leading development on real-time action titles. Today, I'm managing outsourcing projects with Devsisters, the creators of the CookieRun franchise.",
-    "passion": "My technical toolkit spans Unity, Flutter, and web technologies (Vue + TypeScript), but what drives me most is crafting interactive worlds that evoke emotion and building teams that make those worlds real.",
+    "bio": "I'm Xue Aaron — though most people in the dev community know me as Casual Attitude. I'm a creative technologist working at the intersection of interactive media and AI. My path started at the NTUT Programming Club, where I led operations and partnered with Google to host a machine learning course — my first step toward applying intelligent systems to real products.",
+    "journey": "Over the past six years, I've worked across the entire game development cycle — from concept and planning to coding and release. I founded an independent studio and launched Soul of Butterflies – Incubation, handling story design, puzzle systems, and everything from crowdfunding to commercial release. I've applied the same self-directed drive to AI: Tarowl, an AI-powered app on GCP, and A Slime, a local agent with RAG, LangChain, tool use, and web + desktop clients.",
+    "current": "Today at Buho Interactive, I lead development on commercial titles including Braverse (CookieRun IP with Devsisters) and Wacky Boat, and built CI/CD infrastructure that keeps teams shipping fast. Outside client work, I'm actively building agentic systems — document ingestion pipelines, multi-LLM routing, WebSocket chat, and calendar/search tools.",
+    "passion": "I'm an independent problem-solver at heart: I break ambiguous goals into testable pieces, ship a working prototype before asking for help, automate repeat work (CI/CD, agent pipelines), and iterate from feedback. My toolkit spans Unity and C# for games; Python, FastAPI, and LangChain for AI; Vue and TypeScript for web; and Flutter and GCP where the product needs them.",
     "process": {
       "title": "My Process",
       "concept": {
         "title": "Concept",
-        "description": "Define the vision, mood, and key interactions."
+        "description": "Decompose the problem; define constraints, user flow, and success criteria before coding."
       },
       "prototype": {
         "title": "Prototype",
-        "description": "Build fast, test early, iterate often."
+        "description": "Build a minimal end-to-end slice alone — a playable level, working agent, or live API — to validate assumptions."
       },
       "collaborate": {
         "title": "Collaborate",
-        "description": "Work closely with art, sound, and QA."
+        "description": "Bring in art, QA, or stakeholders once the core loop works; reduce wasted coordination."
       },
       "deploy": {
         "title": "Deploy",
-        "description": "Automate build pipelines and QA loops."
+        "description": "Automate builds, tests, and agent pipelines so shipping is repeatable, not heroic."
       },
       "reflect": {
         "title": "Reflect",
-        "description": "Gather feedback, polish, and document learnings."
+        "description": "Document what broke, what scaled, and what to reuse — for the next solo sprint or team handoff."
       }
     },
     "education": {
@@ -108,4 +108,3 @@
     "system": "System"
   }
 }
-
