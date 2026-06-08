@@ -1,0 +1,84 @@
+cv:
+  name: Xue Aaron
+  location: Taiwan
+  email: casualattitude0@gmail.com
+  website: https://casualattitude.site/
+  social_networks:
+    - network: GitHub
+      username: casualattitude0
+    - network: LinkedIn
+      username: aaron-xue-1b865322a
+  sections:
+    summary:
+      - Front-end / full-stack developer building responsive, multilingual web and
+        mobile UIs with TypeScript, Vue 3, React/Next.js, and Flutter. Comfortable
+        owning a feature from component design through state, real-time data, and
+        deployment.
+    experience:
+      - company: buho Interactive Entertainment Co., Ltd.
+        position: Software Developer (Front-End / Full-Stack)
+        location: Taiwan
+        start_date: 2024-03
+        end_date: present
+        highlights:
+          - Built interactive **web tutorial UIs** and internal tools for commercial
+            products, focusing on clear, responsive user flows.
+          - Shipped client-facing features end-to-end and automated delivery with
+            **Git** and CI/CD.
+      - company: Independent Studio
+        position: Founder / Full-Stack Developer
+        location: Taiwan
+        start_date: 2022-09
+        end_date: 2024-03
+        highlights:
+          - Designed and built complete product front-ends — UI, state, and API
+            integration — and shipped them to real users.
+          - Built an AI app with a **Flutter** client and TypeScript backend on GCP,
+            iterating from live user feedback.
+    projects:
+      - name: "Personal Portfolio (Next.js)"
+        date: 2025 – present
+        highlights:
+          - "**Next.js + TypeScript + Tailwind CSS** site with **i18n** (EN/JA/TW),
+            dark mode, Framer Motion animations, and static export to a custom domain."
+          - "[casualattitude.site](https://casualattitude.site/)"
+      - name: "A Slime — Real-Time Chat UI"
+        date: 2026
+        highlights:
+          - "**Vue 3 + TypeScript** chat interface over **WebSocket** for a streaming
+            AI agent, with an optional Tauri desktop build."
+          - "Tech: Vue.js, TypeScript, WebSocket, Tauri"
+      - name: "Multi-Step Quiz UI"
+        date: 2026
+        highlights:
+          - Reusable multi-step **wizard UI** with client-side scoring and locale
+            switching (EN / zh-Hant / JA); deployed via GitHub Actions.
+          - "[Live demo](https://casualattitude0.github.io/php-quiz-email-demo/)"
+    education:
+      - institution: National Taipei University of Technology
+        area: Computer Science
+        degree: BS
+        location: Taipei, Taiwan
+        start_date: 2018
+        end_date: 2022
+    skills:
+      - label: Front-End
+        details: TypeScript, JavaScript, Vue.js, React, Next.js, Tailwind CSS, HTML/CSS, responsive design, i18n
+      - label: Mobile
+        details: Flutter, Swift, native iOS (App Store/TestFlight deployment, 3+ yrs)
+      - label: Tooling
+        details: Git, Docker, CI/CD, GitHub Actions, Vite, REST APIs, WebSocket
+      - label: Backend (working knowledge)
+        details: Python (FastAPI), Node.js, Go, PostgreSQL, MongoDB
+      - label: Languages
+        details: Mandarin (Native), English (Professional), Japanese (Learning)
+design:
+  theme: classic
+  page:
+    size: us-letter
+  colors:
+    name: rgb(0, 79, 144)
+    section_titles: rgb(0, 79, 144)
+    connections: rgb(0, 79, 144)
+locale:
+  language: english

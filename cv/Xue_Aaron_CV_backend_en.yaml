@@ -1,0 +1,87 @@
+cv:
+  name: Xue Aaron
+  location: Taiwan
+  email: casualattitude0@gmail.com
+  website: https://casualattitude.site/
+  social_networks:
+    - network: GitHub
+      username: casualattitude0
+    - network: LinkedIn
+      username: aaron-xue-1b865322a
+  sections:
+    summary:
+      - Backend engineer building scalable services and APIs in Python (FastAPI) and
+        Go. I design RESTful systems, integrate LLM/RAG pipelines and vector
+        databases into production backends, and automate delivery with Docker, Git,
+        and CI/CD on GCP.
+    experience:
+      - company: buho Interactive Entertainment Co., Ltd.
+        position: Backend Engineer / Software Developer
+        location: Taiwan
+        start_date: 2024-03
+        end_date: present
+        highlights:
+          - Built a **Go** backend — player accounts with **OAuth** sign-in,
+            leaderboards, and progress sync — exposing **REST APIs** to client apps.
+          - Persisted data in **Firestore / Cloud SQL**, containerized with **Docker**,
+            and deployed to **GCP (Cloud Run / GKE)**.
+          - Designed **CI/CD pipelines** (Fastlane + Git) that cut release-prep time
+            by ~70%; participated in code reviews.
+      - company: Independent Studio
+        position: Founder / Full-Stack Developer
+        location: Taiwan
+        start_date: 2022-09
+        end_date: 2024-03
+        highlights:
+          - Owned products end-to-end — backend services, APIs, data, and client
+            integration — building, releasing, and maintaining commercial software.
+    projects:
+      - name: "A Slime — Self-Hosted AI Agent (RAG + LLM APIs)"
+        date: 2026
+        highlights:
+          - "**FastAPI** backend serving a tool-using agent: document ingestion,
+            **RAG** over a **Chroma vector DB** (LangChain), and **WebSocket** chat."
+          - Multi-provider **LLM inference routing** (Gemini, Ollama, NVIDIA NIM)
+            behind a single backend interface.
+          - "Tech: Python, FastAPI, LangChain, Chroma, WebSocket"
+      - name: "Game Services Backend (Go on GCP)"
+        date: 2024 – present
+        highlights:
+          - "**Go** REST API for accounts, leaderboards, and game data with **OAuth**;
+            **Docker**-containerized, deployed to **Cloud Run / GKE**, **Firestore /
+            Cloud SQL** persistence."
+          - "Tech: Go, GCP, Cloud Run, OAuth, Firestore, Docker"
+      - name: "CI/CD Automation Pipeline"
+        date: 2025
+        highlights:
+          - Build/test/deploy automation with **Fastlane**, **GitHub Actions**, and a
+            custom Discord bot for remote control; ~70% faster release prep.
+          - "Tech: Fastlane, GitHub Actions, Git, Docker"
+    education:
+      - institution: National Taipei University of Technology
+        area: Computer Science
+        degree: BS
+        location: Taipei, Taiwan
+        start_date: 2018
+        end_date: 2022
+    skills:
+      - label: Backend
+        details: Python (FastAPI), Go, Node.js, RESTful API design, OAuth2/JWT, WebSocket, microservices, event-driven systems
+      - label: Databases
+        details: PostgreSQL, MySQL, MongoDB, Firestore, Cloud SQL, query optimization, caching
+      - label: DevOps / Cloud
+        details: Docker, CI/CD, Git, GitHub Actions, GCP, Cloud Run, GKE (Kubernetes)
+      - label: AI Integration
+        details: LLM inference APIs, RAG, vector databases (Chroma), LangChain
+      - label: Languages
+        details: Mandarin (Native), English (Professional), Japanese (Learning)
+design:
+  theme: classic
+  page:
+    size: us-letter
+  colors:
+    name: rgb(0, 79, 144)
+    section_titles: rgb(0, 79, 144)
+    connections: rgb(0, 79, 144)
+locale:
+  language: english

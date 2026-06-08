@@ -1,0 +1,87 @@
+cv:
+  name: Xue Aaron
+  location: 台湾
+  email: casualattitude0@gmail.com
+  website: https://casualattitude.site/
+  social_networks:
+    - network: GitHub
+      username: casualattitude0
+    - network: LinkedIn
+      username: aaron-xue-1b865322a
+  sections:
+    概要:
+      - フロントエンド／フルスタックエンジニア。TypeScript、Vue 3、React/Next.js、Flutter
+        を用いて、レスポンシブで多言語対応の Web・モバイル UI を構築。コンポーネント設計から状態管理、リアルタイム通信、デプロイまで一貫して担当します。
+    職務経歴:
+      - company: buho Interactive Entertainment Co., Ltd.
+        position: ソフトウェア開発（フロントエンド／フルスタック）
+        location: 台湾
+        start_date: 2024-03
+        end_date: present
+        highlights:
+          - 商用プロダクト向けのインタラクティブな **Web チュートリアル UI** と社内ツールを開発。分かりやすくレスポンシブなユーザーフローを重視。
+          - クライアント向け機能をエンドツーエンドで実装し、**Git** と CI/CD でデリバリーを自動化。
+      - company: 個人スタジオ
+        position: 創業者／フルスタック開発者
+        location: 台湾
+        start_date: 2022-09
+        end_date: 2024-03
+        highlights:
+          - UI・状態管理・API 連携を含むプロダクトのフロントエンドを設計・構築し、実ユーザーへリリース。
+          - **Flutter** クライアントと TypeScript バックエンド（GCP）で AI アプリを開発し、ユーザーの反応をもとに改善。
+    プロジェクト:
+      - name: "個人ポートフォリオ（Next.js）"
+        date: 2025 – present
+        highlights:
+          - "**Next.js + TypeScript + Tailwind CSS** 製。**多言語対応**（EN/JA/TW）、ダークモード、Framer
+            Motion アニメーション、独自ドメインへの静的エクスポート。"
+          - "[casualattitude.site](https://casualattitude.site/)"
+      - name: "A Slime — リアルタイムチャット UI"
+        date: 2026
+        highlights:
+          - "ストリーミング AI エージェント向けの **Vue 3 + TypeScript** チャット UI（**WebSocket**）。Tauri
+            によるデスクトップ版にも対応。"
+          - "技術: Vue.js, TypeScript, WebSocket, Tauri"
+      - name: "マルチステップ・クイズ UI"
+        date: 2026
+        highlights:
+          - クライアントサイド採点とロケール切替（EN / zh-Hant / JA）を備えた再利用可能な **ウィザード UI**。GitHub
+            Actions でデプロイ。
+          - "[デモ](https://casualattitude0.github.io/php-quiz-email-demo/)"
+    学歴:
+      - institution: 国立台北科技大学
+        area: 情報工学
+        degree: 学士
+        location: 台北, 台湾
+        start_date: 2018
+        end_date: 2022
+    スキル:
+      - label: フロントエンド
+        details: TypeScript, JavaScript, Vue.js, React, Next.js, Tailwind CSS, HTML/CSS, レスポンシブデザイン, 多言語対応(i18n)
+      - label: モバイル
+        details: Flutter, Swift, ネイティブ iOS（App Store/TestFlight 配信, 3年以上）
+      - label: ツール
+        details: Git, Docker, CI/CD, GitHub Actions, Vite, REST API, WebSocket
+      - label: バックエンド（実務知識）
+        details: Python (FastAPI), Node.js, Go, PostgreSQL, MongoDB
+      - label: 語学
+        details: 中国語（母語）, 英語（ビジネス）, 日本語（学習中）
+design:
+  theme: classic
+  typography:
+    font_family: Hiragino Sans GB
+    line_spacing: 0.5em
+    font_size:
+      body: 9.5pt
+  page:
+    size: us-letter
+    top_margin: 1.4cm
+    bottom_margin: 1.4cm
+    left_margin: 1.4cm
+    right_margin: 1.4cm
+  colors:
+    name: rgb(0, 79, 144)
+    section_titles: rgb(0, 79, 144)
+    connections: rgb(0, 79, 144)
+locale:
+  language: japanese

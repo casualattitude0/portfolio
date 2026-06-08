@@ -1,0 +1,131 @@
+cv:
+  name: Xue Aaron
+  location: Taiwan
+  email: casualattitude0@gmail.com
+  website: https://casualattitude.site/
+  social_networks:
+    - network: GitHub
+      username: casualattitude0
+    - network: LinkedIn
+      username: aaron-xue-1b865322a
+  sections:
+    summary:
+      - Creative technologist working at the intersection of interactive media and
+        AI. From founding an indie game studio and shipping commercial titles with
+        partners like Google and Devsisters, to designing RAG pipelines and tool-using
+        agents, I connect emotion, creativity, and intelligent systems.
+      - An independent problem-solver who decomposes ambiguous goals into testable
+        pieces, ships a working prototype before asking for help, and automates repeat
+        work (CI/CD, agent pipelines). Toolkit spans Unity/C# for games, Python/FastAPI/LangChain
+        for AI, and Vue/TypeScript for web.
+    experience:
+      - company: buho Interactive Entertainment Co., Ltd.
+        position: Game Designer / Unity Developer
+        location: Taiwan
+        start_date: 2024-03
+        end_date: present
+        highlights:
+          - Lead game planning, Unity development, and project management for multiple
+            commercial titles including Braverse (CookieRun IP, with Devsisters) and
+            Wacky Boat.
+          - Built core gameplay systems and production infrastructure that keep teams
+            shipping fast.
+          - Designed CI/CD pipelines (Fastlane + Discord bot control) that reduced
+            release prep time by ~70% and enabled remote-triggered builds and TestFlight
+            uploads.
+      - company: Independent Studio
+        position: Founder / Game Director / Developer
+        location: Taiwan
+        start_date: 2022-09
+        end_date: 2024-03
+        highlights:
+          - Independently developed and commercially released *Soul of Butterflies –
+            Incubation*, a narrative puzzle adventure.
+          - Ran the full cycle solo — story design, puzzle systems, crowdfunding, event
+            exhibitions, and Steam release.
+      - company: NPC – NTUT Programming Club
+        position: Chief of Operations
+        location: Taipei, Taiwan
+        start_date: 2019
+        end_date: 2022
+        highlights:
+          - Organized and hosted technical events, including a Machine Learning course
+            in partnership with Google.
+          - Managed cross-disciplinary collaboration among student members.
+    projects:
+      - name: "A Slime — Local AI Agent"
+        date: 2026
+        highlights:
+          - Local AI assistant with RAG (Chroma + LangChain), tool use, and a Vue 3
+            chat UI backed by FastAPI; supports Google Gemini, Ollama, and NVIDIA NIM.
+          - Document ingestion pipeline, WebSocket chat, calendar/search tools, and
+            multi-provider LLM routing in a self-hosted stack, with an optional Tauri
+            desktop shell.
+          - "Tech: Python, FastAPI, LangChain, Vue.js, TypeScript, Tauri"
+      - name: "Braverse (CookieRun IP)"
+        date: 2024 – present
+        highlights:
+          - Web-based interactive tutorial teaching players the Braverse Trading Card
+            Game, based on the CookieRun IP (with Devsisters).
+          - Building tutorial systems and ensuring gameplay clarity for new players.
+          - "Tech: Unity, C#, Game Design"
+      - name: "Wacky Boat — Game Backend"
+        date: 2024 – present
+        highlights:
+          - Go backend powering Wacky Boat — player accounts with OAuth sign-in,
+            leaderboards, and progress sync; the game-services API the Unity client
+            depends on.
+          - Containerized with Docker and deployed on Google Cloud Platform (Cloud
+            Run / GKE) with Firestore / Cloud SQL persistence.
+          - "Tech: Go, GCP, Cloud Run, OAuth, Firestore, Docker"
+      - name: "Soul of Butterflies – Incubation"
+        date: 2024
+        highlights:
+          - Narrative puzzle adventure — independently developed, crowdfunded, exhibited
+            at gaming events, and commercially released on Steam.
+          - "[Steam Page](https://store.steampowered.com/app/2391350/Soul_of_Butterflies_Incubation/)"
+          - "Tech: Unity, C#, Steam, Game Design"
+      - name: "Tarowl: Pocket Tarot"
+        date: 2024
+        highlights:
+          - AI-powered tarot reading app with a Flutter frontend and TypeScript backend
+            on Google Cloud Platform; released and iterated via user feedback.
+          - "Tech: Flutter, TypeScript, GCP, Firebase"
+      - name: "Unity CI/CD Automation Pipeline"
+        date: 2025
+        highlights:
+          - CI/CD automation for Unity builds using Fastlane, with a Discord bot for
+            remote build control and TestFlight uploads.
+          - Reduced release prep time by ~70% and increased iteration efficiency for
+            QA and design teams.
+          - "Tech: Unity, Fastlane, GitHub Actions, Discord, iOS"
+    education:
+      - institution: National Taipei University of Technology
+        area: Computer Science
+        degree: BS
+        location: Taipei, Taiwan
+        start_date: 2018
+        end_date: 2022
+    skills:
+      - label: Games
+        details: Unity, C#, C++, Game Design, Steam
+      - label: AI / Backend
+        details: Python, FastAPI, LangChain, RAG, Go, Node.js, PostgreSQL, MongoDB
+      - label: Web
+        details: TypeScript, JavaScript, Vue.js, React, Next.js, Tailwind CSS
+      - label: Mobile
+        details: Flutter, Swift, native iOS, App Store/TestFlight deployment (3+ yrs), Fastlane
+      - label: Cloud / DevOps
+        details: Google Cloud Platform, Firebase, Docker, CI/CD, Fastlane, GitHub Actions, Git
+      - label: Languages
+        details: Mandarin (Native), English (Professional), Japanese (Learning)
+design:
+  theme: classic
+  page:
+    size: us-letter
+  colors:
+    name: rgb(0, 79, 144)
+    section_titles: rgb(0, 79, 144)
+    connections: rgb(0, 79, 144)
+locale:
+  language: english

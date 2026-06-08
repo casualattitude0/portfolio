@@ -1,0 +1,89 @@
+cv:
+  name: Xue Aaron
+  location: 台湾
+  email: casualattitude0@gmail.com
+  website: https://casualattitude.site/
+  social_networks:
+    - network: GitHub
+      username: casualattitude0
+    - network: LinkedIn
+      username: aaron-xue-1b865322a
+  sections:
+    概要:
+      - AI／バックエンドエンジニア。RAG パイプライン、ベクトルデータベース、ツール実行エージェント、複数プロバイダの推論ルーティングなど
+        LLM 活用システムを構築。Python/FastAPI バックエンドで提供し、Docker で GCP にデプロイします。
+    職務経歴:
+      - company: 個人／パーソナルプロジェクト
+        position: AI エンジニア（ビルダー）
+        location: 台湾
+        start_date: 2024
+        end_date: present
+        highlights:
+          - "**A Slime** を構築 — **RAG**（Chroma + **LangChain**）、ツール実行、複数プロバイダの
+            **LLM ルーティング**（Gemini, Ollama, NVIDIA NIM）を備えたセルフホスト型 AI エージェント（**FastAPI**
+            バックエンド）。"
+          - "**GCP** 上の AI アプリ **Tarowl**（Flutter + TypeScript）をリリースし、ユーザーの反応をもとにモデル挙動を改善。"
+      - company: buho Interactive Entertainment Co., Ltd.
+        position: バックエンドエンジニア／ソフトウェア開発
+        location: 台湾
+        start_date: 2024-03
+        end_date: present
+        highlights:
+          - "**GCP**（Cloud Run / GKE, Docker）上に **Go** バックエンドと **CI/CD** 基盤を構築 —
+            本番でモデルや API を提供するためのデプロイ基盤。"
+      - company: NPC – 台北科技大学プログラミングクラブ
+        position: 運営責任者
+        location: 台北, 台湾
+        start_date: 2019
+        end_date: 2022
+        highlights:
+          - "**Google** と共同で **機械学習講座** を企画・開催。"
+    プロジェクト:
+      - name: "A Slime — ツール実行型 AI エージェント"
+        date: 2026
+        highlights:
+          - "ドキュメント取り込みパイプラインと **Chroma ベクトルデータベース**（LangChain）上の **RAG** を、**FastAPI**
+            + **WebSocket** バックエンドで提供。"
+          - "エージェントツール（カレンダー、検索）と複数プロバイダの **LLM 推論ルーティング** を単一インターフェースに抽象化。Vue
+            3 クライアント + Tauri デスクトップ。"
+          - "技術: Python, FastAPI, LangChain, Chroma, LLM API, WebSocket"
+      - name: "Tarowl: Pocket Tarot（AI アプリ）"
+        date: 2024
+        highlights:
+          - "AI タロット占いアプリ — Flutter クライアント、TypeScript バックエンド、**GCP** サービス。リリース後もユーザーの反応をもとに改善。"
+          - "技術: Flutter, TypeScript, GCP, Firebase"
+    学歴:
+      - institution: 国立台北科技大学
+        area: 情報工学
+        degree: 学士
+        location: 台北, 台湾
+        start_date: 2018
+        end_date: 2022
+    スキル:
+      - label: AI / ML
+        details: LLM 推論 API, RAG, ベクトル DB (Chroma), LangChain, NLP パイプライン, エージェント/ツール実行, プロンプトエンジニアリング
+      - label: バックエンド
+        details: Python (FastAPI), Go, Node.js, RESTful API, OAuth2/JWT, WebSocket
+      - label: データ / DevOps
+        details: PostgreSQL, MongoDB, Firestore, Docker, CI/CD, GCP, Cloud Run, GKE
+      - label: 語学
+        details: 中国語（母語）, 英語（ビジネス）, 日本語（学習中）
+design:
+  theme: classic
+  typography:
+    font_family: Hiragino Sans GB
+    line_spacing: 0.5em
+    font_size:
+      body: 9.5pt
+  page:
+    size: us-letter
+    top_margin: 1.4cm
+    bottom_margin: 1.4cm
+    left_margin: 1.4cm
+    right_margin: 1.4cm
+  colors:
+    name: rgb(0, 79, 144)
+    section_titles: rgb(0, 79, 144)
+    connections: rgb(0, 79, 144)
+locale:
+  language: japanese

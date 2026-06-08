@@ -1,0 +1,123 @@
+cv:
+  name: Xue Aaron
+  location: Taiwan
+  email: casualattitude0@gmail.com
+  website: https://casualattitude.site/
+  social_networks:
+    - network: GitHub
+      username: casualattitude0
+    - network: LinkedIn
+      username: aaron-xue-1b865322a
+  sections:
+    summary:
+      - Backend & AI engineer with hands-on experience building scalable services
+        and APIs in Python (FastAPI) and Go. I design RESTful and event-driven systems,
+        integrate LLM/RAG inference pipelines and vector databases into production
+        backends, and automate delivery with Docker, Git, and CI/CD.
+      - Self-directed problem-solver — I decompose ambiguous goals, ship a working
+        end-to-end prototype before asking for help, and automate repeat work so
+        shipping is repeatable. Comfortable owning a service from API design through
+        containerized deployment, monitoring, and troubleshooting.
+    experience:
+      - company: buho Interactive Entertainment Co., Ltd.
+        position: Backend Engineer / Software Developer
+        location: Taiwan
+        start_date: 2024-03
+        end_date: present
+        highlights:
+          - Built a **Go** backend service for a live mobile product — player accounts
+            with **OAuth** sign-in, leaderboards, and progress sync — exposing
+            **REST APIs** consumed by client applications.
+          - Persisted data in **Firestore / Cloud SQL**, containerized services with
+            **Docker**, and deployed to **Google Cloud Platform (Cloud Run / GKE)**.
+          - Designed and operated **CI/CD pipelines** (Fastlane + Git + a Discord
+            bot) that cut release-prep time by ~70% and enabled remote-triggered
+            builds.
+          - Participated in code reviews and built production infrastructure that
+            keeps teams shipping fast.
+      - company: Independent Studio
+        position: Founder / Full-Stack Developer
+        location: Taiwan
+        start_date: 2022-09
+        end_date: 2024-03
+        highlights:
+          - Owned products end-to-end — backend services, APIs, data, and client
+            integration — independently building, releasing, and maintaining
+            commercial software.
+          - Built an AI-powered application on **Google Cloud Platform** with a
+            **TypeScript** backend and **Flutter** client, iterating from live user
+            feedback.
+      - company: NPC – NTUT Programming Club
+        position: Chief of Operations
+        location: Taipei, Taiwan
+        start_date: 2019
+        end_date: 2022
+        highlights:
+          - Organized technical events including a Machine Learning course delivered
+            in partnership with **Google**.
+          - Coordinated cross-disciplinary engineering collaboration among members.
+    projects:
+      - name: "A Slime — Self-Hosted AI Agent (RAG + LLM APIs)"
+        date: 2026
+        highlights:
+          - "**FastAPI** backend serving a tool-using AI agent: document ingestion
+            pipeline, **RAG** over a **Chroma vector database** (LangChain), and
+            **WebSocket** chat."
+          - Multi-provider **LLM inference routing** across Google Gemini, Ollama,
+            and NVIDIA NIM — abstracting model APIs behind a single backend interface.
+          - Backend-integrated tools (calendar, search) plus a **Vue 3 / TypeScript**
+            web client and an optional Tauri desktop shell.
+          - "Tech: Python, FastAPI, LangChain, Chroma, WebSocket, Vue.js, TypeScript"
+      - name: "Game Services Backend (Go on GCP)"
+        date: 2024 – present
+        highlights:
+          - "**Go** REST API for accounts, leaderboards, and game data with **OAuth**
+            authentication; **Docker**-containerized and deployed to **Cloud Run / GKE**."
+          - Durable persistence in **Firestore / Cloud SQL**, supporting authenticated
+            players and progress sync across releases.
+          - "Tech: Go, GCP, Cloud Run, OAuth, Firestore, Docker"
+      - name: "CI/CD Automation Pipeline"
+        date: 2025
+        highlights:
+          - End-to-end build/test/deploy automation using **Fastlane**, **GitHub
+            Actions**, and a custom **Discord** bot for remote control.
+          - Reduced release-prep time by ~70% and improved iteration speed across the
+            team.
+          - "Tech: Fastlane, GitHub Actions, Git, Docker, Discord"
+      - name: "PHP Quiz / Email Service"
+        date: 2026
+        highlights:
+          - Multi-step quiz service with client-side scoring, i18n, Google Forms
+            capture, and an HTML email pipeline (Resend / Apps Script).
+          - Automated deployment via **GitHub Actions** to GitHub Pages.
+          - "Tech: PHP, JavaScript, Resend, GitHub Actions"
+    education:
+      - institution: National Taipei University of Technology
+        area: Computer Science
+        degree: BS
+        location: Taipei, Taiwan
+        start_date: 2018
+        end_date: 2022
+    skills:
+      - label: Backend
+        details: Python (FastAPI), Go, Node.js, RESTful API design, OAuth2/JWT, WebSocket, microservices, event-driven systems
+      - label: AI / ML
+        details: LLM inference APIs, RAG, vector databases (Chroma), LangChain, NLP pipelines, multi-provider model routing
+      - label: Databases
+        details: PostgreSQL, MySQL, MongoDB, Firestore, Cloud SQL, query optimization, caching
+      - label: DevOps / Cloud
+        details: Docker, CI/CD, Git, GitHub Actions, Fastlane, Google Cloud Platform, Cloud Run, GKE (Kubernetes)
+      - label: Frontend
+        details: TypeScript, JavaScript, Vue.js, React, Next.js
+      - label: Languages
+        details: Mandarin (Native), English (Professional), Japanese (Learning)
+design:
+  theme: classic
+  page:
+    size: us-letter
+  colors:
+    name: rgb(0, 79, 144)
+    section_titles: rgb(0, 79, 144)
+    connections: rgb(0, 79, 144)
+locale:
+  language: english

@@ -1,0 +1,91 @@
+cv:
+  name: Xue Aaron
+  location: 台湾
+  email: casualattitude0@gmail.com
+  website: https://casualattitude.site/
+  social_networks:
+    - network: GitHub
+      username: casualattitude0
+    - network: LinkedIn
+      username: aaron-xue-1b865322a
+  sections:
+    概要:
+      - ゲーム開発者／ゲームデザイナー。企画から Unity/C# 実装、リリースまで開発全工程を 6
+        年以上経験。インディースタジオを創業し商用タイトルを単独でリリース。現在は商用チームで版権 IP・オリジナルタイトルを開発中。
+    職務経歴:
+      - company: buho Interactive Entertainment Co., Ltd.
+        position: ゲームデザイナー／Unity 開発者
+        location: 台湾
+        start_date: 2024-03
+        end_date: present
+        highlights:
+          - "商用タイトル **Braverse**（CookieRun IP、**Devsisters** 共同）と **Wacky
+            Boat** のゲーム企画・**Unity / C#** 開発・プロジェクト管理を主導。"
+          - "コアゲームプレイ機構と **CI/CD パイプライン** を構築し、リリース準備を約 70% 短縮。QA・デザインの反復を高速化。"
+      - company: 個人スタジオ
+        position: 創業者／ゲームディレクター／開発者
+        location: 台湾
+        start_date: 2022-09
+        end_date: 2024-03
+        highlights:
+          - "スタジオを創業し、ナラティブ・パズルアドベンチャー **Soul of Butterflies – Incubation**
+            をリリース（ストーリー・パズル設計・実装を担当）。"
+          - クラウドファンディング、イベント出展、商用 **Steam** リリースまで全工程を単独で遂行。
+      - company: NPC – 台北科技大学プログラミングクラブ
+        position: 運営責任者
+        location: 台北, 台湾
+        start_date: 2019
+        end_date: 2022
+        highlights:
+          - 技術イベントの企画運営と、分野横断の学生チームの取りまとめを担当。
+    プロジェクト:
+      - name: "Soul of Butterflies – Incubation"
+        date: 2024
+        highlights:
+          - 自主開発のナラティブ・パズルアドベンチャー。クラウドファンディング、ゲームイベント出展を経て Steam で商用リリース。
+          - "[Steam ページ](https://store.steampowered.com/app/2391350/Soul_of_Butterflies_Incubation/) · 技術: Unity, C#, ゲームデザイン"
+      - name: "Braverse（CookieRun IP）"
+        date: 2024 – present
+        highlights:
+          - "Braverse TCG（CookieRun IP、Devsisters 共同）を学べる Web インタラクティブ・チュートリアル。分かりやすさを重視した導入機構を構築。"
+          - "技術: Unity, C#, ゲームデザイン"
+      - name: "Emotional Management — 教育ゲーム"
+        date: 2023
+        highlights:
+          - 米国市場向けの情動学習ゲーム。生徒の感情調整を支援し、学習目標に合わせてゲームプレイを調整。
+          - "技術: Unity, C#, ゲームデザイン"
+    学歴:
+      - institution: 国立台北科技大学
+        area: 情報工学
+        degree: 学士
+        location: 台北, 台湾
+        start_date: 2018
+        end_date: 2022
+    スキル:
+      - label: ゲーム開発
+        details: Unity, C#, C++, ゲームプレイ機構, ゲームデザイン, レベル/パズル設計, Steam リリース
+      - label: プロダクション
+        details: プロジェクト管理, クラウドファンディング, イベント出展, Unity 向け CI/CD (Fastlane), 3年以上の iOS 配信 (App Store/TestFlight), Android ビルド
+      - label: ツール
+        details: Git, Docker, GitHub Actions, Swift, Blender, Photoshop, Figma
+      - label: 語学
+        details: 中国語（母語）, 英語（ビジネス）, 日本語（学習中）
+design:
+  theme: classic
+  typography:
+    font_family: Hiragino Sans GB
+    line_spacing: 0.5em
+    font_size:
+      body: 9.5pt
+  page:
+    size: us-letter
+    top_margin: 1.4cm
+    bottom_margin: 1.4cm
+    left_margin: 1.4cm
+    right_margin: 1.4cm
+  colors:
+    name: rgb(0, 79, 144)
+    section_titles: rgb(0, 79, 144)
+    connections: rgb(0, 79, 144)
+locale:
+  language: japanese

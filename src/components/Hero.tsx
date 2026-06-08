@@ -1,6 +1,7 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
+import { useParams } from 'next/navigation';
 import { motion } from 'framer-motion';
 import { Mail, Github, Linkedin, ChevronDown } from 'lucide-react';
 import { ThemeToggle } from './ThemeToggle';
@@ -8,6 +9,16 @@ import { LanguageSwitcher } from './LanguageSwitcher';
 
 export function Hero() {
   const t = useTranslations('hero');
+  const params = useParams();
+  const locale = params.locale as string;
+  // Only EN and JA CVs are produced; TW falls back to EN.
+  const cvLang = locale === 'ja' ? 'ja' : 'en';
+  const resumeTracks = [
+    { key: 'frontend', file: `/cv/frontend-${cvLang}.pdf` },
+    { key: 'backend', file: `/cv/backend-${cvLang}.pdf` },
+    { key: 'gaming', file: `/cv/gaming-${cvLang}.pdf` },
+    { key: 'ai', file: `/cv/ai-${cvLang}.pdf` },
+  ];
 
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
@@ -129,16 +140,27 @@ export function Hero() {
             {t('cta.contact')}
           </a>
           
-          <a
-            href="#experience"
-            className="px-8 py-3 rounded-xl font-normal border border-gray-300 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-900 transition-colors duration-200"
-            onClick={(e) => {
-              e.preventDefault();
-              scrollToSection('experience');
-            }}
-          >
-            {t('cta.resume')}
-          </a>
+          <div className="relative group">
+            <button
+              className="flex items-center gap-1.5 px-8 py-3 rounded-xl font-normal border border-gray-300 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-900 transition-colors duration-200"
+            >
+              {t('cta.resume')}
+              <ChevronDown className="w-4 h-4" strokeWidth={1.5} />
+            </button>
+            <div className="absolute left-1/2 -translate-x-1/2 mt-2 w-48 bg-white dark:bg-gray-800 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50 overflow-hidden">
+              {resumeTracks.map((track) => (
+                <a
+                  key={track.key}
+                  href={track.file}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block px-4 py-2.5 text-sm text-left hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors"
+                >
+                  {t(`cta.resumeTracks.${track.key}`)}
+                </a>
+              ))}
+            </div>
+          </div>
         </motion.div>
 
         {/* Social Links */}

@@ -1,0 +1,85 @@
+cv:
+  name: Xue Aaron
+  location: Taiwan
+  email: casualattitude0@gmail.com
+  website: https://casualattitude.site/
+  social_networks:
+    - network: GitHub
+      username: casualattitude0
+    - network: LinkedIn
+      username: aaron-xue-1b865322a
+  sections:
+    summary:
+      - AI / backend engineer building LLM-powered systems — RAG pipelines, vector
+        databases, tool-using agents, and multi-provider inference routing — served
+        through Python/FastAPI backends and deployed with Docker on GCP.
+    experience:
+      - company: Independent / Personal Projects
+        position: AI Engineer (Builder)
+        location: Taiwan
+        start_date: 2024
+        end_date: present
+        highlights:
+          - Built **A Slime**, a self-hosted AI agent with **RAG** (Chroma +
+            **LangChain**), tool use, and **multi-provider LLM routing** (Gemini,
+            Ollama, NVIDIA NIM) behind a **FastAPI** backend.
+          - Shipped **Tarowl**, an AI-powered app on **GCP** (Flutter + TypeScript),
+            iterating on model behavior from live user feedback.
+      - company: buho Interactive Entertainment Co., Ltd.
+        position: Backend Engineer / Software Developer
+        location: Taiwan
+        start_date: 2024-03
+        end_date: present
+        highlights:
+          - Built **Go** backend services and **CI/CD** infrastructure on **GCP**
+            (Cloud Run / GKE, Docker) — the deployment foundation for serving models
+            and APIs in production.
+      - company: NPC – NTUT Programming Club
+        position: Chief of Operations
+        location: Taipei, Taiwan
+        start_date: 2019
+        end_date: 2022
+        highlights:
+          - Organized a **Machine Learning course** delivered in partnership with
+            **Google**.
+    projects:
+      - name: "A Slime — Tool-Using AI Agent"
+        date: 2026
+        highlights:
+          - Document ingestion pipeline + **RAG** over a **Chroma vector database**
+            (LangChain), exposed via a **FastAPI** + **WebSocket** backend.
+          - Agent tools (calendar, search) and **multi-provider LLM inference
+            routing** abstracted behind one interface; Vue 3 client + Tauri desktop.
+          - "Tech: Python, FastAPI, LangChain, Chroma, LLM APIs, WebSocket"
+      - name: "Tarowl: Pocket Tarot (AI App)"
+        date: 2024
+        highlights:
+          - AI-powered tarot reading app — Flutter client, TypeScript backend, **GCP**
+            services; released and iterated via user feedback.
+          - "Tech: Flutter, TypeScript, GCP, Firebase"
+    education:
+      - institution: National Taipei University of Technology
+        area: Computer Science
+        degree: BS
+        location: Taipei, Taiwan
+        start_date: 2018
+        end_date: 2022
+    skills:
+      - label: AI / ML
+        details: LLM inference APIs, RAG, vector databases (Chroma), LangChain, NLP pipelines, agents/tool use, prompt engineering
+      - label: Backend
+        details: Python (FastAPI), Go, Node.js, RESTful APIs, OAuth2/JWT, WebSocket
+      - label: Data / DevOps
+        details: PostgreSQL, MongoDB, Firestore, Docker, CI/CD, GCP, Cloud Run, GKE
+      - label: Languages
+        details: Mandarin (Native), English (Professional), Japanese (Learning)
+design:
+  theme: classic
+  page:
+    size: us-letter
+  colors:
+    name: rgb(0, 79, 144)
+    section_titles: rgb(0, 79, 144)
+    connections: rgb(0, 79, 144)
+locale:
+  language: english

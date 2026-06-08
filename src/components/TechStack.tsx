@@ -40,6 +40,8 @@ import {
   SiTailwindcss,
   SiFastapi,
   SiLangchain,
+  SiGo,
+  SiSwift,
 } from 'react-icons/si';
 import { TbBrandReactNative, TbDeviceDesktopAnalytics } from 'react-icons/tb';
 
@@ -52,6 +54,7 @@ const iconMap: Record<string, IconType> = {
   'csharp': SiSharp,
   'c#': SiSharp,
   'flutter': SiFlutter,
+  'swift': SiSwift,
   'typescript': SiTypescript,
   'vue': SiVuedotjs,
   'vuejs': SiVuedotjs,
@@ -69,6 +72,8 @@ const iconMap: Record<string, IconType> = {
   'git': SiGit,
   'figma': SiFigma,
   'python': SiPython,
+  'go': SiGo,
+  'golang': SiGo,
   'fastapi': SiFastapi,
   'langchain': SiLangchain,
   'cpp': SiCplusplus,
@@ -119,6 +124,7 @@ const enhancedTechStack = [
   { name: 'C#', icon: 'csharp', category: 'language' },
   { name: 'C++', icon: 'cpp', category: 'language' },
   { name: 'Python', icon: 'python', category: 'language' },
+  { name: 'Go', icon: 'go', category: 'language' },
   { name: 'FastAPI', icon: 'fastapi', category: 'backend' },
   { name: 'LangChain', icon: 'langchain', category: 'ai' },
   { name: 'TypeScript', icon: 'typescript', category: 'language' },

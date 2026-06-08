@@ -1,0 +1,89 @@
+cv:
+  name: Xue Aaron
+  location: 台湾
+  email: casualattitude0@gmail.com
+  website: https://casualattitude.site/
+  social_networks:
+    - network: GitHub
+      username: casualattitude0
+    - network: LinkedIn
+      username: aaron-xue-1b865322a
+  sections:
+    概要:
+      - バックエンドエンジニア。Python（FastAPI）と Go でスケーラブルなサービスと API
+        を構築。RESTful 設計、LLM/RAG パイプラインやベクトルデータベースの本番統合、Docker・Git・CI/CD（GCP）による配信自動化を得意とします。
+    職務経歴:
+      - company: buho Interactive Entertainment Co., Ltd.
+        position: バックエンドエンジニア／ソフトウェア開発
+        location: 台湾
+        start_date: 2024-03
+        end_date: present
+        highlights:
+          - "**Go** バックエンドを構築 — **OAuth** によるアカウント認証、リーダーボード、進捗同期を **REST API** として提供。"
+          - "**Firestore / Cloud SQL** にデータを永続化し、**Docker** でコンテナ化、**GCP（Cloud
+            Run / GKE）** にデプロイ。"
+          - "**CI/CD パイプライン**（Fastlane + Git）でリリース準備時間を約 70% 短縮。コードレビューにも参加。"
+      - company: 個人スタジオ
+        position: 創業者／フルスタック開発者
+        location: 台湾
+        start_date: 2022-09
+        end_date: 2024-03
+        highlights:
+          - バックエンドサービス・API・データ・クライアント連携までプロダクトを一気通貫で所有し、商用ソフトウェアを開発・リリース・運用。
+    プロジェクト:
+      - name: "A Slime — セルフホスト型 AI エージェント（RAG + LLM API）"
+        date: 2026
+        highlights:
+          - "ツール実行エージェントを提供する **FastAPI** バックエンド：ドキュメント取り込み、**Chroma ベクトル DB**（LangChain）上の
+            **RAG**、**WebSocket** チャット。"
+          - "複数プロバイダの **LLM 推論ルーティング**（Gemini, Ollama, NVIDIA NIM）を単一インターフェースに抽象化。"
+          - "技術: Python, FastAPI, LangChain, Chroma, WebSocket"
+      - name: "ゲームサービス・バックエンド（GCP 上の Go）"
+        date: 2024 – present
+        highlights:
+          - "アカウント・リーダーボード・ゲームデータ向けの **Go** REST API（**OAuth**）。**Docker**
+            化し **Cloud Run / GKE** にデプロイ、**Firestore / Cloud SQL** に永続化。"
+          - "技術: Go, GCP, Cloud Run, OAuth, Firestore, Docker"
+      - name: "CI/CD 自動化パイプライン"
+        date: 2025
+        highlights:
+          - "**Fastlane**・**GitHub Actions**・遠隔操作用の Discord ボットによるビルド／テスト／デプロイ自動化。リリース準備を約
+            70% 高速化。"
+          - "技術: Fastlane, GitHub Actions, Git, Docker"
+    学歴:
+      - institution: 国立台北科技大学
+        area: 情報工学
+        degree: 学士
+        location: 台北, 台湾
+        start_date: 2018
+        end_date: 2022
+    スキル:
+      - label: バックエンド
+        details: Python (FastAPI), Go, Node.js, RESTful API 設計, OAuth2/JWT, WebSocket, マイクロサービス, イベント駆動
+      - label: データベース
+        details: PostgreSQL, MySQL, MongoDB, Firestore, Cloud SQL, クエリ最適化, キャッシュ
+      - label: DevOps / クラウド
+        details: Docker, CI/CD, Git, GitHub Actions, GCP, Cloud Run, GKE (Kubernetes)
+      - label: AI 統合
+        details: LLM 推論 API, RAG, ベクトル DB (Chroma), LangChain
+      - label: 語学
+        details: 中国語（母語）, 英語（ビジネス）, 日本語（学習中）
+design:
+  theme: classic
+  typography:
+    font_family: Hiragino Sans GB
+    line_spacing: 0.5em
+    font_size:
+      body: 9.5pt
+  page:
+    size: us-letter
+    top_margin: 1.4cm
+    bottom_margin: 1.4cm
+    left_margin: 1.4cm
+    right_margin: 1.4cm
+  colors:
+    name: rgb(0, 79, 144)
+    section_titles: rgb(0, 79, 144)
+    connections: rgb(0, 79, 144)
+locale:
+  language: japanese

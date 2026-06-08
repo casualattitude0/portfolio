@@ -1,0 +1,91 @@
+cv:
+  name: Xue Aaron
+  location: Taiwan
+  email: casualattitude0@gmail.com
+  website: https://casualattitude.site/
+  social_networks:
+    - network: GitHub
+      username: casualattitude0
+    - network: LinkedIn
+      username: aaron-xue-1b865322a
+  sections:
+    summary:
+      - Game developer and designer with 6+ years across the full development cycle —
+        concept, Unity/C# development, and release. Indie studio founder shipped a
+        commercial title solo; now developing licensed-IP and original games on a
+        commercial team.
+    experience:
+      - company: buho Interactive Entertainment Co., Ltd.
+        position: Game Designer / Unity Developer
+        location: Taiwan
+        start_date: 2024-03
+        end_date: present
+        highlights:
+          - Lead game design, **Unity / C#** development, and project management for
+            commercial titles **Braverse** (CookieRun IP, with **Devsisters**) and
+            **Wacky Boat**.
+          - Built core gameplay systems and a **CI/CD pipeline** that cut release-prep
+            time by ~70%, speeding QA and design iteration.
+      - company: Independent Studio
+        position: Founder / Game Director / Developer
+        location: Taiwan
+        start_date: 2022-09
+        end_date: 2024-03
+        highlights:
+          - Founded a studio and shipped **Soul of Butterflies – Incubation**, a
+            narrative puzzle adventure — story, puzzle systems, and code.
+          - Ran the full cycle solo — crowdfunding, event exhibitions, and a
+            commercial **Steam** release.
+      - company: NPC – NTUT Programming Club
+        position: Chief of Operations
+        location: Taipei, Taiwan
+        start_date: 2019
+        end_date: 2022
+        highlights:
+          - Organized technical events and coordinated cross-disciplinary student
+            teams.
+    projects:
+      - name: "Soul of Butterflies – Incubation"
+        date: 2024
+        highlights:
+          - Self-developed narrative puzzle adventure — crowdfunded, exhibited at
+            gaming events, and commercially released on Steam.
+          - "[Steam Page](https://store.steampowered.com/app/2391350/Soul_of_Butterflies_Incubation/) · Tech: Unity, C#, Game Design"
+      - name: "Braverse (CookieRun IP)"
+        date: 2024 – present
+        highlights:
+          - Web-based interactive tutorial teaching the Braverse TCG (CookieRun IP,
+            with Devsisters); built tutorial systems for gameplay clarity.
+          - "Tech: Unity, C#, Game Design"
+      - name: "Emotional Management — Educational Game"
+        date: 2023
+        highlights:
+          - Emotional-learning game for the U.S. market supporting students'
+            emotional regulation; tuned gameplay to learning objectives.
+          - "Tech: Unity, C#, Game Design"
+    education:
+      - institution: National Taipei University of Technology
+        area: Computer Science
+        degree: BS
+        location: Taipei, Taiwan
+        start_date: 2018
+        end_date: 2022
+    skills:
+      - label: Game Dev
+        details: Unity, C#, C++, gameplay systems, game design, level/puzzle design, Steam release
+      - label: Production
+        details: Project management, crowdfunding, event exhibition, CI/CD for Unity (Fastlane), 3+ yrs iOS deployment (App Store/TestFlight), Android builds
+      - label: Tools
+        details: Git, Docker, GitHub Actions, Swift, Blender, Photoshop, Figma
+      - label: Languages
+        details: Mandarin (Native), English (Professional), Japanese (Learning)
+design:
+  theme: classic
+  page:
+    size: us-letter
+  colors:
+    name: rgb(0, 79, 144)
+    section_titles: rgb(0, 79, 144)
+    connections: rgb(0, 79, 144)
+locale:
+  language: english
