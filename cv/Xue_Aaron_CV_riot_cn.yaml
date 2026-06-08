@@ -1,0 +1,93 @@
+cv:
+  name: 薛贺升
+  location: 台湾
+  email: casualattitude0@gmail.com
+  website: https://casualattitude.site/
+  social_networks:
+    - network: GitHub
+      username: casualattitude0
+    - network: LinkedIn
+      username: aaron-xue-1b865322a
+  sections:
+    概要:
+      - 游戏玩法软件工程师，拥有 4 年以上游戏行业开发经验。精通 C# / Unity（兼具 C++
+        能力），主导玩法系统的需求分析、技术设计与实现，并规划交付提升团队效率的工具。已有商业发行作品，注重稳健、可扩展、高性能的方案，以及务实的技术决策与玩家同理心。
+    工作经历:
+      - company: buho Interactive Entertainment Co., Ltd.
+        position: 游戏玩法工程师 / Unity 开发
+        location: 台湾
+        start_date: 2024-03
+        end_date: present
+        highlights:
+          - 主导 **Braverse**（CookieRun IP，与 **Devsisters** 合作）与 **Wacky Boat**
+            的玩法功能开发：与策划沟通需求，负责需求分析、技术设计与最终实现。
+          - 与策划、美术负责人协作识别开发瓶颈，规划并交付工具——基于 **Fastlane** 与 Discord
+            机器人的 **CI/CD** 流水线，将发布准备时间缩短约 70%。
+          - 在敏捷流程中持续迭代与优化方案，确保稳健性、可扩展性与性能；协助确立开发标准与技术方向。
+      - company: 独立工作室
+        position: 创始人 / 游戏开发者
+        location: 台湾
+        start_date: 2022-09
+        end_date: 2024-03
+        highlights:
+          - 独立开发并商业发行叙事解谜游戏《**Soul of Butterflies – Incubation**》：负责玩法系统、解谜与关卡设计及程序实现。
+          - 完整经历原型设计与前期制作，并从众筹、展会到 **Steam** 发行的全流程交付。
+      - company: NPC – 台北科技大学程序设计社
+        position: 运营负责人
+        location: 台北, 台湾
+        start_date: 2019
+        end_date: 2022
+        highlights:
+          - 组织技术活动，包括与 **Google** 合办的机器学习课程；协调跨领域学生团队。
+    项目:
+      - name: "《Soul of Butterflies – Incubation》（已发布）"
+        date: 2024
+        highlights:
+          - 自主开发的叙事解谜游戏，经众筹与展会，于 Steam 商业发行并获得正面玩家反馈。
+          - 负责玩法、解谜系统与关卡设计；引擎 Unity / C#。
+          - "[Steam 页面](https://store.steampowered.com/app/2391350/Soul_of_Butterflies_Incubation/)"
+      - name: "Braverse（CookieRun IP）"
+        date: 2024 – present
+        highlights:
+          - 基于 CookieRun IP 的 Web 交互式教学，讲解 Braverse 集换式卡牌（TCG）玩法；构建教学系统以确保新手的玩法清晰度。
+          - "技术：Unity, C#, 游戏设计"
+      - name: "Unity CI/CD 工具链"
+        date: 2025
+        highlights:
+          - 面向团队效率的工具：**Fastlane** + **GitHub Actions** + Discord 机器人，支持远程构建与 TestFlight 上传。
+          - 将发布准备时间缩短约 70%，提升 QA 与设计团队的迭代效率。
+    学历:
+      - institution: 国立台北科技大学
+        area: 信息工程
+        degree: 学士
+        location: 台北, 台湾
+        start_date: 2018
+        end_date: 2022
+    技能:
+      - label: 编程语言
+        details: C#, C++, Python
+      - label: 游戏开发
+        details: Unity, 玩法系统, 游戏/软件设计模式, 关卡与解谜设计, 性能优化, 调试, Steam 发行
+      - label: 工具与流程
+        details: CI/CD (Fastlane), GitHub Actions, Git, Docker, 工具开发, 敏捷开发, 原型/前期制作
+      - label: 语言
+        details: 中文（母语）, 英语（专业工作能力）, 日语（学习中）
+design:
+  theme: classic
+  typography:
+    font_family: Hiragino Sans GB
+    line_spacing: 0.5em
+    font_size:
+      body: 9.5pt
+  page:
+    size: us-letter
+    top_margin: 1.4cm
+    bottom_margin: 1.4cm
+    left_margin: 1.4cm
+    right_margin: 1.4cm
+  colors:
+    name: rgb(0, 79, 144)
+    section_titles: rgb(0, 79, 144)
+    connections: rgb(0, 79, 144)
+locale:
+  language: mandarin_chinese

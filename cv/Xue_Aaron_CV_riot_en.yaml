@@ -1,0 +1,107 @@
+cv:
+  name: Xue Aaron
+  location: Taiwan
+  email: casualattitude0@gmail.com
+  website: https://casualattitude.site/
+  social_networks:
+    - network: GitHub
+      username: casualattitude0
+    - network: LinkedIn
+      username: aaron-xue-1b865322a
+  sections:
+    summary:
+      - Gameplay software engineer with 4+ years in game development. Strong in C# /
+        Unity (with C++), leading gameplay systems from requirements analysis through
+        technical design and implementation, and delivering tools that raise team
+        efficiency. Shipped a commercial title; I value robust, scalable, performant
+        solutions and pragmatic, player-empathetic technical decisions.
+    experience:
+      - company: buho Interactive Entertainment Co., Ltd.
+        position: Gameplay Engineer / Unity Developer
+        location: Taiwan
+        start_date: 2024-03
+        end_date: present
+        highlights:
+          - Lead gameplay features for **Braverse** (CookieRun IP, with **Devsisters**)
+            and **Wacky Boat** — gathering requirements with design, then owning
+            requirements analysis, technical design, and final implementation.
+          - Partner with design and art leads to identify development bottlenecks and
+            ship tools — a **Fastlane** + Discord-bot **CI/CD** pipeline that cut
+            release-prep time by ~70%.
+          - Iterate and optimize within an **Agile** process for robustness,
+            scalability, and performance; help establish dev standards and technical
+            direction.
+      - company: Independent Studio
+        position: Founder / Game Developer
+        location: Taiwan
+        start_date: 2022-09
+        end_date: 2024-03
+        highlights:
+          - Independently built and commercially shipped the narrative puzzle game
+            **Soul of Butterflies – Incubation** — owning gameplay systems, puzzle and
+            level design, and engineering.
+          - Ran full **prototyping and pre-production**, then delivered end-to-end from
+            crowdfunding and expos to a **Steam** release.
+      - company: NPC – NTUT Programming Club
+        position: Chief of Operations
+        location: Taipei, Taiwan
+        start_date: 2019
+        end_date: 2022
+        highlights:
+          - Organized technical events, including a Machine Learning course with
+            **Google**; coordinated cross-disciplinary student teams.
+    projects:
+      - name: "Soul of Butterflies – Incubation (Shipped)"
+        date: 2024
+        highlights:
+          - Self-developed narrative puzzle game — crowdfunded, exhibited at expos, and
+            commercially released on Steam to positive player feedback.
+          - Owned gameplay, puzzle systems, and level design; engine Unity / C#.
+          - "[Steam Page](https://store.steampowered.com/app/2391350/Soul_of_Butterflies_Incubation/)"
+      - name: "Braverse (CookieRun IP)"
+        date: 2024 – present
+        highlights:
+          - Web-based interactive tutorial teaching the Braverse trading card game
+            (CookieRun IP); built tutorial systems to ensure gameplay clarity for new
+            players.
+          - "Tech: Unity, C#, Game Design"
+      - name: "Unity CI/CD Toolchain"
+        date: 2025
+        highlights:
+          - Team-efficiency tooling — **Fastlane** + **GitHub Actions** + a Discord bot
+            for remote builds and TestFlight uploads.
+          - Cut release-prep time by ~70%, speeding QA and design iteration.
+    education:
+      - institution: National Taipei University of Technology
+        area: Computer Science
+        degree: BS
+        location: Taipei, Taiwan
+        start_date: 2018
+        end_date: 2022
+    skills:
+      - label: Languages
+        details: C#, C++, Python
+      - label: Game Dev
+        details: Unity, gameplay systems, game/software design patterns, level & puzzle design, performance optimization, debugging, Steam release
+      - label: Tools & Process
+        details: CI/CD (Fastlane), GitHub Actions, Git, Docker, tool development, Agile, prototyping/pre-production
+      - label: Spoken
+        details: Mandarin (Native), English (Professional), Japanese (Learning)
+design:
+  theme: classic
+  typography:
+    line_spacing: 0.5em
+    font_size:
+      body: 9.5pt
+  page:
+    size: us-letter
+    top_margin: 1.4cm
+    bottom_margin: 1.4cm
+    left_margin: 1.5cm
+    right_margin: 1.5cm
+  colors:
+    name: rgb(0, 79, 144)
+    section_titles: rgb(0, 79, 144)
+    connections: rgb(0, 79, 144)
+locale:
+  language: english
