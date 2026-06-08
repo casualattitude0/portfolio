@@ -10,7 +10,13 @@
     "scroll": "向下滾動",
     "cta": {
       "contact": "聯絡我",
-      "resume": "查看履歷"
+      "resume": "查看履歷",
+      "resumeTracks": {
+        "frontend": "前端",
+        "backend": "後端",
+        "gaming": "遊戲",
+        "ai": "AI / Agent"
+      }
     }
   },
   "nav": {

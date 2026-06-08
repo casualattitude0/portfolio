@@ -10,7 +10,13 @@
     "scroll": "Scroll",
     "cta": {
       "contact": "Get in Touch",
-      "resume": "View Resume"
+      "resume": "View Resume",
+      "resumeTracks": {
+        "frontend": "Frontend",
+        "backend": "Backend",
+        "gaming": "Gaming",
+        "ai": "AI / Agents"
+      }
     }
   },
   "nav": {
