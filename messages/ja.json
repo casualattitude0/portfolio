@@ -10,7 +10,13 @@
     "scroll": "スクロール",
     "cta": {
       "contact": "お問い合わせ",
-      "resume": "履歴書を見る"
+      "resume": "履歴書を見る",
+      "resumeTracks": {
+        "frontend": "フロントエンド",
+        "backend": "バックエンド",
+        "gaming": "ゲーム",
+        "ai": "AI・エージェント"
+      }
     }
   },
   "nav": {
