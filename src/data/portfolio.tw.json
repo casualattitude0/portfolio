@@ -73,14 +73,34 @@
       "role": "遊戲企劃 / 開發者 / 專案經理",
       "clientOrCompany": "buho Interactive Entertainment Co.",
       "year": "2024 – 現在",
-      "summary": "目前開發中的快節奏手機動作遊戲，具備模組化核心遊戲系統和自動化 CI/CD 流程，實現流暢的開發流程。",
-      "techs": ["Unity", "C#", "CI/CD", "Fastlane", "iOS"],
+      "summary": "目前開發中的快節奏手機動作遊戲，具備模組化核心遊戲系統，以及將 iOS 版本部署至 TestFlight 與 App Store 的自動化 CI/CD 流程，原生整合以 Swift 實作。",
+      "techs": ["Unity", "C#", "Swift", "iOS", "CI/CD", "Fastlane"],
       "outcome": {
-        "metric": "具備自動部署流程的開發中",
-        "details": "核心遊戲系統讓團隊能夠有效迭代；CI/CD 流程簡化 iOS 測試和建置。"
+        "metric": "具備自動 iOS 部署流程的開發中",
+        "details": "核心遊戲系統讓團隊能夠有效迭代；Fastlane CI/CD 流程簡化 iOS 測試、TestFlight 發布與 App Store 建置。"
       },
       "links": {
         "live": "",
+        "video": ""
+      }
+    },
+    {
+      "title": "Wacky Boat — 遊戲後端",
+      "role": "後端工程師",
+      "clientOrCompany": "buho Interactive Entertainment Co.",
+      "year": "2024 – 現在",
+      "summary": "支撐 Wacky Boat 的 Go 後端——透過 OAuth 登入的玩家帳號、排行榜與進度同步，以及 Unity 客戶端所依賴的遊戲服務 API。以 Docker 容器化並部署於 Google Cloud Platform。",
+      "context": "為線上營運的手機動作遊戲建構伺服器基礎，跨版本支援已驗證的玩家帳號與持久化遊戲資料。",
+      "problem": "遊戲需要安全的玩家驗證、可靠的資料儲存，以及客戶端能持續依賴的穩定 API。",
+      "approach": "以 Go 服務實作帳號、排行榜與遊戲資料的 REST API；整合 Google OAuth / Identity 進行登入；使用 Firestore / Cloud SQL 持久化資料；以 Docker 容器化並部署至 GCP 的 Cloud Run / GKE。",
+      "techs": ["Go", "GCP", "Cloud Run", "OAuth", "Firestore", "Docker"],
+      "outcome": {
+        "metric": "服務已驗證玩家的線上後端",
+        "details": "玩家透過 OAuth 登入、同步進度，並經由部署於 GCP 的 Go API 顯示於排行榜。"
+      },
+      "links": {
+        "live": "",
+        "repo": "",
         "video": ""
       }
     },
@@ -106,11 +126,11 @@
       "role": "獨立開發者",
       "clientOrCompany": "個人專案",
       "year": 2024,
-      "summary": "使用 Flutter 前端和 TypeScript 後端建置的 AI 驅動塔羅牌占卜應用程式，採用 Google Cloud Platform 服務。",
-      "techs": ["Flutter", "TypeScript", "Google Cloud Platform", "Firebase"],
+      "summary": "以 Flutter 前端、Swift 原生 iOS 整合，以及 Google Cloud Platform 上的 TypeScript 後端建置的 AI 驅動塔羅牌占卜應用程式，已發布至 App Store。",
+      "techs": ["Flutter", "Swift", "iOS", "TypeScript", "Google Cloud Platform", "Firebase"],
       "outcome": {
-        "metric": "發布至應用商店並根據使用者回饋迭代",
-        "details": "持續進行更新和改進。"
+        "metric": "發布至 App Store 並根據使用者回饋迭代",
+        "details": "持續維護 iOS 發布、更新與改進。"
       },
       "links": {
         "live": "",
@@ -165,6 +185,7 @@
     { "name": "TypeScript", "icon": "typescript" },
     { "name": "JavaScript", "icon": "javascript" },
     { "name": "Flutter", "icon": "flutter" },
+    { "name": "Swift", "icon": "swift" },
     { "name": "React", "icon": "react" },
     { "name": "Next.js", "icon": "nextjs" },
     { "name": "Vue.js", "icon": "vuejs" },

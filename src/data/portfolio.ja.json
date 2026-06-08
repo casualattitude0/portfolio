@@ -73,14 +73,34 @@
       "role": "ゲームプランナー / 開発者 / プロジェクトマネージャー",
       "clientOrCompany": "buho Interactive Entertainment Co.",
       "year": "2024年 – 現在",
-      "summary": "開発中の高速モバイルアクションゲーム。モジュラー式のコアゲームプレイシステムと自動化されたCI/CDパイプラインを特徴としています。",
-      "techs": ["Unity", "C#", "CI/CD", "Fastlane", "iOS"],
+      "summary": "開発中の高速モバイルアクションゲーム。モジュラー式のコアゲームプレイシステムと、iOS ビルドを TestFlight・App Store へ配信する自動 CI/CD パイプラインを備え、ネイティブ連携は Swift で実装。",
+      "techs": ["Unity", "C#", "Swift", "iOS", "CI/CD", "Fastlane"],
       "outcome": {
-        "metric": "自動デプロイパイプラインを備えた開発中",
-        "details": "コアゲームプレイシステムによりチームが効率的に反復可能に。CI/CDパイプラインがiOSテストとビルドを合理化。"
+        "metric": "自動 iOS デプロイパイプラインを備えた開発中",
+        "details": "コアゲームプレイシステムによりチームが効率的に反復可能に。Fastlane の CI/CD パイプラインが iOS テスト、TestFlight 配信、App Store ビルドを合理化。"
       },
       "links": {
         "live": "",
+        "video": ""
+      }
+    },
+    {
+      "title": "Wacky Boat — ゲームバックエンド",
+      "role": "バックエンドエンジニア",
+      "clientOrCompany": "buho Interactive Entertainment Co.",
+      "year": "2024年 – 現在",
+      "summary": "Wacky Boat を支える Go 製バックエンド。OAuth サインインによるプレイヤーアカウント、リーダーボードと進行状況の同期、Unity クライアントが利用するゲームサービス API を提供。Docker でコンテナ化し Google Cloud Platform にデプロイ。",
+      "context": "ライブ運用のモバイルアクションゲームのサーバー基盤を構築し、認証済みプレイヤーアカウントと永続的なゲームデータをリリースをまたいでサポート。",
+      "problem": "ゲームには安全なプレイヤー認証、堅牢なデータ保存、そしてクライアントが継続的に依存できる信頼性の高い API が必要でした。",
+      "approach": "アカウント・リーダーボード・ゲームデータ向けの REST API を Go サービスとして実装。Google OAuth / Identity でサインインを統合し、Firestore / Cloud SQL にデータを永続化。Docker でコンテナ化し GCP の Cloud Run / GKE へデプロイ。",
+      "techs": ["Go", "GCP", "Cloud Run", "OAuth", "Firestore", "Docker"],
+      "outcome": {
+        "metric": "認証済みプレイヤーに対応する稼働中のバックエンド",
+        "details": "プレイヤーは OAuth でサインインし、進行状況を同期し、GCP 上にデプロイされた Go API を通じてリーダーボードに表示されます。"
+      },
+      "links": {
+        "live": "",
+        "repo": "",
         "video": ""
       }
     },
@@ -106,11 +126,11 @@
       "role": "独立開発者",
       "clientOrCompany": "個人プロジェクト",
       "year": 2024,
-      "summary": "FlutterフロントエンドとTypeScriptバックエンドで構築されたAI搭載タロットリーディングアプリです。Google Cloud Platformサービスを使用しています。",
-      "techs": ["Flutter", "TypeScript", "Google Cloud Platform", "Firebase"],
+      "summary": "Flutter フロントエンド、Swift によるネイティブ iOS 連携、Google Cloud Platform 上の TypeScript バックエンドで構築した AI 搭載タロットアプリ。App Store にリリース。",
+      "techs": ["Flutter", "Swift", "iOS", "TypeScript", "Google Cloud Platform", "Firebase"],
       "outcome": {
-        "metric": "アプリストアにリリース、ユーザーフィードバックで反復",
-        "details": "継続的なアップデートと改善を維持。"
+        "metric": "App Store にリリースし、ユーザーフィードバックで反復",
+        "details": "継続的な iOS リリース・アップデート・改善を維持。"
       },
       "links": {
         "live": "",
@@ -165,6 +185,7 @@
     { "name": "TypeScript", "icon": "typescript" },
     { "name": "JavaScript", "icon": "javascript" },
     { "name": "Flutter", "icon": "flutter" },
+    { "name": "Swift", "icon": "swift" },
     { "name": "React", "icon": "react" },
     { "name": "Next.js", "icon": "nextjs" },
     { "name": "Vue.js", "icon": "vuejs" },

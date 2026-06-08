@@ -41,3 +41,9 @@ yarn-error.log*
 next-env.d.ts
 
 docs_portfolio/
+
+# editor / IDE
+.cursor/
+
+# rendercv generated output (PDFs are copied into public/ and committed there)
+/cv/rendercv_output/

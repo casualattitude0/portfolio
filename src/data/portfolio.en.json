@@ -73,14 +73,34 @@
       "role": "Game Designer / Developer / Project Manager",
       "clientOrCompany": "buho Interactive Entertainment Co.",
       "year": "2024 – Present",
-      "summary": "A fast-paced mobile action game currently under development, featuring a modular core gameplay system and automated CI/CD pipeline for streamlined development.",
-      "techs": ["Unity", "C#", "CI/CD", "Fastlane", "iOS"],
+      "summary": "A fast-paced mobile action game currently under development, featuring a modular core gameplay system and an automated CI/CD pipeline that deploys iOS builds to TestFlight and the App Store, with native integrations bridged in Swift.",
+      "techs": ["Unity", "C#", "Swift", "iOS", "CI/CD", "Fastlane"],
       "outcome": {
-        "metric": "Active development with automated deployment pipeline",
-        "details": "Core gameplay system enables team to iterate efficiently; CI/CD pipeline streamlines iOS testing and builds."
+        "metric": "Active development with automated iOS deployment pipeline",
+        "details": "Core gameplay system enables fast team iteration; the Fastlane CI/CD pipeline streamlines iOS testing, TestFlight distribution, and App Store builds."
       },
       "links": {
         "live": "",
+        "video": ""
+      }
+    },
+    {
+      "title": "Wacky Boat — Game Backend",
+      "role": "Backend Engineer",
+      "clientOrCompany": "buho Interactive Entertainment Co.",
+      "year": "2024 – Present",
+      "summary": "A Go backend powering Wacky Boat — player accounts with OAuth sign-in, leaderboards and progress sync, and the game-services API the Unity client depends on. Containerized and deployed on Google Cloud Platform.",
+      "context": "Built the server-side foundation for a live mobile action game, supporting authenticated player accounts and persistent game data across releases.",
+      "problem": "The game needed secure player authentication, durable data storage, and a reliable API that the client could depend on as the game evolved.",
+      "approach": "Implemented a Go service exposing REST APIs for accounts, leaderboards, and game data; integrated Google OAuth / Identity for sign-in; persisted data in Firestore / Cloud SQL; containerized with Docker and deployed to Cloud Run / GKE on GCP.",
+      "techs": ["Go", "GCP", "Cloud Run", "OAuth", "Firestore", "Docker"],
+      "outcome": {
+        "metric": "Live backend serving authenticated players",
+        "details": "Players sign in via OAuth, sync progress, and appear on leaderboards through a Go API deployed on GCP."
+      },
+      "links": {
+        "live": "",
+        "repo": "",
         "video": ""
       }
     },
@@ -106,11 +126,11 @@
       "role": "Independent Developer",
       "clientOrCompany": "Personal Project",
       "year": 2024,
-      "summary": "An AI-powered tarot reading app built with Flutter frontend and TypeScript backend using Google Cloud Platform services.",
-      "techs": ["Flutter", "TypeScript", "Google Cloud Platform", "Firebase"],
+      "summary": "An AI-powered tarot reading app with a Flutter frontend, native iOS integrations in Swift, and a TypeScript backend on Google Cloud Platform — shipped to the App Store.",
+      "techs": ["Flutter", "Swift", "iOS", "TypeScript", "Google Cloud Platform", "Firebase"],
       "outcome": {
-        "metric": "Released to app store and iterated via user feedback",
-        "details": "Maintained ongoing updates and improvements."
+        "metric": "Released to the App Store and iterated via user feedback",
+        "details": "Maintained ongoing iOS releases, updates, and improvements."
       },
       "links": {
         "live": "",
@@ -165,6 +185,7 @@
     { "name": "TypeScript", "icon": "typescript" },
     { "name": "JavaScript", "icon": "javascript" },
     { "name": "Flutter", "icon": "flutter" },
+    { "name": "Swift", "icon": "swift" },
     { "name": "React", "icon": "react" },
     { "name": "Next.js", "icon": "nextjs" },
     { "name": "Vue.js", "icon": "vuejs" },
