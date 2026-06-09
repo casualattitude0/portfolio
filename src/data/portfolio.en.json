@@ -53,6 +53,23 @@
       }
     },
     {
+      "title": "Unity Message Center",
+      "role": "Tool / Framework Developer",
+      "clientOrCompany": "Personal Project",
+      "year": 2025,
+      "summary": "A type-safe messaging framework for Unity that decouples game systems through a centralized message-passing architecture. Distributed via Unity Package Manager, it bundles a message center (with and without data payloads), a flexible state machine, MonoBehaviour and plain-C# singleton patterns, coroutine scheduling utilities, and network message types.",
+      "techs": ["Unity", "C#", "Unity Package Manager"],
+      "outcome": {
+        "metric": "Reusable UPM package for decoupled Unity architecture",
+        "details": "Type-safe pub/sub messaging, state machines, singletons, and coroutine utilities packaged for drop-in reuse across Unity projects via Git URL."
+      },
+      "links": {
+        "live": "",
+        "repo": "https://github.com/casualattitude0/unity-message-center",
+        "video": ""
+      }
+    },
+    {
       "title": "Braverse (CookieRun IP – Outsourcing Project)",
       "role": "Game Designer / Developer / Project Manager",
       "clientOrCompany": "buho Interactive Entertainment Co. (with Devsisters)",
@@ -65,6 +82,7 @@
       },
       "links": {
         "live": "",
+        "repo": "https://github.com/casualattitude0/braverse-fan-make-unity-network",
         "video": ""
       }
     },
