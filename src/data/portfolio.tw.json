@@ -53,6 +53,23 @@
       }
     },
     {
+      "title": "Unity Message Center",
+      "role": "工具 / 框架開發者",
+      "clientOrCompany": "個人專案",
+      "year": 2025,
+      "summary": "為 Unity 打造的型別安全訊息框架，透過中央化的訊息傳遞架構解耦各個遊戲系統。以 Unity Package Manager 發布，內含訊息中心（支援有／無資料負載）、彈性的狀態機、MonoBehaviour 與純 C# 的單例模式、協程排程工具，以及網路訊息型別。",
+      "techs": ["Unity", "C#", "Unity Package Manager"],
+      "outcome": {
+        "metric": "可重複使用的 UPM 套件，實現解耦的 Unity 架構",
+        "details": "將型別安全的 pub/sub 訊息傳遞、狀態機、單例與協程工具打包，可透過 Git URL 即時導入多個 Unity 專案重複使用。"
+      },
+      "links": {
+        "live": "",
+        "repo": "https://github.com/casualattitude0/unity-message-center",
+        "video": ""
+      }
+    },
+    {
       "title": "Braverse（CookieRun IP – 外包專案）",
       "role": "遊戲企劃 / 開發者 / 專案經理",
       "clientOrCompany": "buho Interactive Entertainment Co. (與 Devsisters 合作)",
@@ -65,6 +82,7 @@
       },
       "links": {
         "live": "",
+        "repo": "https://github.com/casualattitude0/braverse-fan-make-unity-network",
         "video": ""
       }
     },

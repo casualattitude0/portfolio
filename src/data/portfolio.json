@@ -77,6 +77,26 @@
         ]
       },
       {
+        "title": "Unity Message Center",
+        "role": "Tool / Framework Developer",
+        "clientOrCompany": "Personal Project",
+        "year": 2025,
+        "summary": "A type-safe messaging framework for Unity that decouples game systems through a centralized message-passing architecture, distributed via Unity Package Manager.",
+        "context": "Built a reusable foundation library to standardize cross-system communication and common engineering patterns across Unity projects.",
+        "problem": "Game systems tend to become tightly coupled, making them hard to test and reuse, while common patterns like singletons and state machines get re-implemented inconsistently on every project.",
+        "approach": "Designed a centralized, type-safe message center supporting messages with and without data payloads, plus a flexible state machine, MonoBehaviour and plain-C# singletons, coroutine scheduling utilities, and network message types — all packaged as a UPM module installable via Git URL across three namespaces (Basic, Basic.Network, Utility).",
+        "techs": ["Unity", "C#", "Unity Package Manager"],
+        "outcome": {
+          "metric": "Reusable UPM package for decoupled Unity architecture",
+          "details": "Type-safe pub/sub messaging, state machines, singletons, and coroutine utilities packaged for drop-in reuse across Unity projects via Git URL."
+        },
+        "links": {
+          "live": "",
+          "repo": "https://github.com/casualattitude0/unity-message-center",
+          "video": ""
+        }
+      },
+      {
         "title": "Braverse (CookieRun IP – Outsourcing Project)",
         "role": "Game Designer / Developer / Project Manager",
         "clientOrCompany": "buho Interactive Entertainment Co. (with Devsisters)",
@@ -92,6 +112,7 @@
         },
         "links": {
           "live": "",
+          "repo": "https://github.com/casualattitude0/braverse-fan-make-unity-network",
           "video": ""
         },
         "assets": [

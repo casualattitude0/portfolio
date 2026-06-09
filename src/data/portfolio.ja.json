@@ -53,6 +53,23 @@
       }
     },
     {
+      "title": "Unity Message Center",
+      "role": "ツール / フレームワーク開発者",
+      "clientOrCompany": "個人プロジェクト",
+      "year": 2025,
+      "summary": "ゲームの各システムを中央集権的なメッセージパッシングで疎結合にする、Unity向けの型安全メッセージングフレームワーク。Unity Package Manager で配布され、メッセージセンター（データ付き・データなし）、柔軟なステートマシン、MonoBehaviour と純粋C#のシングルトンパターン、コルーチンのスケジューリング、ネットワークメッセージ型をまとめて提供。",
+      "techs": ["Unity", "C#", "Unity Package Manager"],
+      "outcome": {
+        "metric": "疎結合なUnity設計のための再利用可能なUPMパッケージ",
+        "details": "型安全なpub/subメッセージング、ステートマシン、シングルトン、コルーチンユーティリティを、Git URL経由で複数のUnityプロジェクトに即導入できる形でパッケージ化。"
+      },
+      "links": {
+        "live": "",
+        "repo": "https://github.com/casualattitude0/unity-message-center",
+        "video": ""
+      }
+    },
+    {
       "title": "Braverse（CookieRun IP – 外部委託プロジェクト）",
       "role": "ゲームプランナー / 開発者 / プロジェクトマネージャー",
       "clientOrCompany": "buho Interactive Entertainment Co. (Devsistersと協力)",
@@ -65,6 +82,7 @@
       },
       "links": {
         "live": "",
+        "repo": "https://github.com/casualattitude0/braverse-fan-make-unity-network",
         "video": ""
       }
     },
