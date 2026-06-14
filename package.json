@@ -30,5 +30,21 @@
     "eslint-config-next": "15.5.5",
     "tailwindcss": "^4",
     "typescript": "^5"
-  }
+  },
+  "description": "A modern, multilingual portfolio website built with Next.js, featuring dark/light theme toggle and smooth animations.",
+  "main": "create_resume.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/casualattitude0/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/casualattitude0/portfolio/issues"
+  },
+  "homepage": "https://github.com/casualattitude0/portfolio#readme"
 }
