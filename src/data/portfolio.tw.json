@@ -6,14 +6,44 @@
       "clientOrCompany": "個人專案",
       "year": 2026,
       "summary": "具備 RAG（Chroma + LangChain）、工具使用，以及 FastAPI 後端的 Vue 3 聊天介面的本地 AI 助手。支援 Google Gemini、Ollama 和 NVIDIA NIM，並提供可選的 Tauri 桌面殼層。",
-      "techs": ["Python", "Vue.js", "TypeScript", "FastAPI", "LangChain", "Tauri"],
+      "techs": [
+        "Python",
+        "Vue.js",
+        "TypeScript",
+        "FastAPI",
+        "LangChain",
+        "Tauri"
+      ],
       "outcome": {
         "metric": "具備網頁與桌面客戶端的全端本地 AI agent",
-        "details": "自建架構中實作文檔擷取流程、WebSocket 聊天、日曆/搜尋工具，以及多提供者 LLM 路由。"
+        "details": "自建架構中實作文檔擷取流程、WebSocket 聊天、日曆/搜尋工具，以及多提供者 LLM 路由。 並以針對工具調度與檢索的 40+ 個決定性測試契約 pytest 套件加以保障。"
       },
       "links": {
         "live": "",
         "repo": "https://github.com/casualattitude0/a-slime",
+        "video": ""
+      }
+    },
+    {
+      "title": "AIKeyboard: LLM 驅動的自訂 iOS 鍵盤",
+      "role": "iOS 開發者",
+      "clientOrCompany": "個人專案",
+      "year": "2025 – 現在",
+      "summary": "以 LLM 生成個人化內容的自訂 iOS 鍵盤擴充（Swift、SwiftUI），在文字輸入流程、擴充功能生命週期與 Apple 輸入 API 限制下打造。",
+      "techs": [
+        "Swift",
+        "SwiftUI",
+        "iOS",
+        "XCTest",
+        "LLM APIs"
+      ],
+      "outcome": {
+        "metric": "推出具備 headless XCTest 覆蓋的 LLM 鍵盤",
+        "details": "共用邏輯的 XCTest 測試套件透過 xcodebuild 在 iOS 模擬器上以 headless 方式執行，於每次建置捕捉擴充功能的回歸問題。"
+      },
+      "links": {
+        "live": "",
+        "repo": "https://github.com/casualattitude0/AI-keyboard",
         "video": ""
       }
     },
@@ -23,7 +53,14 @@
       "clientOrCompany": "個人專案",
       "year": 2026,
       "summary": "可重複使用的 PHP 多步驟測驗範本，具備客戶端計分與 i18n（en / zh-Hant / ja）。將回覆提交至 Google 表單，並透過 Resend 或 Google Apps Script 寄送 HTML 結果郵件。包含哥布林鑒定所人格測驗的 GitHub Pages 示範。",
-      "techs": ["PHP", "JavaScript", "Google Forms", "Resend", "GitHub Pages", "GitHub Actions"],
+      "techs": [
+        "PHP",
+        "JavaScript",
+        "Google Forms",
+        "Resend",
+        "GitHub Pages",
+        "GitHub Actions"
+      ],
       "outcome": {
         "metric": "從精靈 UI 到表單收集與郵件寄送的完整測驗流程",
         "details": "具語系切換的精靈介面、Google 表單 POST 整合、Resend/Apps Script 郵件管線，以及自動化 GitHub Pages 部署。"
@@ -40,10 +77,17 @@
       "clientOrCompany": "內部工具",
       "year": 2025,
       "summary": "使用 Fastlane 開發 Unity 建置的 CI/CD 自動化流程，整合 Discord 機器人指令進行遠端控制和 TestFlight 上傳。",
-      "techs": ["Unity", "Fastlane", "CI/CD", "Discord", "GitHub Actions", "iOS"],
+      "techs": [
+        "Unity",
+        "Fastlane",
+        "CI/CD",
+        "Discord",
+        "GitHub Actions",
+        "iOS"
+      ],
       "outcome": {
         "metric": "將發布準備時間減少 70%",
-        "details": "直接從 Discord 實現遠端控制建置，提升 QA 和設計團隊的迭代效率。"
+        "details": "直接從 Discord 實現遠端控制建置，提升 QA 和設計團隊的迭代效率。 自建的 Discord 機器人將 1 小時以上的手動建置濃縮為單一則約 5 秒的聊天訊息。"
       },
       "links": {
         "live": "",
@@ -58,7 +102,11 @@
       "clientOrCompany": "個人專案",
       "year": 2025,
       "summary": "為 Unity 打造的型別安全訊息框架，透過中央化的訊息傳遞架構解耦各個遊戲系統。以 Unity Package Manager 發布，內含訊息中心（支援有／無資料負載）、彈性的狀態機、MonoBehaviour 與純 C# 的單例模式、協程排程工具，以及網路訊息型別。",
-      "techs": ["Unity", "C#", "Unity Package Manager"],
+      "techs": [
+        "Unity",
+        "C#",
+        "Unity Package Manager"
+      ],
       "outcome": {
         "metric": "可重複使用的 UPM 套件，實現解耦的 Unity 架構",
         "details": "將型別安全的 pub/sub 訊息傳遞、狀態機、單例與協程工具打包，可透過 Git URL 即時導入多個 Unity 專案重複使用。"
@@ -75,7 +123,11 @@
       "clientOrCompany": "buho Interactive Entertainment Co. (與 Devsisters 合作)",
       "year": "2024 – 現在",
       "summary": "基於 CookieRun IP 的交易卡牌遊戲（TCG）Braverse 的網頁互動式教學系統。",
-      "techs": ["Unity", "C#", "遊戲設計"],
+      "techs": [
+        "Unity",
+        "C#",
+        "遊戲設計"
+      ],
       "outcome": {
         "metric": "開發中",
         "details": "建置教學系統，確保新玩家學習 Braverse TCG 機制時的遊戲清晰度。"
@@ -92,7 +144,14 @@
       "clientOrCompany": "buho Interactive Entertainment Co.",
       "year": "2024 – 現在",
       "summary": "目前開發中的快節奏手機動作遊戲，具備模組化核心遊戲系統，以及將 iOS 版本部署至 TestFlight 與 App Store 的自動化 CI/CD 流程，原生整合以 Swift 實作。",
-      "techs": ["Unity", "C#", "Swift", "iOS", "CI/CD", "Fastlane"],
+      "techs": [
+        "Unity",
+        "C#",
+        "Swift",
+        "iOS",
+        "CI/CD",
+        "Fastlane"
+      ],
       "outcome": {
         "metric": "具備自動 iOS 部署流程的開發中",
         "details": "核心遊戲系統讓團隊能夠有效迭代；Fastlane CI/CD 流程簡化 iOS 測試、TestFlight 發布與 App Store 建置。"
@@ -111,7 +170,14 @@
       "context": "為線上營運的手機動作遊戲建構伺服器基礎，跨版本支援已驗證的玩家帳號與持久化遊戲資料。",
       "problem": "遊戲需要安全的玩家驗證、可靠的資料儲存，以及客戶端能持續依賴的穩定 API。",
       "approach": "以 Go 服務實作帳號、排行榜與遊戲資料的 REST API；整合 Google OAuth / Identity 進行登入；使用 Firestore / Cloud SQL 持久化資料；以 Docker 容器化並部署至 GCP 的 Cloud Run / GKE。",
-      "techs": ["Go", "GCP", "Cloud Run", "OAuth", "Firestore", "Docker"],
+      "techs": [
+        "Go",
+        "GCP",
+        "Cloud Run",
+        "OAuth",
+        "Firestore",
+        "Docker"
+      ],
       "outcome": {
         "metric": "服務已驗證玩家的線上後端",
         "details": "玩家透過 OAuth 登入、同步進度，並經由部署於 GCP 的 Go API 顯示於排行榜。"
@@ -128,7 +194,12 @@
       "clientOrCompany": "獨立工作室",
       "year": 2024,
       "summary": "獨立開發、群眾募資、在遊戲活動中展出並商業發行的敘事解謎冒險遊戲。",
-      "techs": ["Unity", "C#", "Steam", "遊戲設計"],
+      "techs": [
+        "Unity",
+        "C#",
+        "Steam",
+        "遊戲設計"
+      ],
       "outcome": {
         "metric": "群眾募資成功並商業發行",
         "details": "在遊戲活動中展出，獲得玩家正面回饋。"
@@ -145,7 +216,14 @@
       "clientOrCompany": "個人專案",
       "year": 2024,
       "summary": "以 Flutter 前端、Swift 原生 iOS 整合，以及 Google Cloud Platform 上的 TypeScript 後端建置的 AI 驅動塔羅牌占卜應用程式，已發布至 App Store。",
-      "techs": ["Flutter", "Swift", "iOS", "TypeScript", "Google Cloud Platform", "Firebase"],
+      "techs": [
+        "Flutter",
+        "Swift",
+        "iOS",
+        "TypeScript",
+        "Google Cloud Platform",
+        "Firebase"
+      ],
       "outcome": {
         "metric": "發布至 App Store 並根據使用者回饋迭代",
         "details": "持續維護 iOS 發布、更新與改進。"
@@ -162,13 +240,39 @@
       "clientOrCompany": "Buho Interactive",
       "year": 2023,
       "summary": "針對美國市場的情緒學習教育遊戲，透過互動遊戲玩法支援學生的情緒調節。",
-      "techs": ["Unity", "C#", "遊戲設計"],
+      "techs": [
+        "Unity",
+        "C#",
+        "遊戲設計"
+      ],
       "outcome": {
         "metric": "順利完成並發行",
         "details": "協助改進遊戲玩法以符合教育用途和情緒學習目標。"
       },
       "links": {
         "live": "",
+        "video": ""
+      }
+    },
+    {
+      "title": "TAT: 北科生活校園 App",
+      "role": "團隊負責人 / Flutter 開發者",
+      "clientOrCompany": "學生團隊（北科）",
+      "year": "2020 – 2022",
+      "summary": "由 6 人學生團隊以 Flutter 打造的北科校園生活 App。開源並在多次入口網站與認證變更中持續維護運作。",
+      "techs": [
+        "Flutter",
+        "Dart",
+        "iOS",
+        "Android"
+      ],
+      "outcome": {
+        "metric": "App Store 10K+ 下載、4.3★",
+        "details": "服務超過萬名學生校園的日常工具；帶領 6 人團隊，並在多次入口網站與認證變更中維護 App。"
+      },
+      "links": {
+        "live": "https://apps.apple.com/tw/app/tat-%E5%8C%97%E7%A7%91%E7%94%9F%E6%B4%BB/id1513875597",
+        "repo": "",
         "video": ""
       }
     }
@@ -190,43 +294,141 @@
       "company": "NPC – 台北科技大學程式設計研究社",
       "role": "社長",
       "period": "2019年 – 2022年",
-      "description": "組織並舉辦活動，包括 Google 機器學習課程，並管理學生間的跨領域合作。"
+      "description": "舉辦 12+ 場資訊知識分享工作坊（每學期每週），引進 3 班 Google 機器學習速成課程，並建立校園與社團間的技術連結，為 3+ 場校園活動提供技術支援。"
     }
   ],
   "techStack": [
-    { "name": "Unity", "icon": "unity" },
-    { "name": "C#", "icon": "csharp" },
-    { "name": "C++", "icon": "cpp" },
-    { "name": "Python", "icon": "python" },
-    { "name": "FastAPI", "icon": "fastapi" },
-    { "name": "LangChain", "icon": "langchain" },
-    { "name": "TypeScript", "icon": "typescript" },
-    { "name": "JavaScript", "icon": "javascript" },
-    { "name": "Flutter", "icon": "flutter" },
-    { "name": "Swift", "icon": "swift" },
-    { "name": "React", "icon": "react" },
-    { "name": "Next.js", "icon": "nextjs" },
-    { "name": "Vue.js", "icon": "vuejs" },
-    { "name": "Node.js", "icon": "nodejs" },
-    { "name": "Tailwind CSS", "icon": "tailwindcss" },
-    { "name": "Google Cloud Platform", "icon": "gcp" },
-    { "name": "Firebase", "icon": "firebase" },
-    { "name": "Docker", "icon": "docker" },
-    { "name": "CI/CD", "icon": "cicd" },
-    { "name": "Fastlane", "icon": "fastlane" },
-    { "name": "GitHub Actions", "icon": "githubactions" },
-    { "name": "Git", "icon": "git" },
-    { "name": "Figma", "icon": "figma" },
-    { "name": "Photoshop", "icon": "photoshop" },
-    { "name": "Blender", "icon": "blender" },
-    { "name": "Notion", "icon": "notion" },
-    { "name": "Slack", "icon": "slack" },
-    { "name": "MongoDB", "icon": "mongodb" },
-    { "name": "PostgreSQL", "icon": "postgresql" },
-    { "name": "Android", "icon": "android" },
-    { "name": "iOS", "icon": "ios" },
-    { "name": "Steam", "icon": "steam" },
-    { "name": "Discord", "icon": "discord" }
+    {
+      "name": "Unity",
+      "icon": "unity"
+    },
+    {
+      "name": "C#",
+      "icon": "csharp"
+    },
+    {
+      "name": "C++",
+      "icon": "cpp"
+    },
+    {
+      "name": "Python",
+      "icon": "python"
+    },
+    {
+      "name": "FastAPI",
+      "icon": "fastapi"
+    },
+    {
+      "name": "LangChain",
+      "icon": "langchain"
+    },
+    {
+      "name": "TypeScript",
+      "icon": "typescript"
+    },
+    {
+      "name": "JavaScript",
+      "icon": "javascript"
+    },
+    {
+      "name": "Flutter",
+      "icon": "flutter"
+    },
+    {
+      "name": "Swift",
+      "icon": "swift"
+    },
+    {
+      "name": "React",
+      "icon": "react"
+    },
+    {
+      "name": "Next.js",
+      "icon": "nextjs"
+    },
+    {
+      "name": "Vue.js",
+      "icon": "vuejs"
+    },
+    {
+      "name": "Node.js",
+      "icon": "nodejs"
+    },
+    {
+      "name": "Tailwind CSS",
+      "icon": "tailwindcss"
+    },
+    {
+      "name": "Google Cloud Platform",
+      "icon": "gcp"
+    },
+    {
+      "name": "Firebase",
+      "icon": "firebase"
+    },
+    {
+      "name": "Docker",
+      "icon": "docker"
+    },
+    {
+      "name": "CI/CD",
+      "icon": "cicd"
+    },
+    {
+      "name": "Fastlane",
+      "icon": "fastlane"
+    },
+    {
+      "name": "GitHub Actions",
+      "icon": "githubactions"
+    },
+    {
+      "name": "Git",
+      "icon": "git"
+    },
+    {
+      "name": "Figma",
+      "icon": "figma"
+    },
+    {
+      "name": "Photoshop",
+      "icon": "photoshop"
+    },
+    {
+      "name": "Blender",
+      "icon": "blender"
+    },
+    {
+      "name": "Notion",
+      "icon": "notion"
+    },
+    {
+      "name": "Slack",
+      "icon": "slack"
+    },
+    {
+      "name": "MongoDB",
+      "icon": "mongodb"
+    },
+    {
+      "name": "PostgreSQL",
+      "icon": "postgresql"
+    },
+    {
+      "name": "Android",
+      "icon": "android"
+    },
+    {
+      "name": "iOS",
+      "icon": "ios"
+    },
+    {
+      "name": "Steam",
+      "icon": "steam"
+    },
+    {
+      "name": "Discord",
+      "icon": "discord"
+    }
   ]
 }
-

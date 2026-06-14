@@ -23,7 +23,7 @@ export function Footer() {
     {
       icon: Linkedin,
       label: t('linkedin'),
-      value: 'Aaron Xue',
+      value: 'Xue He-Sheng',
       href: 'https://www.linkedin.com/in/aaron-xue-1b865322a/',
     },
     {

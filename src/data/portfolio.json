@@ -1,307 +1,438 @@
 {
-    "person": {
-      "name": "Xue Aaron",
-      "handle": "Casual Attitude",
-      "label": "Game Developer & Creative Technologist",
-      "location": {
-        "city": "Taipei",
-        "country": "Taiwan",
-        "timezone": "Asia/Taipei"
+  "person": {
+    "name": "Xue He-Sheng",
+    "handle": "Casual Attitude",
+    "label": "Game Developer & Creative Technologist",
+    "location": {
+      "city": "Taipei",
+      "country": "Taiwan",
+      "timezone": "Asia/Taipei"
+    },
+    "headline": "Game developer crafting emotional and interactive experiences across indie and commercial titles.",
+    "valueProp": "From founding an indie studio to collaborating with partners like Google and Devsisters, I design and build games that connect emotion, creativity, and technology.",
+    "availability": "Open to new collaborations and creative game projects (remote-friendly).",
+    "contact": {
+      "email": "casualattitude0@gmail.com",
+      "preferred": "form",
+      "social": {
+        "linkedin": "",
+        "twitter": "",
+        "github": "",
+        "discord": ""
+      }
+    }
+  },
+  "projects": [
+    {
+      "title": "A Slime",
+      "role": "Full-Stack Developer",
+      "clientOrCompany": "Personal Project",
+      "year": 2026,
+      "summary": "A local AI assistant with RAG (Chroma + LangChain), tool use, and a Vue 3 chat UI backed by FastAPI. Supports Google Gemini, Ollama, and NVIDIA NIM, with an optional Tauri desktop shell.",
+      "context": "Built as a self-hosted alternative to cloud-only chat assistants, with document-grounded answers and extensible tool use.",
+      "problem": "Generic chat UIs lack local document retrieval, multi-model flexibility, and a unified web plus desktop experience.",
+      "approach": "Implemented LangChain agents with Chroma RAG ingest, FastAPI WebSocket server, Vue 3 frontend, optional Tauri shell, and pluggable Gemini/Ollama/NVIDIA backends.",
+      "techs": [
+        "Python",
+        "Vue.js",
+        "TypeScript",
+        "FastAPI",
+        "LangChain",
+        "Tauri"
+      ],
+      "outcome": {
+        "metric": "Full-stack local AI agent with web and desktop clients",
+        "details": "Document ingestion pipeline, WebSocket chat, calendar/search tools, and multi-provider LLM routing in a self-hosted stack."
       },
-      "headline": "Game developer crafting emotional and interactive experiences across indie and commercial titles.",
-      "valueProp": "From founding an indie studio to collaborating with partners like Google and Devsisters, I design and build games that connect emotion, creativity, and technology.",
-      "availability": "Open to new collaborations and creative game projects (remote-friendly).",
-      "contact": {
-        "email": "casualattitude0@gmail.com",
-        "preferred": "form",
-        "social": {
-          "linkedin": "",
-          "twitter": "",
-          "github": "",
-          "discord": ""
+      "links": {
+        "live": "",
+        "repo": "https://github.com/casualattitude0/a-slime",
+        "video": ""
+      },
+      "assets": [
+        {
+          "src": "",
+          "alt": "A Slime chat UI with local RAG and tool use"
         }
-      }
+      ]
     },
-    "projects": [
-      {
-        "title": "A Slime",
-        "role": "Full-Stack Developer",
-        "clientOrCompany": "Personal Project",
-        "year": 2026,
-        "summary": "A local AI assistant with RAG (Chroma + LangChain), tool use, and a Vue 3 chat UI backed by FastAPI. Supports Google Gemini, Ollama, and NVIDIA NIM, with an optional Tauri desktop shell.",
-        "context": "Built as a self-hosted alternative to cloud-only chat assistants, with document-grounded answers and extensible tool use.",
-        "problem": "Generic chat UIs lack local document retrieval, multi-model flexibility, and a unified web plus desktop experience.",
-        "approach": "Implemented LangChain agents with Chroma RAG ingest, FastAPI WebSocket server, Vue 3 frontend, optional Tauri shell, and pluggable Gemini/Ollama/NVIDIA backends.",
-        "techs": ["Python", "Vue.js", "TypeScript", "FastAPI", "LangChain", "Tauri"],
-        "outcome": {
-          "metric": "Full-stack local AI agent with web and desktop clients",
-          "details": "Document ingestion pipeline, WebSocket chat, calendar/search tools, and multi-provider LLM routing in a self-hosted stack."
-        },
-        "links": {
-          "live": "",
-          "repo": "https://github.com/casualattitude0/a-slime",
-          "video": ""
-        },
-        "assets": [
-          {
-            "src": "",
-            "alt": "A Slime chat UI with local RAG and tool use"
-          }
-        ]
+    {
+      "title": "Unity CI/CD Automation Pipeline",
+      "role": "DevOps Engineer / Tool Developer",
+      "clientOrCompany": "Internal Tool",
+      "year": 2025,
+      "summary": "Developed a CI/CD automation pipeline for Unity builds using Fastlane, integrating Discord bot commands for remote control and TestFlight uploads.",
+      "context": "Built to streamline internal mobile game testing and deployment workflows for the development team.",
+      "problem": "Manual Unity build and deployment to TestFlight was time-consuming and error-prone, slowing iteration speed.",
+      "approach": "Implemented Fastlane scripts for build automation, set up Unity Cloud build steps, and connected a custom Discord bot to trigger remote builds and uploads via API.",
+      "techs": [
+        "Unity",
+        "Fastlane",
+        "CI/CD",
+        "Discord",
+        "GitHub Actions",
+        "iOS"
+      ],
+      "outcome": {
+        "metric": "Reduced release prep time by 70%",
+        "details": "Enabled remote-controlled builds directly from Discord, increasing iteration efficiency for QA and design teams."
       },
-      {
-        "title": "Unity CI/CD Automation Pipeline",
-        "role": "DevOps Engineer / Tool Developer",
-        "clientOrCompany": "Internal Tool",
-        "year": 2025,
-        "summary": "Developed a CI/CD automation pipeline for Unity builds using Fastlane, integrating Discord bot commands for remote control and TestFlight uploads.",
-        "context": "Built to streamline internal mobile game testing and deployment workflows for the development team.",
-        "problem": "Manual Unity build and deployment to TestFlight was time-consuming and error-prone, slowing iteration speed.",
-        "approach": "Implemented Fastlane scripts for build automation, set up Unity Cloud build steps, and connected a custom Discord bot to trigger remote builds and uploads via API.",
-        "techs": ["Unity", "Fastlane", "CI/CD", "Discord", "GitHub Actions", "iOS"],
-        "outcome": {
-          "metric": "Reduced release prep time by 70%",
-          "details": "Enabled remote-controlled builds directly from Discord, increasing iteration efficiency for QA and design teams."
-        },
-        "links": {
-          "live": "",
-          "repo": "https://github.com/casualattitude0/unity-fastlane-tool",
-          "video": "",
-          "repo2": "https://github.com/casualattitude0/discord_cicd_bot"
-        },
-        "assets": [
-          {
-            "src": "",
-            "alt": "Discord bot interface controlling Unity builds"
-          }
-        ]
+      "links": {
+        "live": "",
+        "repo": "https://github.com/casualattitude0/unity-fastlane-tool",
+        "video": "",
+        "repo2": "https://github.com/casualattitude0/discord_cicd_bot"
       },
-      {
-        "title": "Unity Message Center",
-        "role": "Tool / Framework Developer",
-        "clientOrCompany": "Personal Project",
-        "year": 2025,
-        "summary": "A type-safe messaging framework for Unity that decouples game systems through a centralized message-passing architecture, distributed via Unity Package Manager.",
-        "context": "Built a reusable foundation library to standardize cross-system communication and common engineering patterns across Unity projects.",
-        "problem": "Game systems tend to become tightly coupled, making them hard to test and reuse, while common patterns like singletons and state machines get re-implemented inconsistently on every project.",
-        "approach": "Designed a centralized, type-safe message center supporting messages with and without data payloads, plus a flexible state machine, MonoBehaviour and plain-C# singletons, coroutine scheduling utilities, and network message types — all packaged as a UPM module installable via Git URL across three namespaces (Basic, Basic.Network, Utility).",
-        "techs": ["Unity", "C#", "Unity Package Manager"],
-        "outcome": {
-          "metric": "Reusable UPM package for decoupled Unity architecture",
-          "details": "Type-safe pub/sub messaging, state machines, singletons, and coroutine utilities packaged for drop-in reuse across Unity projects via Git URL."
-        },
-        "links": {
-          "live": "",
-          "repo": "https://github.com/casualattitude0/unity-message-center",
-          "video": ""
+      "assets": [
+        {
+          "src": "",
+          "alt": "Discord bot interface controlling Unity builds"
         }
-      },
-      {
-        "title": "Braverse (CookieRun IP – Outsourcing Project)",
-        "role": "Game Designer / Developer / Project Manager",
-        "clientOrCompany": "buho Interactive Entertainment Co. (with Devsisters)",
-        "year": "2024 – Present",
-        "summary": "A web-based interactive tutorial teaching players how to play Braverse, a Trading Card Game (TCG) based on the CookieRun IP.",
-        "context": "Currently under development — handling game design, tutorial flow, and production management for Devsisters.",
-        "problem": "Create an engaging, easy-to-understand web tutorial that teaches complex TCG mechanics to players.",
-        "approach": "Designed interactive tutorial modules, coordinated with Devsisters, and managed development workflow.",
-        "techs": ["Unity", "C#", "Game Design"],
-        "outcome": {
-          "metric": "In active development",
-          "details": "Building tutorial systems and ensuring gameplay clarity for new players learning Braverse TCG mechanics."
-        },
-        "links": {
-          "live": "",
-          "repo": "https://github.com/casualattitude0/braverse-fan-make-unity-network",
-          "video": ""
-        },
-        "assets": [
-          {
-            "src": "",
-            "alt": "Braverse web tutorial interface"
-          }
-        ]
-      },
-      {
-        "title": "Wacky Boat",
-        "role": "Game Designer / Developer / Project Manager",
-        "clientOrCompany": "buho Interactive Entertainment Co.",
-        "year": "2024 – Present",
-        "summary": "A fast-paced mobile action game currently under development, featuring a modular core gameplay system and automated CI/CD pipeline.",
-        "context": "Building production infrastructure and core gameplay tools to enable team iteration and real-time testing on iOS.",
-        "problem": "Enable rapid iteration and testing for mobile gameplay while maintaining stable development workflow.",
-        "approach": "Developed a core gameplay system as a reusable tool for team members, and built a CI/CD pipeline for automated iOS builds and real-time environment testing.",
-        "techs": ["Unity", "C#", "CI/CD", "Fastlane", "iOS"],
-        "outcome": {
-          "metric": "Active development with automated deployment pipeline",
-          "details": "Core gameplay system enables team to iterate efficiently; CI/CD pipeline streamlines iOS testing and builds."
-        },
-        "links": {
-          "live": "",
-          "video": ""
-        },
-        "assets": [
-          {
-            "src": "",
-            "alt": "Wacky Boat gameplay system in development"
-          }
-        ]
-      },
-      {
-        "title": "Soul of Butterflies – Incubation",
-        "role": "Founder / Game Director / Developer",
-        "clientOrCompany": "Independent Studio",
-        "year": 2024,
-        "summary": "A narrative puzzle adventure independently developed, crowdfunded, exhibited, and commercially released.",
-        "context": "Led full-cycle development — concept, story, system design, music direction, localization, and crowdfunding management.",
-        "problem": "Create an immersive, story-driven indie game with limited team resources.",
-        "approach": "Handled all design and development tasks, coordinated art and sound collaborators, and managed promotion through crowdfunding.",
-        "techs": ["Unity", "C#", "Steam", "Game Design"],
-        "outcome": {
-          "metric": "Successfully crowdfunded and released commercially",
-          "details": "Exhibited at gaming events and received positive player feedback."
-        },
-        "links": {
-          "live": "https://store.steampowered.com/app/2391350/Soul_of_Butterflies_Incubation/",
-          "repo": "",
-          "video": ""
-        },
-        "assets": [
-          {
-            "src": "",
-            "alt": "Gameplay scene from Soul of Butterflies – Incubation"
-          }
-        ]
-      },
-      {
-        "title": "Tarowl: Pocket Tarot",
-        "role": "Independent Developer",
-        "clientOrCompany": "Personal Project",
-        "year": 2024,
-        "summary": "An AI-powered tarot reading app built with Flutter and TypeScript backend using Google Cloud Platform.",
-        "context": "Developed end-to-end mobile experience — UI, AI tarot reading logic, and backend integration.",
-        "problem": "Create a personalized, intuitive mobile tarot reading experience with AI support.",
-        "approach": "Built full-stack solution using Flutter and GCP services, focused on accessible UI/UX.",
-        "techs": ["Flutter", "TypeScript", "Google Cloud Platform", "Firebase"],
-        "outcome": {
-          "metric": "Released to app store and iterated via user feedback",
-          "details": "Maintained ongoing updates and improvements."
-        },
-        "links": {
-          "live": "",
-          "repo": "",
-          "video": ""
-        },
-        "assets": [
-          {
-            "src": "",
-            "alt": "Tarowl mobile UI screenshot"
-          }
-        ]
-      },
-      {
-        "title": "Emotional Management – Interactive Game",
-        "role": "Game Designer / Unity Developer",
-        "clientOrCompany": "Buho Interactive",
-        "year": 2023,
-        "summary": "An emotional-learning educational game for the U.S. market, built to support students' emotional regulation through interactive play.",
-        "context": "Collaborated with U.S. educational partners and development teams to prototype and deliver interactive modules.",
-        "problem": "Build a game that helps children identify and manage emotions effectively through play.",
-        "approach": "Developed Unity prototypes, designed core gameplay flows, and adjusted based on user testing.",
-        "techs": ["Unity", "C#", "Game Design"],
-        "outcome": {
-          "metric": "Completed and launched with smooth delivery",
-          "details": "Helped refine gameplay to fit educational use and emotional learning objectives."
-        },
-        "links": {
-          "live": "",
-          "video": ""
-        },
-        "assets": [
-          {
-            "src": "",
-            "alt": "UI from Emotional Management interactive scenes"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "buho Interactive Entertainment Co., Ltd.",
-        "role": "Game Designer / Unity Developer",
-        "period": "Mar 2024 – Present",
-        "description": "Leading game planning, Unity development, and project management for multiple commercial titles including Braverse (CookieRun IP with Devsisters) and Wacky Boat. Built core gameplay systems, CI/CD pipelines, and production infrastructure."
-      },
-      {
-        "company": "Independent Studio",
-        "role": "Founder / Game Developer",
-        "period": "Sep 2022 – Mar 2024",
-        "description": "Developed and released the indie game 'Soul of Butterflies – Incubation' through crowdfunding and event exhibitions."
-      },
-      {
-        "company": "NPC – NTUT Programming Club",
-        "role": "Chief of Operations",
-        "period": "2019 – 2022",
-        "description": "Organized and hosted events, including Google's Machine Learning Course, and managed cross-disciplinary collaborations among students."
-      }
-    ],
-    "testimonials": [],
-    "services": [
-      {
-        "name": "Game Design & Prototyping",
-        "scope": "Concept design, gameplay mechanics, flowcharts, and prototyping in Unity.",
-        "timeline": "2–6 weeks",
-        "notes": "Ideal for teams exploring early-stage ideas or validating mechanics."
-      },
-      {
-        "name": "Game Production & Project Management",
-        "scope": "Scheduling, milestone tracking, and communication between art, design, and engineering.",
-        "timeline": "Ongoing",
-        "notes": "Focused on ensuring delivery quality and timeline alignment."
-      }
-    ],
-    "writing": [],
-    "education": {
-      "school": "National Taipei University of Technology",
-      "degree": "B.S. in Computer Science",
-      "graduationYear": 2022
+      ]
     },
-    "languages": {
-      "English": "Everyday",
-      "Mandarin": "Native",
-      "Japanese": "Learning"
+    {
+      "title": "Unity Message Center",
+      "role": "Tool / Framework Developer",
+      "clientOrCompany": "Personal Project",
+      "year": 2025,
+      "summary": "A type-safe messaging framework for Unity that decouples game systems through a centralized message-passing architecture, distributed via Unity Package Manager.",
+      "context": "Built a reusable foundation library to standardize cross-system communication and common engineering patterns across Unity projects.",
+      "problem": "Game systems tend to become tightly coupled, making them hard to test and reuse, while common patterns like singletons and state machines get re-implemented inconsistently on every project.",
+      "approach": "Designed a centralized, type-safe message center supporting messages with and without data payloads, plus a flexible state machine, MonoBehaviour and plain-C# singletons, coroutine scheduling utilities, and network message types — all packaged as a UPM module installable via Git URL across three namespaces (Basic, Basic.Network, Utility).",
+      "techs": [
+        "Unity",
+        "C#",
+        "Unity Package Manager"
+      ],
+      "outcome": {
+        "metric": "Reusable UPM package for decoupled Unity architecture",
+        "details": "Type-safe pub/sub messaging, state machines, singletons, and coroutine utilities packaged for drop-in reuse across Unity projects via Git URL."
+      },
+      "links": {
+        "live": "",
+        "repo": "https://github.com/casualattitude0/unity-message-center",
+        "video": ""
+      }
     },
-    "techStack": [
-        { "name": "Unity", "icon": "unity" },
-        { "name": "C#", "icon": "csharp" },
-        { "name": "C++", "icon": "cpp" },
-        { "name": "Python", "icon": "python" },
-        { "name": "TypeScript", "icon": "typescript" },
-        { "name": "JavaScript", "icon": "javascript" },
-        { "name": "Flutter", "icon": "flutter" },
-        { "name": "React", "icon": "react" },
-        { "name": "Next.js", "icon": "nextjs" },
-        { "name": "Vue.js", "icon": "vuejs" },
-        { "name": "Node.js", "icon": "nodejs" },
-        { "name": "Tailwind CSS", "icon": "tailwindcss" },
-        { "name": "Google Cloud Platform", "icon": "gcp" },
-        { "name": "Firebase", "icon": "firebase" },
-        { "name": "Docker", "icon": "docker" },
-        { "name": "CI/CD", "icon": "cicd" },
-        { "name": "Fastlane", "icon": "fastlane" },
-        { "name": "GitHub Actions", "icon": "githubactions" },
-        { "name": "Git", "icon": "git" },
-        { "name": "Figma", "icon": "figma" },
-        { "name": "Photoshop", "icon": "photoshop" },
-        { "name": "Blender", "icon": "blender" },
-        { "name": "Notion", "icon": "notion" },
-        { "name": "Slack", "icon": "slack" },
-        { "name": "MongoDB", "icon": "mongodb" },
-        { "name": "PostgreSQL", "icon": "postgresql" },
-        { "name": "Android", "icon": "android" },
-        { "name": "iOS", "icon": "ios" },
-        { "name": "Steam", "icon": "steam" },
-        { "name": "Discord", "icon": "discord" }
-    ]
-  }
-
+    {
+      "title": "Braverse (CookieRun IP – Outsourcing Project)",
+      "role": "Game Designer / Developer / Project Manager",
+      "clientOrCompany": "buho Interactive Entertainment Co. (with Devsisters)",
+      "year": "2024 – Present",
+      "summary": "A web-based interactive tutorial teaching players how to play Braverse, a Trading Card Game (TCG) based on the CookieRun IP.",
+      "context": "Currently under development — handling game design, tutorial flow, and production management for Devsisters.",
+      "problem": "Create an engaging, easy-to-understand web tutorial that teaches complex TCG mechanics to players.",
+      "approach": "Designed interactive tutorial modules, coordinated with Devsisters, and managed development workflow.",
+      "techs": [
+        "Unity",
+        "C#",
+        "Game Design"
+      ],
+      "outcome": {
+        "metric": "In active development",
+        "details": "Building tutorial systems and ensuring gameplay clarity for new players learning Braverse TCG mechanics."
+      },
+      "links": {
+        "live": "",
+        "repo": "https://github.com/casualattitude0/braverse-fan-make-unity-network",
+        "video": ""
+      },
+      "assets": [
+        {
+          "src": "",
+          "alt": "Braverse web tutorial interface"
+        }
+      ]
+    },
+    {
+      "title": "Wacky Boat",
+      "role": "Game Designer / Developer / Project Manager",
+      "clientOrCompany": "buho Interactive Entertainment Co.",
+      "year": "2024 – Present",
+      "summary": "A fast-paced mobile action game currently under development, featuring a modular core gameplay system and automated CI/CD pipeline.",
+      "context": "Building production infrastructure and core gameplay tools to enable team iteration and real-time testing on iOS.",
+      "problem": "Enable rapid iteration and testing for mobile gameplay while maintaining stable development workflow.",
+      "approach": "Developed a core gameplay system as a reusable tool for team members, and built a CI/CD pipeline for automated iOS builds and real-time environment testing.",
+      "techs": [
+        "Unity",
+        "C#",
+        "CI/CD",
+        "Fastlane",
+        "iOS"
+      ],
+      "outcome": {
+        "metric": "Active development with automated deployment pipeline",
+        "details": "Core gameplay system enables team to iterate efficiently; CI/CD pipeline streamlines iOS testing and builds."
+      },
+      "links": {
+        "live": "",
+        "video": ""
+      },
+      "assets": [
+        {
+          "src": "",
+          "alt": "Wacky Boat gameplay system in development"
+        }
+      ]
+    },
+    {
+      "title": "Soul of Butterflies – Incubation",
+      "role": "Founder / Game Director / Developer",
+      "clientOrCompany": "Independent Studio",
+      "year": 2024,
+      "summary": "A narrative puzzle adventure independently developed, crowdfunded, exhibited, and commercially released.",
+      "context": "Led full-cycle development — concept, story, system design, music direction, localization, and crowdfunding management.",
+      "problem": "Create an immersive, story-driven indie game with limited team resources.",
+      "approach": "Handled all design and development tasks, coordinated art and sound collaborators, and managed promotion through crowdfunding.",
+      "techs": [
+        "Unity",
+        "C#",
+        "Steam",
+        "Game Design"
+      ],
+      "outcome": {
+        "metric": "Successfully crowdfunded and released commercially",
+        "details": "Exhibited at gaming events and received positive player feedback."
+      },
+      "links": {
+        "live": "https://store.steampowered.com/app/2391350/Soul_of_Butterflies_Incubation/",
+        "repo": "",
+        "video": ""
+      },
+      "assets": [
+        {
+          "src": "",
+          "alt": "Gameplay scene from Soul of Butterflies – Incubation"
+        }
+      ]
+    },
+    {
+      "title": "Tarowl: Pocket Tarot",
+      "role": "Independent Developer",
+      "clientOrCompany": "Personal Project",
+      "year": 2024,
+      "summary": "An AI-powered tarot reading app built with Flutter and TypeScript backend using Google Cloud Platform.",
+      "context": "Developed end-to-end mobile experience — UI, AI tarot reading logic, and backend integration.",
+      "problem": "Create a personalized, intuitive mobile tarot reading experience with AI support.",
+      "approach": "Built full-stack solution using Flutter and GCP services, focused on accessible UI/UX.",
+      "techs": [
+        "Flutter",
+        "TypeScript",
+        "Google Cloud Platform",
+        "Firebase"
+      ],
+      "outcome": {
+        "metric": "Released to app store and iterated via user feedback",
+        "details": "Maintained ongoing updates and improvements."
+      },
+      "links": {
+        "live": "",
+        "repo": "",
+        "video": ""
+      },
+      "assets": [
+        {
+          "src": "",
+          "alt": "Tarowl mobile UI screenshot"
+        }
+      ]
+    },
+    {
+      "title": "Emotional Management – Interactive Game",
+      "role": "Game Designer / Unity Developer",
+      "clientOrCompany": "Buho Interactive",
+      "year": 2023,
+      "summary": "An emotional-learning educational game for the U.S. market, built to support students' emotional regulation through interactive play.",
+      "context": "Collaborated with U.S. educational partners and development teams to prototype and deliver interactive modules.",
+      "problem": "Build a game that helps children identify and manage emotions effectively through play.",
+      "approach": "Developed Unity prototypes, designed core gameplay flows, and adjusted based on user testing.",
+      "techs": [
+        "Unity",
+        "C#",
+        "Game Design"
+      ],
+      "outcome": {
+        "metric": "Completed and launched with smooth delivery",
+        "details": "Helped refine gameplay to fit educational use and emotional learning objectives."
+      },
+      "links": {
+        "live": "",
+        "video": ""
+      },
+      "assets": [
+        {
+          "src": "",
+          "alt": "UI from Emotional Management interactive scenes"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "buho Interactive Entertainment Co., Ltd.",
+      "role": "Game Designer / Unity Developer",
+      "period": "Mar 2024 – Present",
+      "description": "Leading game planning, Unity development, and project management for multiple commercial titles including Braverse (CookieRun IP with Devsisters) and Wacky Boat. Built core gameplay systems, CI/CD pipelines, and production infrastructure."
+    },
+    {
+      "company": "Independent Studio",
+      "role": "Founder / Game Developer",
+      "period": "Sep 2022 – Mar 2024",
+      "description": "Developed and released the indie game 'Soul of Butterflies – Incubation' through crowdfunding and event exhibitions."
+    },
+    {
+      "company": "NPC – NTUT Programming Club",
+      "role": "Extracurricular President",
+      "period": "2019 – 2022",
+      "description": "Hosted 12+ computer-science knowledge-sharing workshops (weekly each semester), brought 3 classes of Google's Machine Learning Crash Course to campus, and built technical ties between the campus and student clubs — providing tech support for 3+ campus events."
+    }
+  ],
+  "testimonials": [],
+  "services": [
+    {
+      "name": "Game Design & Prototyping",
+      "scope": "Concept design, gameplay mechanics, flowcharts, and prototyping in Unity.",
+      "timeline": "2–6 weeks",
+      "notes": "Ideal for teams exploring early-stage ideas or validating mechanics."
+    },
+    {
+      "name": "Game Production & Project Management",
+      "scope": "Scheduling, milestone tracking, and communication between art, design, and engineering.",
+      "timeline": "Ongoing",
+      "notes": "Focused on ensuring delivery quality and timeline alignment."
+    }
+  ],
+  "writing": [],
+  "education": {
+    "school": "National Taipei University of Technology",
+    "degree": "B.S. in Computer Science",
+    "graduationYear": 2022
+  },
+  "languages": {
+    "English": "Everyday",
+    "Mandarin": "Native",
+    "Japanese": "Learning"
+  },
+  "techStack": [
+    {
+      "name": "Unity",
+      "icon": "unity"
+    },
+    {
+      "name": "C#",
+      "icon": "csharp"
+    },
+    {
+      "name": "C++",
+      "icon": "cpp"
+    },
+    {
+      "name": "Python",
+      "icon": "python"
+    },
+    {
+      "name": "TypeScript",
+      "icon": "typescript"
+    },
+    {
+      "name": "JavaScript",
+      "icon": "javascript"
+    },
+    {
+      "name": "Flutter",
+      "icon": "flutter"
+    },
+    {
+      "name": "React",
+      "icon": "react"
+    },
+    {
+      "name": "Next.js",
+      "icon": "nextjs"
+    },
+    {
+      "name": "Vue.js",
+      "icon": "vuejs"
+    },
+    {
+      "name": "Node.js",
+      "icon": "nodejs"
+    },
+    {
+      "name": "Tailwind CSS",
+      "icon": "tailwindcss"
+    },
+    {
+      "name": "Google Cloud Platform",
+      "icon": "gcp"
+    },
+    {
+      "name": "Firebase",
+      "icon": "firebase"
+    },
+    {
+      "name": "Docker",
+      "icon": "docker"
+    },
+    {
+      "name": "CI/CD",
+      "icon": "cicd"
+    },
+    {
+      "name": "Fastlane",
+      "icon": "fastlane"
+    },
+    {
+      "name": "GitHub Actions",
+      "icon": "githubactions"
+    },
+    {
+      "name": "Git",
+      "icon": "git"
+    },
+    {
+      "name": "Figma",
+      "icon": "figma"
+    },
+    {
+      "name": "Photoshop",
+      "icon": "photoshop"
+    },
+    {
+      "name": "Blender",
+      "icon": "blender"
+    },
+    {
+      "name": "Notion",
+      "icon": "notion"
+    },
+    {
+      "name": "Slack",
+      "icon": "slack"
+    },
+    {
+      "name": "MongoDB",
+      "icon": "mongodb"
+    },
+    {
+      "name": "PostgreSQL",
+      "icon": "postgresql"
+    },
+    {
+      "name": "Android",
+      "icon": "android"
+    },
+    {
+      "name": "iOS",
+      "icon": "ios"
+    },
+    {
+      "name": "Steam",
+      "icon": "steam"
+    },
+    {
+      "name": "Discord",
+      "icon": "discord"
+    }
+  ]
+}

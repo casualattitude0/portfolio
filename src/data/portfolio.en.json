@@ -6,14 +6,44 @@
       "clientOrCompany": "Personal Project",
       "year": 2026,
       "summary": "A local AI assistant with RAG (Chroma + LangChain), tool use, and a Vue 3 chat UI backed by FastAPI. Supports Google Gemini, Ollama, and NVIDIA NIM, with an optional Tauri desktop shell.",
-      "techs": ["Python", "Vue.js", "TypeScript", "FastAPI", "LangChain", "Tauri"],
+      "techs": [
+        "Python",
+        "Vue.js",
+        "TypeScript",
+        "FastAPI",
+        "LangChain",
+        "Tauri"
+      ],
       "outcome": {
         "metric": "Full-stack local AI agent with web and desktop clients",
-        "details": "Document ingestion pipeline, WebSocket chat, calendar/search tools, and multi-provider LLM routing in a self-hosted stack."
+        "details": "Document ingestion pipeline, WebSocket chat, calendar/search tools, and multi-provider LLM routing in a self-hosted stack. Backed by a pytest suite of 40+ deterministic test contracts for tool dispatch and retrieval."
       },
       "links": {
         "live": "",
         "repo": "https://github.com/casualattitude0/a-slime",
+        "video": ""
+      }
+    },
+    {
+      "title": "AIKeyboard: LLM-Powered Custom iOS Keyboard",
+      "role": "iOS Developer",
+      "clientOrCompany": "Personal Project",
+      "year": "2025 – Present",
+      "summary": "A custom iOS keyboard extension (Swift, SwiftUI) that generates personalized content with an LLM, built within the text-input pipeline, extension lifecycle, and Apple's input-API constraints.",
+      "techs": [
+        "Swift",
+        "SwiftUI",
+        "iOS",
+        "XCTest",
+        "LLM APIs"
+      ],
+      "outcome": {
+        "metric": "Shipped an LLM keyboard with headless XCTest coverage",
+        "details": "An XCTest suite over the shared logic runs headless via xcodebuild on the iOS Simulator, catching regressions in the extension on every build."
+      },
+      "links": {
+        "live": "",
+        "repo": "https://github.com/casualattitude0/AI-keyboard",
         "video": ""
       }
     },
@@ -23,7 +53,14 @@
       "clientOrCompany": "Personal Project",
       "year": 2026,
       "summary": "A reusable PHP multi-step quiz template with client-side scoring and i18n (en / zh-Hant / ja). Submits responses to Google Forms and sends HTML result emails via Resend or Google Apps Script. Includes a GitHub Pages demo of the Goblin Identification Office personality quiz.",
-      "techs": ["PHP", "JavaScript", "Google Forms", "Resend", "GitHub Pages", "GitHub Actions"],
+      "techs": [
+        "PHP",
+        "JavaScript",
+        "Google Forms",
+        "Resend",
+        "GitHub Pages",
+        "GitHub Actions"
+      ],
       "outcome": {
         "metric": "End-to-end quiz flow from wizard UI to form capture and email delivery",
         "details": "Wizard UI with locale switching, Google Form POST integration, Resend/Apps Script email pipeline, and automated GitHub Pages deployment."
@@ -40,10 +77,17 @@
       "clientOrCompany": "Internal Tool",
       "year": 2025,
       "summary": "Developed a CI/CD automation pipeline for Unity builds using Fastlane, integrating Discord bot commands for remote control and TestFlight uploads.",
-      "techs": ["Unity", "Fastlane", "CI/CD", "Discord", "GitHub Actions", "iOS"],
+      "techs": [
+        "Unity",
+        "Fastlane",
+        "CI/CD",
+        "Discord",
+        "GitHub Actions",
+        "iOS"
+      ],
       "outcome": {
         "metric": "Reduced release prep time by 70%",
-        "details": "Enabled remote-controlled builds directly from Discord, increasing iteration efficiency for QA and design teams."
+        "details": "Enabled remote-controlled builds directly from Discord, increasing iteration efficiency for QA and design teams. A self-hosted Discord bot collapses a 1-hour+ manual build into a single ~5-second chat message."
       },
       "links": {
         "live": "",
@@ -58,7 +102,11 @@
       "clientOrCompany": "Personal Project",
       "year": 2025,
       "summary": "A type-safe messaging framework for Unity that decouples game systems through a centralized message-passing architecture. Distributed via Unity Package Manager, it bundles a message center (with and without data payloads), a flexible state machine, MonoBehaviour and plain-C# singleton patterns, coroutine scheduling utilities, and network message types.",
-      "techs": ["Unity", "C#", "Unity Package Manager"],
+      "techs": [
+        "Unity",
+        "C#",
+        "Unity Package Manager"
+      ],
       "outcome": {
         "metric": "Reusable UPM package for decoupled Unity architecture",
         "details": "Type-safe pub/sub messaging, state machines, singletons, and coroutine utilities packaged for drop-in reuse across Unity projects via Git URL."
@@ -75,7 +123,11 @@
       "clientOrCompany": "buho Interactive Entertainment Co. (with Devsisters)",
       "year": "2024 – Present",
       "summary": "A web-based interactive tutorial teaching players how to play Braverse, a Trading Card Game (TCG) based on the CookieRun IP franchise.",
-      "techs": ["Unity", "C#", "Game Design"],
+      "techs": [
+        "Unity",
+        "C#",
+        "Game Design"
+      ],
       "outcome": {
         "metric": "In active development",
         "details": "Building tutorial systems and ensuring gameplay clarity for new players learning Braverse TCG mechanics."
@@ -92,7 +144,14 @@
       "clientOrCompany": "buho Interactive Entertainment Co.",
       "year": "2024 – Present",
       "summary": "A fast-paced mobile action game currently under development, featuring a modular core gameplay system and an automated CI/CD pipeline that deploys iOS builds to TestFlight and the App Store, with native integrations bridged in Swift.",
-      "techs": ["Unity", "C#", "Swift", "iOS", "CI/CD", "Fastlane"],
+      "techs": [
+        "Unity",
+        "C#",
+        "Swift",
+        "iOS",
+        "CI/CD",
+        "Fastlane"
+      ],
       "outcome": {
         "metric": "Active development with automated iOS deployment pipeline",
         "details": "Core gameplay system enables fast team iteration; the Fastlane CI/CD pipeline streamlines iOS testing, TestFlight distribution, and App Store builds."
@@ -111,7 +170,14 @@
       "context": "Built the server-side foundation for a live mobile action game, supporting authenticated player accounts and persistent game data across releases.",
       "problem": "The game needed secure player authentication, durable data storage, and a reliable API that the client could depend on as the game evolved.",
       "approach": "Implemented a Go service exposing REST APIs for accounts, leaderboards, and game data; integrated Google OAuth / Identity for sign-in; persisted data in Firestore / Cloud SQL; containerized with Docker and deployed to Cloud Run / GKE on GCP.",
-      "techs": ["Go", "GCP", "Cloud Run", "OAuth", "Firestore", "Docker"],
+      "techs": [
+        "Go",
+        "GCP",
+        "Cloud Run",
+        "OAuth",
+        "Firestore",
+        "Docker"
+      ],
       "outcome": {
         "metric": "Live backend serving authenticated players",
         "details": "Players sign in via OAuth, sync progress, and appear on leaderboards through a Go API deployed on GCP."
@@ -128,7 +194,12 @@
       "clientOrCompany": "Independent Studio",
       "year": 2024,
       "summary": "A narrative puzzle adventure independently developed, crowdfunded, exhibited at gaming events, and commercially released.",
-      "techs": ["Unity", "C#", "Steam", "Game Design"],
+      "techs": [
+        "Unity",
+        "C#",
+        "Steam",
+        "Game Design"
+      ],
       "outcome": {
         "metric": "Successfully crowdfunded and released commercially",
         "details": "Exhibited at gaming events and received positive player feedback."
@@ -145,7 +216,14 @@
       "clientOrCompany": "Personal Project",
       "year": 2024,
       "summary": "An AI-powered tarot reading app with a Flutter frontend, native iOS integrations in Swift, and a TypeScript backend on Google Cloud Platform — shipped to the App Store.",
-      "techs": ["Flutter", "Swift", "iOS", "TypeScript", "Google Cloud Platform", "Firebase"],
+      "techs": [
+        "Flutter",
+        "Swift",
+        "iOS",
+        "TypeScript",
+        "Google Cloud Platform",
+        "Firebase"
+      ],
       "outcome": {
         "metric": "Released to the App Store and iterated via user feedback",
         "details": "Maintained ongoing iOS releases, updates, and improvements."
@@ -162,13 +240,39 @@
       "clientOrCompany": "Buho Interactive",
       "year": 2023,
       "summary": "An emotional-learning educational game for the U.S. market, designed to support students' emotional regulation through interactive gameplay.",
-      "techs": ["Unity", "C#", "Game Design"],
+      "techs": [
+        "Unity",
+        "C#",
+        "Game Design"
+      ],
       "outcome": {
         "metric": "Completed and launched with smooth delivery",
         "details": "Helped refine gameplay to fit educational use and emotional learning objectives."
       },
       "links": {
         "live": "",
+        "video": ""
+      }
+    },
+    {
+      "title": "TAT: NTUT Campus Life App",
+      "role": "Team Lead / Flutter Developer",
+      "clientOrCompany": "Student Team (NTUT)",
+      "year": "2020 – 2022",
+      "summary": "NTUT's campus life app, built in Flutter by a 6-person student team. Open-sourced and kept running through repeated portal and authentication changes.",
+      "techs": [
+        "Flutter",
+        "Dart",
+        "iOS",
+        "Android"
+      ],
+      "outcome": {
+        "metric": "10K+ downloads at 4.3★ on the App Store",
+        "details": "A daily tool on a 10K+-student campus; led a 6-person team and maintained the app through repeated portal and auth changes."
+      },
+      "links": {
+        "live": "https://apps.apple.com/tw/app/tat-%E5%8C%97%E7%A7%91%E7%94%9F%E6%B4%BB/id1513875597",
+        "repo": "",
         "video": ""
       }
     }
@@ -188,45 +292,143 @@
     },
     {
       "company": "NPC – NTUT Programming Club",
-      "role": "Chief of Operations",
+      "role": "Extracurricular President",
       "period": "2019 – 2022",
-      "description": "Organized and hosted events, including Google's Machine Learning Course, and managed cross-disciplinary collaborations among students."
+      "description": "Hosted 12+ computer-science knowledge-sharing workshops (weekly each semester), brought 3 classes of Google's Machine Learning Crash Course to campus, and built technical ties between the campus and student clubs — providing tech support for 3+ campus events."
     }
   ],
   "techStack": [
-    { "name": "Unity", "icon": "unity" },
-    { "name": "C#", "icon": "csharp" },
-    { "name": "C++", "icon": "cpp" },
-    { "name": "Python", "icon": "python" },
-    { "name": "FastAPI", "icon": "fastapi" },
-    { "name": "LangChain", "icon": "langchain" },
-    { "name": "TypeScript", "icon": "typescript" },
-    { "name": "JavaScript", "icon": "javascript" },
-    { "name": "Flutter", "icon": "flutter" },
-    { "name": "Swift", "icon": "swift" },
-    { "name": "React", "icon": "react" },
-    { "name": "Next.js", "icon": "nextjs" },
-    { "name": "Vue.js", "icon": "vuejs" },
-    { "name": "Node.js", "icon": "nodejs" },
-    { "name": "Tailwind CSS", "icon": "tailwindcss" },
-    { "name": "Google Cloud Platform", "icon": "gcp" },
-    { "name": "Firebase", "icon": "firebase" },
-    { "name": "Docker", "icon": "docker" },
-    { "name": "CI/CD", "icon": "cicd" },
-    { "name": "Fastlane", "icon": "fastlane" },
-    { "name": "GitHub Actions", "icon": "githubactions" },
-    { "name": "Git", "icon": "git" },
-    { "name": "Figma", "icon": "figma" },
-    { "name": "Photoshop", "icon": "photoshop" },
-    { "name": "Blender", "icon": "blender" },
-    { "name": "Notion", "icon": "notion" },
-    { "name": "Slack", "icon": "slack" },
-    { "name": "MongoDB", "icon": "mongodb" },
-    { "name": "PostgreSQL", "icon": "postgresql" },
-    { "name": "Android", "icon": "android" },
-    { "name": "iOS", "icon": "ios" },
-    { "name": "Steam", "icon": "steam" },
-    { "name": "Discord", "icon": "discord" }
+    {
+      "name": "Unity",
+      "icon": "unity"
+    },
+    {
+      "name": "C#",
+      "icon": "csharp"
+    },
+    {
+      "name": "C++",
+      "icon": "cpp"
+    },
+    {
+      "name": "Python",
+      "icon": "python"
+    },
+    {
+      "name": "FastAPI",
+      "icon": "fastapi"
+    },
+    {
+      "name": "LangChain",
+      "icon": "langchain"
+    },
+    {
+      "name": "TypeScript",
+      "icon": "typescript"
+    },
+    {
+      "name": "JavaScript",
+      "icon": "javascript"
+    },
+    {
+      "name": "Flutter",
+      "icon": "flutter"
+    },
+    {
+      "name": "Swift",
+      "icon": "swift"
+    },
+    {
+      "name": "React",
+      "icon": "react"
+    },
+    {
+      "name": "Next.js",
+      "icon": "nextjs"
+    },
+    {
+      "name": "Vue.js",
+      "icon": "vuejs"
+    },
+    {
+      "name": "Node.js",
+      "icon": "nodejs"
+    },
+    {
+      "name": "Tailwind CSS",
+      "icon": "tailwindcss"
+    },
+    {
+      "name": "Google Cloud Platform",
+      "icon": "gcp"
+    },
+    {
+      "name": "Firebase",
+      "icon": "firebase"
+    },
+    {
+      "name": "Docker",
+      "icon": "docker"
+    },
+    {
+      "name": "CI/CD",
+      "icon": "cicd"
+    },
+    {
+      "name": "Fastlane",
+      "icon": "fastlane"
+    },
+    {
+      "name": "GitHub Actions",
+      "icon": "githubactions"
+    },
+    {
+      "name": "Git",
+      "icon": "git"
+    },
+    {
+      "name": "Figma",
+      "icon": "figma"
+    },
+    {
+      "name": "Photoshop",
+      "icon": "photoshop"
+    },
+    {
+      "name": "Blender",
+      "icon": "blender"
+    },
+    {
+      "name": "Notion",
+      "icon": "notion"
+    },
+    {
+      "name": "Slack",
+      "icon": "slack"
+    },
+    {
+      "name": "MongoDB",
+      "icon": "mongodb"
+    },
+    {
+      "name": "PostgreSQL",
+      "icon": "postgresql"
+    },
+    {
+      "name": "Android",
+      "icon": "android"
+    },
+    {
+      "name": "iOS",
+      "icon": "ios"
+    },
+    {
+      "name": "Steam",
+      "icon": "steam"
+    },
+    {
+      "name": "Discord",
+      "icon": "discord"
+    }
   ]
 }
-

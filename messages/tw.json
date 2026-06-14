@@ -3,20 +3,14 @@
     "greeting": "嗨，我是",
     "name": "薛賀升",
     "handle": "又稱 Casual Attitude",
-    "title": "創意技術專家 & AI 建構者",
-    "headline": "打造互動體驗與 Agentic AI 系統 — 從獨立遊戲到自架 AI 助理。",
-    "valueProp": "從創立獨立工作室、與 Google 和 Devsisters 等夥伴合作發行，到設計 RAG 管線與具工具能力的 Agent，我連結情感、創意與智慧系統。",
+    "title": "軟體測試工程師 · Apple 平台",
+    "headline": "打造並驗證可靠的 iOS 與 macOS 軟體 — XCTest 測試套件、CI/CD 流程，以及讓團隊持續出貨的自動化。",
+    "valueProp": "熟悉 iOS 鍵盤擴充與文字輸入流程，從 Xcode 到 TestFlight 到 App Store 全程掌握品質，把快速發佈變成可靠發佈。",
     "availability": "開放創意技術合作、AI/Agent 專案與遊戲工作（支援遠端）。",
     "scroll": "向下滾動",
     "cta": {
       "contact": "聯絡我",
-      "resume": "查看履歷",
-      "resumeTracks": {
-        "frontend": "前端",
-        "backend": "後端",
-        "gaming": "遊戲",
-        "ai": "AI / Agent"
-      }
+      "resume": "查看履歷"
     }
   },
   "nav": {
@@ -27,31 +21,31 @@
   },
   "about": {
     "title": "關於我",
-    "bio": "我是薛賀升 — 不過大家都叫我 Casual Attitude。我是一位創意技術專家，專注於互動媒體與 AI 的交會點。我的起點在台北科技大學程式設計研究社，擔任營運長並與 Google 合作舉辦機器學習課程 — 那是我將智慧系統應用到真實產品的第一步。",
-    "journey": "過去六年來，我參與了完整的遊戲開發循環 — 從概念企劃到程式開發與發行。我創立了獨立工作室並推出《Soul of Butterflies – Incubation》，負責故事設計、解謎系統，以及從群眾募資到商業發行的全流程。同樣的自驅力也用在 AI 上：Tarowl 是部署在 GCP 的 AI 應用，A Slime 則是具備 RAG、LangChain、工具使用能力，並有 Web 與桌面客戶端的本地 Agent。",
-    "current": "目前在 Buho Interactive 領導商業專案開發，包括 Braverse（與 Devsisters 合作的 CookieRun IP）和 Wacky Boat，並建置讓團隊快速交付的 CI/CD 基礎設施。在客戶工作之外，我持續建構 Agentic 系統 — 文件擷取管線、多 LLM 路由、WebSocket 聊天，以及日曆/搜尋工具。",
-    "passion": "我本質上是獨立解決問題的人：把模糊目標拆成可驗證的小塊、在求助前先交付可運作的原型、自動化重複工作（CI/CD、Agent 管線），再依回饋迭代。工具箱涵蓋 Unity 與 C# 做遊戲；Python、FastAPI、LangChain 做 AI；Vue 與 TypeScript 做 Web；需要時用 Flutter 與 GCP。",
+    "bio": "我是薛賀升 — 開發社群中大家都叫我 Casual Attitude。我是一位專注於 Apple 平台測試與發佈自動化的軟體工程師：XCTest 測試套件、CI/CD 流程，以及讓快速前進的團隊持續出貨可靠 iOS 與 macOS 軟體的工具。",
+    "journey": "我的起點在台北科技大學程式設計研究社，擔任社長、舉辦 12+ 場知識分享工作坊，並與 Google 合作將機器學習速成課程引進校園。之後我帶領 6 人團隊推出北科校園 App『TAT』（10K+ 下載、4.3★），並在多年的入口網站與認證變更中持續維護運作。我也因此學到：出貨是最容易的部分，讓軟體保持可靠才是真正的工作。",
+    "current": "如今在 buho Interactive，我負責跨平台 Apple 專案的測試與發佈自動化。我運行 Xcode → TestFlight → App Store 流程，在 300+ 次發佈中維持穩定 60 fps，將 crash-free session 維持在 99%，並把 1 小時的手動建置濃縮為單一則約 5 秒的聊天指令。我也建置並自架了一個內部 LLM agent（FastAPI、LangChain、Chroma），以 40+ 個契約的 pytest 套件加以保護 — 用測試 App 的方式測試 AI 系統。",
+    "passion": "我最在意的是輸入體驗。我打造了 AIKeyboard，一個自訂 iOS 鍵盤擴充（Swift、SwiftUI），具備每次建置都在模擬器上以 headless 方式執行的 XCTest 測試套件 — 在文字輸入流程、擴充功能生命週期與 Apple 輸入 API 限制下完成。我把模糊的目標拆解成可測試的契約，自動化重複工作，除錯困難的問題，並讓每個出貨決策都建立在證據之上。",
     "process": {
       "title": "我的流程",
       "concept": {
         "title": "概念",
-        "description": "拆解問題；在寫程式前定義限制、使用者流程與成功標準。"
+        "description": "將功能拆解成可測試的契約 — 在寫程式前梳理風險、邊界情況與成功標準。"
       },
       "prototype": {
         "title": "原型",
-        "description": "獨立完成最小可行端到端切片 — 可玩關卡、可運作 Agent 或上線 API — 以驗證假設。"
+        "description": "建立最小的端到端切片，以及證明它的測試，及早驗證假設。"
       },
       "collaborate": {
         "title": "協作",
-        "description": "核心循環跑通後再引入美術、QA 或利害關係人；減少無效協調。"
+        "description": "跨團隊清楚說明失敗、揭露品質風險，並對「可出貨」達成共識。"
       },
       "deploy": {
         "title": "部署",
-        "description": "自動化建置、測試與 Agent 管線，讓交付可重複、不靠個人英雄式加班。"
+        "description": "自動化建置、測試與發佈 — Fastlane、CI、headless XCTest — 讓出貨可重複而非靠英雄主義。"
       },
       "reflect": {
         "title": "反思",
-        "description": "記錄什麼失敗、什麼可擴展、什麼可重用 — 供下次獨立衝刺或團隊交接。"
+        "description": "將每個失敗分類成可重現的案例，並轉化為下次的回歸測試。"
       }
     },
     "education": {

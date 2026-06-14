@@ -1,22 +1,16 @@
 {
   "hero": {
     "greeting": "Hi, I'm",
-    "name": "Xue Aaron",
+    "name": "Xue He-Sheng",
     "handle": "aka Casual Attitude",
-    "title": "Creative Technologist & AI Builder",
-    "headline": "Building interactive experiences and agentic AI systems — from indie games to self-hosted assistants.",
-    "valueProp": "From founding an indie studio and shipping with partners like Google and Devsisters, to designing RAG pipelines and tool-using agents, I connect emotion, creativity, and intelligent systems.",
+    "title": "Software Engineer in Test · Apple Platforms",
+    "headline": "Building and validating reliable iOS & macOS software — XCTest suites, CI/CD pipelines, and the automation that keeps teams shipping.",
+    "valueProp": "Hands-on with iOS keyboard extensions and the text-input pipeline, I own quality from Xcode to TestFlight to the App Store — turning fast releases into dependable ones.",
     "availability": "Open to creative tech collaborations, AI/agent projects, and game work (remote-friendly).",
     "scroll": "Scroll",
     "cta": {
       "contact": "Get in Touch",
-      "resume": "View Resume",
-      "resumeTracks": {
-        "frontend": "Frontend",
-        "backend": "Backend",
-        "gaming": "Gaming",
-        "ai": "AI / Agents"
-      }
+      "resume": "View Resume"
     }
   },
   "nav": {
@@ -27,31 +21,31 @@
   },
   "about": {
     "title": "About Me",
-    "bio": "I'm Xue Aaron — though most people in the dev community know me as Casual Attitude. I'm a creative technologist working at the intersection of interactive media and AI. My path started at the NTUT Programming Club, where I led operations and partnered with Google to host a machine learning course — my first step toward applying intelligent systems to real products.",
-    "journey": "Over the past six years, I've worked across the entire game development cycle — from concept and planning to coding and release. I founded an independent studio and launched Soul of Butterflies – Incubation, handling story design, puzzle systems, and everything from crowdfunding to commercial release. I've applied the same self-directed drive to AI: Tarowl, an AI-powered app on GCP, and A Slime, a local agent with RAG, LangChain, tool use, and web + desktop clients.",
-    "current": "Today at Buho Interactive, I lead development on commercial titles including Braverse (CookieRun IP with Devsisters) and Wacky Boat, and built CI/CD infrastructure that keeps teams shipping fast. Outside client work, I'm actively building agentic systems — document ingestion pipelines, multi-LLM routing, WebSocket chat, and calendar/search tools.",
-    "passion": "I'm an independent problem-solver at heart: I break ambiguous goals into testable pieces, ship a working prototype before asking for help, automate repeat work (CI/CD, agent pipelines), and iterate from feedback. My toolkit spans Unity and C# for games; Python, FastAPI, and LangChain for AI; Vue and TypeScript for web; and Flutter and GCP where the product needs them.",
+    "bio": "I'm Xue He-Sheng — known in the dev community as Casual Attitude. I'm a software engineer focused on test and release automation on Apple platforms: XCTest suites, CI/CD pipelines, and the tooling that keeps fast-moving teams shipping reliable iOS and macOS software.",
+    "journey": "My path started at the NTUT Programming Club, where I served as extracurricular president, hosted 12+ knowledge-sharing workshops, and partnered with Google to bring its Machine Learning Crash Course to campus. I then led a 6-person team to ship TAT, NTUT's campus app — 10K+ downloads at 4.3★ — and kept it running through years of breaking portal and authentication changes. That's where I learned that shipping is the easy part; keeping software reliable is the real work.",
+    "current": "Today at buho Interactive I own test and release automation for cross-platform Apple titles. I run the Xcode → TestFlight → App Store pipeline, hold a stable 60 fps across 300+ releases, keep crash-free sessions at 99%, and collapsed a 1-hour manual build into a single ~5-second chat command. I also built and self-host an internal LLM agent (FastAPI, LangChain, Chroma) guarded by a 40+ contract pytest suite — testing AI systems the same way I test apps.",
+    "passion": "I care most about the input experience. I built AIKeyboard, a custom iOS keyboard extension (Swift, SwiftUI) with a headless XCTest suite that runs on the Simulator on every build — working within the text-input pipeline, extension lifecycle, and Apple's input-API constraints. I break ambiguous goals into testable contracts, automate the repetitive, debug the hard failures, and make every ship decision rest on evidence.",
     "process": {
       "title": "My Process",
       "concept": {
         "title": "Concept",
-        "description": "Decompose the problem; define constraints, user flow, and success criteria before coding."
+        "description": "Decompose the feature into testable contracts — map risk, edge cases, and success criteria before code."
       },
       "prototype": {
         "title": "Prototype",
-        "description": "Build a minimal end-to-end slice alone — a playable level, working agent, or live API — to validate assumptions."
+        "description": "Build a minimal end-to-end slice and the test that proves it, validating assumptions early."
       },
       "collaborate": {
         "title": "Collaborate",
-        "description": "Bring in art, QA, or stakeholders once the core loop works; reduce wasted coordination."
+        "description": "Work across teams to articulate failures, surface quality risk, and align on what 'shippable' means."
       },
       "deploy": {
         "title": "Deploy",
-        "description": "Automate builds, tests, and agent pipelines so shipping is repeatable, not heroic."
+        "description": "Automate builds, tests, and releases — Fastlane, CI, headless XCTest — so shipping is repeatable, not heroic."
       },
       "reflect": {
         "title": "Reflect",
-        "description": "Document what broke, what scaled, and what to reuse — for the next solo sprint or team handoff."
+        "description": "Triage every failure into a reproducible case and turn it into a regression test for next time."
       }
     },
     "education": {
@@ -105,7 +99,7 @@
     "wechat": "WeChat"
   },
   "footer": {
-    "copyright": "© 2025 Xue Aaron. Built with Next.js & TypeScript.",
+    "copyright": "© 2025 Xue He-Sheng. Built with Next.js & TypeScript.",
     "madeWith": "Made with ❤️ by Casual Attitude"
   },
   "theme": {

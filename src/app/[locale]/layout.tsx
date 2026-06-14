@@ -18,8 +18,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Xue Aaron - Game Developer & Creative Technologist",
-  description: "Game developer crafting emotional and interactive experiences across indie and commercial titles.",
+  title: "Xue He-Sheng - Software Engineer in Test · Apple Platforms",
+  description: "Test & release automation on Apple platforms — XCTest, CI/CD, and reliable iOS & macOS delivery from Xcode to the App Store.",
 };
 
 export function generateStaticParams() {
