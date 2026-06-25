@@ -130,7 +130,7 @@ export function Hero() {
           </a>
           
           <a
-            href="/cv/sdet-en.pdf"
+            href="/cv/fullstack-en.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-3 rounded-xl font-normal border border-gray-300 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-900 transition-colors duration-200"

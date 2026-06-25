@@ -45,5 +45,12 @@ docs_portfolio/
 # editor / IDE
 .cursor/
 
-# rendercv generated output (PDFs are copied into public/ and committed there)
-/cv/rendercv_output/
+# Personal CV/resume source materials — kept locally only, never committed
+/cv/
+
+# Served resumes: only the one resume linked from the site's resume button is
+# tracked; everything else under public/cv stays out of git.
+/public/cv/*
+!/public/cv/fullstack-en.pdf
+/public/Xue_Aaron_CV.pdf
+/public/Xue_Aaron_CV_Supermicro.pdf
