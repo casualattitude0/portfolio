@@ -3,10 +3,10 @@
     "greeting": "Hi, I'm",
     "name": "Xue He-Sheng",
     "handle": "aka Casual Attitude",
-    "title": "Software Engineer in Test · Apple Platforms",
-    "headline": "Building and validating reliable iOS & macOS software — XCTest suites, CI/CD pipelines, and the automation that keeps teams shipping.",
-    "valueProp": "Hands-on with iOS keyboard extensions and the text-input pipeline, I own quality from Xcode to TestFlight to the App Store — turning fast releases into dependable ones.",
-    "availability": "Open to creative tech collaborations, AI/agent projects, and game work (remote-friendly).",
+    "title": "Senior Full-Stack Engineer",
+    "headline": "I ship full-stack products end to end — Vue, React & Next.js front-ends on FastAPI, Go & Node services, deployed on GCP and Firebase.",
+    "valueProp": "From first prototype to production, I own the whole stack and the pipeline that keeps it reliable — turning fast-moving ideas into software people depend on.",
+    "availability": "Open to senior full-stack roles, AI/agent products, and ambitious product work (remote-friendly).",
     "scroll": "Scroll",
     "cta": {
       "contact": "Get in Touch",
@@ -15,37 +15,46 @@
   },
   "nav": {
     "about": "About",
+    "skills": "Skills",
     "projects": "Projects",
     "experience": "Resume",
     "contact": "Contact"
   },
   "about": {
     "title": "About Me",
-    "bio": "I'm Xue He-Sheng — known in the dev community as Casual Attitude. I'm a software engineer focused on test and release automation on Apple platforms: XCTest suites, CI/CD pipelines, and the tooling that keeps fast-moving teams shipping reliable iOS and macOS software.",
-    "journey": "My path started at the NTUT Programming Club, where I served as extracurricular president, hosted 12+ knowledge-sharing workshops, and partnered with Google to bring its Machine Learning Crash Course to campus. I then led a 6-person team to ship TAT, NTUT's campus app — 10K+ downloads at 4.3★ — and kept it running through years of breaking portal and authentication changes. That's where I learned that shipping is the easy part; keeping software reliable is the real work.",
-    "current": "Today at buho Interactive I own test and release automation for cross-platform Apple titles. I run the Xcode → TestFlight → App Store pipeline, hold a stable 60 fps across 300+ releases, keep crash-free sessions at 99%, and collapsed a 1-hour manual build into a single ~5-second chat command. I also built and self-host an internal LLM agent (FastAPI, LangChain, Chroma) guarded by a 40+ contract pytest suite — testing AI systems the same way I test apps.",
-    "passion": "I care most about the input experience. I built AIKeyboard, a custom iOS keyboard extension (Swift, SwiftUI) with a headless XCTest suite that runs on the Simulator on every build — working within the text-input pipeline, extension lifecycle, and Apple's input-API constraints. I break ambiguous goals into testable contracts, automate the repetitive, debug the hard failures, and make every ship decision rest on evidence.",
+    "bio": "I'm a full-stack engineer who ships products end to end — and keeps them reliable in production.",
+    "stackTitle": "Across the stack",
+    "timelineTitle": "Journey",
+    "timeline": {
+      "m1": { "year": "2019", "label": "Programming Club President" },
+      "m2": { "year": "2022", "label": "Shipped TAT · 10K+ users" },
+      "m3": { "year": "2024", "label": "Cross-platform product work" },
+      "m4": { "year": "Now", "label": "Senior Full-Stack Engineer" }
+    },
+    "journey": "My path started at the NTUT Programming Club, where I served as extracurricular president, hosted 12+ knowledge-sharing workshops, and partnered with Google to bring its Machine Learning Crash Course to campus. I then led a 6-person team to ship TAT, NTUT's campus app — 10K+ downloads at 4.3★ — and kept it running through years of breaking portal and authentication changes. That's where I learned to own a product across the whole stack and keep it reliable long after launch.",
+    "current": "Today I work across the stack on cross-platform products — building the front-end, the services behind it, and the cloud infrastructure they run on. I ship continuously: stable 60 fps across 300+ releases, 99% crash-free sessions, and a 1-hour manual build collapsed into a single ~5-second command. I also built and self-host an internal LLM agent (FastAPI, LangChain, Chroma) with a Vue chat UI — a complete full-stack system, backend to UI, guarded by a 40+ contract pytest suite.",
+    "passion": "I like owning the hard middle of a product — where the front-end, the API, and the infrastructure meet. From a custom iOS keyboard powered by an LLM (Swift, SwiftUI) to a Go backend on Cloud Run and a self-hosted RAG agent, I break ambiguous goals into shippable slices, automate the repetitive, debug the deep failures, and make every release decision rest on evidence.",
     "process": {
-      "title": "My Process",
+      "title": "How I Build",
       "concept": {
-        "title": "Concept",
-        "description": "Decompose the feature into testable contracts — map risk, edge cases, and success criteria before code."
+        "title": "Discover",
+        "description": "Turn an ambiguous goal into a clear scope — map the user, the data, and the success criteria before code."
       },
       "prototype": {
         "title": "Prototype",
-        "description": "Build a minimal end-to-end slice and the test that proves it, validating assumptions early."
+        "description": "Stand up a thin end-to-end slice — UI to API to data — to validate the architecture early."
       },
       "collaborate": {
         "title": "Collaborate",
-        "description": "Work across teams to articulate failures, surface quality risk, and align on what 'shippable' means."
+        "description": "Work across design, product and teammates to align on what 'shippable' means and unblock fast."
       },
       "deploy": {
-        "title": "Deploy",
-        "description": "Automate builds, tests, and releases — Fastlane, CI, headless XCTest — so shipping is repeatable, not heroic."
+        "title": "Ship",
+        "description": "Automate builds, tests and releases through CI/CD so shipping to production is repeatable, not heroic."
       },
       "reflect": {
-        "title": "Reflect",
-        "description": "Triage every failure into a reproducible case and turn it into a regression test for next time."
+        "title": "Iterate",
+        "description": "Watch it in production, turn every failure into a regression test, and feed the learnings back in."
       }
     },
     "education": {
@@ -64,9 +73,19 @@
       "japanese": "Learning"
     }
   },
+  "stats": {
+    "title": "Impact at a glance",
+    "description": "A few numbers from products I've shipped and kept running.",
+    "items": {
+      "releases": { "value": "300+", "label": "Production releases shipped" },
+      "crashFree": { "value": "99%", "label": "Crash-free sessions held" },
+      "downloads": { "value": "10K+", "label": "App downloads at 4.3★" },
+      "build": { "value": "5s", "label": "Build & release, down from 1 hour" }
+    }
+  },
   "projects": {
     "title": "Featured Projects",
-    "description": "Selected projects spanning game development, web applications, and creative technologies",
+    "description": "Full-stack products, services, and tools — from web and mobile apps to AI agents and cloud backends.",
     "viewLive": "View Live",
     "viewRepo": "View Code",
     "watchVideo": "Watch Demo",
@@ -86,8 +105,16 @@
     "title": "Resume"
   },
   "techStack": {
-    "title": "Tech Stack",
-    "description": "Technologies & Tools I Work With"
+    "title": "Skills & Tools",
+    "description": "The full-stack toolkit I reach for, grouped by where it lives.",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "cloud": "Cloud & DevOps",
+      "mobile": "Mobile",
+      "language": "Languages",
+      "tool": "Tools"
+    }
   },
   "contact": {
     "title": "Let's Connect",

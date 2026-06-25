@@ -18,8 +18,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Xue He-Sheng - Software Engineer in Test · Apple Platforms",
-  description: "Test & release automation on Apple platforms — XCTest, CI/CD, and reliable iOS & macOS delivery from Xcode to the App Store.",
+  title: "Xue He-Sheng — Senior Full-Stack Engineer",
+  description: "Senior full-stack engineer shipping products end to end — Vue, React & Next.js front-ends on FastAPI, Go & Node services, deployed on GCP and Firebase, with the CI/CD that keeps them reliable.",
 };
 
 export function generateStaticParams() {

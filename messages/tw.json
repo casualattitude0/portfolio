@@ -15,13 +15,22 @@
   },
   "nav": {
     "about": "關於",
+    "skills": "技能",
     "projects": "專案",
     "experience": "履歷",
     "contact": "聯絡"
   },
   "about": {
     "title": "關於我",
-    "bio": "我是薛賀升 — 開發社群中大家都叫我 Casual Attitude。我是一位專注於 Apple 平台測試與發佈自動化的軟體工程師：XCTest 測試套件、CI/CD 流程，以及讓快速前進的團隊持續出貨可靠 iOS 與 macOS 軟體的工具。",
+    "bio": "我是一位全端工程師，把產品從頭到尾做出來，並讓它在正式環境穩定可靠。",
+    "stackTitle": "橫跨整個技術棧",
+    "timelineTitle": "歷程",
+    "timeline": {
+      "m1": { "year": "2019", "label": "程式設計社社長" },
+      "m2": { "year": "2022", "label": "推出 TAT · 10K+ 使用者" },
+      "m3": { "year": "2024", "label": "跨平台產品開發" },
+      "m4": { "year": "現在", "label": "資深全端工程師" }
+    },
     "journey": "我的起點在台北科技大學程式設計研究社，擔任社長、舉辦 12+ 場知識分享工作坊，並與 Google 合作將機器學習速成課程引進校園。之後我帶領 6 人團隊推出北科校園 App『TAT』（10K+ 下載、4.3★），並在多年的入口網站與認證變更中持續維護運作。我也因此學到：出貨是最容易的部分，讓軟體保持可靠才是真正的工作。",
     "current": "如今在 buho Interactive，我負責跨平台 Apple 專案的測試與發佈自動化。我運行 Xcode → TestFlight → App Store 流程，在 300+ 次發佈中維持穩定 60 fps，將 crash-free session 維持在 99%，並把 1 小時的手動建置濃縮為單一則約 5 秒的聊天指令。我也建置並自架了一個內部 LLM agent（FastAPI、LangChain、Chroma），以 40+ 個契約的 pytest 套件加以保護 — 用測試 App 的方式測試 AI 系統。",
     "passion": "我最在意的是輸入體驗。我打造了 AIKeyboard，一個自訂 iOS 鍵盤擴充（Swift、SwiftUI），具備每次建置都在模擬器上以 headless 方式執行的 XCTest 測試套件 — 在文字輸入流程、擴充功能生命週期與 Apple 輸入 API 限制下完成。我把模糊的目標拆解成可測試的契約，自動化重複工作，除錯困難的問題，並讓每個出貨決策都建立在證據之上。",
@@ -64,6 +73,16 @@
       "japanese": "學習中"
     }
   },
+  "stats": {
+    "title": "成果一覽",
+    "description": "幾個來自我交付並持續維運的產品數字。",
+    "items": {
+      "releases": { "value": "300+", "label": "正式版發布次數" },
+      "crashFree": { "value": "99%", "label": "維持無當機工作階段" },
+      "downloads": { "value": "10K+", "label": "App 下載數（4.3★）" },
+      "build": { "value": "5s", "label": "建置與發布（1 小時縮到 5 秒）" }
+    }
+  },
   "projects": {
     "title": "精選專案",
     "description": "精選遊戲開發、網頁應用與創意技術專案",
@@ -86,8 +105,16 @@
     "title": "履歷"
   },
   "techStack": {
-    "title": "技術堆疊",
-    "description": "使用的技術與工具"
+    "title": "技能與工具",
+    "description": "依所屬層級整理的全端工具箱。",
+    "categories": {
+      "frontend": "前端",
+      "backend": "後端",
+      "cloud": "雲端與 DevOps",
+      "mobile": "行動裝置",
+      "language": "程式語言",
+      "tool": "工具"
+    }
   },
   "contact": {
     "title": "聯絡我",
