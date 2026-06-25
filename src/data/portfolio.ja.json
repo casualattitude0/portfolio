@@ -72,6 +72,30 @@
       }
     },
     {
+      "title": "Apple Glass Aura — フロントエンドショーケース",
+      "role": "フロントエンドエンジニア",
+      "clientOrCompany": "個人プロジェクト",
+      "year": 2026,
+      "summary": "架空のスマートグラスのための、Apple スタイルのコンセプト製品ページ。すべてのビジュアルを製品写真や UI ライブラリに頼らず、ライブ SVG と CSS で手描き。スクロール連動の製品フィルム（GSAP ScrollTrigger）、アニメーションする AR HUD を備えたライブ SVG フレーム、リアクティブな状態で動くフレーム／レンズのカスタマイザーなど、Apple クオリティのインタラクション表現を実演。",
+      "techs": [
+        "Vue 3",
+        "Vue Router",
+        "GSAP ScrollTrigger",
+        "Lenis",
+        "SVG",
+        "Tailwind CSS"
+      ],
+      "outcome": {
+        "metric": "ピクセル単位で作り込み、reduced-motion に対応し、375px までレスポンシブな製品体験",
+        "details": "スクロール駆動のシネマティックシーケンス、リアクティブな SVG カスタマイザー、IntersectionObserver によるスクロール表示、アクセシブルな UI（ARIA ラジオグループ、スキップリンク、prefers-reduced-motion 時の静的フォールバック）。"
+      },
+      "links": {
+        "live": "https://casualattitude0.github.io/interactive-web-design/en",
+        "repo": "https://github.com/casualattitude0/interactive-web-design",
+        "video": ""
+      }
+    },
+    {
       "title": "Unity CI/CD 自動化パイプライン",
       "role": "DevOpsエンジニア / ツール開発者",
       "clientOrCompany": "内部ツール",

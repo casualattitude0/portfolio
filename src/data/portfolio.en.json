@@ -72,6 +72,30 @@
       }
     },
     {
+      "title": "Apple Glass Aura — Front-End Showcase",
+      "role": "Front-End Developer",
+      "clientOrCompany": "Personal Project",
+      "year": 2026,
+      "summary": "A concept Apple-style product page for invented smart glasses, with every visual hand-drawn in live SVG and CSS — no product photography or UI libraries. Demonstrates Apple-grade interaction craft: a scroll-scrubbed product film (GSAP ScrollTrigger), a live SVG frame with an animated AR HUD, and an interactive finish/lens customizer driven by reactive state.",
+      "techs": [
+        "Vue 3",
+        "Vue Router",
+        "GSAP ScrollTrigger",
+        "Lenis",
+        "SVG",
+        "Tailwind CSS"
+      ],
+      "outcome": {
+        "metric": "Pixel-crafted, reduced-motion-aware product experience responsive down to 375px",
+        "details": "Scroll-driven cinematic sequence, reactive SVG customizer, IntersectionObserver scroll-reveals, and accessible chrome (ARIA radio groups, skip link, and a static fallback for prefers-reduced-motion)."
+      },
+      "links": {
+        "live": "https://casualattitude0.github.io/interactive-web-design/en",
+        "repo": "https://github.com/casualattitude0/interactive-web-design",
+        "video": ""
+      }
+    },
+    {
       "title": "Unity CI/CD Automation Pipeline",
       "role": "DevOps Engineer / Tool Developer",
       "clientOrCompany": "Internal Tool",

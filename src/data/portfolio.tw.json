@@ -72,6 +72,30 @@
       }
     },
     {
+      "title": "Apple Glass Aura — 前端展示作品",
+      "role": "前端工程師",
+      "clientOrCompany": "個人專案",
+      "year": 2026,
+      "summary": "一個概念性的 Apple 風格產品頁，為虛構的智慧眼鏡打造；所有視覺元素皆以即時 SVG 與 CSS 手工繪製——不使用任何產品照片或 UI 函式庫。展現 Apple 等級的互動工藝：以捲動驅動的產品影片（GSAP ScrollTrigger）、帶有動態 AR HUD 的即時 SVG 鏡框，以及由響應式狀態驅動的鏡框與鏡片客製化介面。",
+      "techs": [
+        "Vue 3",
+        "Vue Router",
+        "GSAP ScrollTrigger",
+        "Lenis",
+        "SVG",
+        "Tailwind CSS"
+      ],
+      "outcome": {
+        "metric": "像素級雕琢、支援減少動態偏好、並可響應式縮放至 375px 的產品體驗",
+        "details": "捲動驅動的電影級序列、響應式 SVG 客製化工具、IntersectionObserver 捲動揭露效果，以及無障礙介面（ARIA radio group、跳至主內容連結，與 prefers-reduced-motion 的靜態備援）。"
+      },
+      "links": {
+        "live": "https://casualattitude0.github.io/interactive-web-design/en",
+        "repo": "https://github.com/casualattitude0/interactive-web-design",
+        "video": ""
+      }
+    },
+    {
       "title": "Unity CI/CD 自動化流程",
       "role": "DevOps 工程師 / 工具開發者",
       "clientOrCompany": "內部工具",
