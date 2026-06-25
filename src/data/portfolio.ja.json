@@ -304,15 +304,9 @@
   "experience": [
     {
       "company": "buho Interactive Entertainment Co., Ltd.",
-      "role": "ゲームプランナー / Unity開発者",
-      "period": "2024年3月 – 現在",
-      "description": "Braverse（DevsistersとのCookieRun IP）やWacky Boatを含む複数の商業タイトルのゲーム企画、Unity開発、プロジェクト管理をリード。コアゲームプレイシステム、CI/CDパイプライン、プロダクションインフラを構築。"
-    },
-    {
-      "company": "独立スタジオ",
-      "role": "創設者 / ゲーム開発者",
-      "period": "2022年9月 – 2024年3月",
-      "description": "クラウドファンディングとイベント展示を通じてインディーゲーム『Soul of Butterflies – Incubation』を開発・リリース。"
+      "role": "シニアソフトウェアエンジニア",
+      "period": "2022年 – 現在",
+      "description": "社内ライブオプスコンソールをエンドツーエンドで担当 — アクセシブルな Radix UI コンポーネントシステムを備えたリアルタイム・マルチユーザーの React / Next.js（TypeScript）ツール — と、その背後の Go・FastAPI サービス（REST / WebSocket、OAuth/JWT）を GCP 上で構築し、1万人以上のデイリーアクティブユーザーに提供。クライアント Devsisters（CookieRun / Braverse IP）向け Web プロジェクトのフルスタック開発をリードし、コードレビューでフロントエンド標準を推進、データ業務のスループットを30倍に高める AI エージェントと MCP サーバーを構築。"
     },
     {
       "company": "NPC – 台北科技大学プログラミングクラブ",

@@ -304,15 +304,9 @@
   "experience": [
     {
       "company": "buho Interactive Entertainment Co., Ltd.",
-      "role": "遊戲企劃 / Unity 開發者",
-      "period": "2024年3月 – 現在",
-      "description": "主導多個商業專案的遊戲企劃、Unity 開發和專案管理，包括 Braverse（與 Devsisters 合作的 CookieRun IP）和 Wacky Boat。建置核心遊戲系統、CI/CD 流程和製作基礎設施。"
-    },
-    {
-      "company": "獨立工作室",
-      "role": "創辦人 / 遊戲開發者",
-      "period": "2022年9月 – 2024年3月",
-      "description": "透過群眾募資和活動展示開發並發行獨立遊戲《Soul of Butterflies – Incubation》。"
+      "role": "資深軟體工程師",
+      "period": "2022年 – 現在",
+      "description": "端到端負責內部 live-ops 控制台 — 一個具備無障礙 Radix UI 元件系統的即時、多人 React / Next.js（TypeScript）工具 — 以及其背後的 Go 與 FastAPI 服務（REST / WebSocket、OAuth/JWT），部署於 GCP，服務 10K+ 每日活躍使用者。主導為客戶 Devsisters（CookieRun / Braverse IP）交付 Web 專案的全端開發，透過程式碼審查推動前端標準，並打造將資料作業吞吐量提升 30× 的 AI agent 與 MCP server。"
     },
     {
       "company": "NPC – 台北科技大學程式設計研究社",

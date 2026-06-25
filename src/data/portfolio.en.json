@@ -304,15 +304,9 @@
   "experience": [
     {
       "company": "buho Interactive Entertainment Co., Ltd.",
-      "role": "Game Designer / Unity Developer",
-      "period": "Mar 2024 – Present",
-      "description": "Leading game planning, Unity development, and project management for multiple commercial titles including Braverse (CookieRun IP with Devsisters) and Wacky Boat. Built core gameplay systems, CI/CD pipelines, and production infrastructure."
-    },
-    {
-      "company": "Independent Studio",
-      "role": "Founder / Game Developer",
-      "period": "Sep 2022 – Mar 2024",
-      "description": "Developed and released the indie game 'Soul of Butterflies – Incubation' through crowdfunding and event exhibitions."
+      "role": "Senior Software Engineer",
+      "period": "2022 – Present",
+      "description": "Own an internal live-ops console end-to-end — a real-time, multi-user React / Next.js (TypeScript) tool with an accessible Radix UI component system — plus the Go and FastAPI services behind it (REST / WebSocket, OAuth/JWT) on GCP, serving 10K+ daily active users. Led full-stack delivery of a web project for client Devsisters (CookieRun / Braverse IP), drive front-end standards through code review, and built embedded AI agents and an MCP server that lifted data-tooling throughput 30×."
     },
     {
       "company": "NPC – NTUT Programming Club",
