@@ -62,3 +62,17 @@ html.dark ::-webkit-scrollbar-thumb:hover {
 .apple-ease {
   transition-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
 }
+
+/* Motion-safety backstop. JS scenes already branch on useReducedMotion();
+   this neutralizes any remaining CSS transitions/animations for users who
+   prefer reduced motion. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -96,8 +96,8 @@ export function Header() {
           <motion.nav 
             className="hidden md:flex items-center space-x-1"
           >
-            <NavButton onClick={() => scrollToSection('about')}>
-              {t('about')}
+            <NavButton onClick={() => scrollToSection('skills')}>
+              {t('skills')}
             </NavButton>
             <NavButton onClick={() => scrollToSection('projects')}>
               {t('projects')}
@@ -175,8 +175,8 @@ export function Header() {
             className="md:hidden border-t border-gray-200/50 dark:border-gray-800/50 overflow-hidden bg-white/95 dark:bg-black/95 backdrop-blur-xl"
           >
             <div className="px-4 py-3 space-y-1">
-              <MobileNavButton onClick={() => scrollToSection('about')}>
-                {t('about')}
+              <MobileNavButton onClick={() => scrollToSection('skills')}>
+                {t('skills')}
               </MobileNavButton>
               <MobileNavButton onClick={() => scrollToSection('projects')}>
                 {t('projects')}

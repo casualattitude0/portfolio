@@ -1,13 +1,24 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { motion } from 'framer-motion';
+import { motion, useScroll, useTransform, useReducedMotion } from 'framer-motion';
+import { useRef } from 'react';
 import { Mail, Github, Linkedin, ChevronDown } from 'lucide-react';
 import { ThemeToggle } from './ThemeToggle';
 import { LanguageSwitcher } from './LanguageSwitcher';
 
 export function Hero() {
   const t = useTranslations('hero');
+  const reduce = useReducedMotion();
+  const sectionRef = useRef<HTMLElement>(null);
+
+  const { scrollYProgress } = useScroll({
+    target: sectionRef,
+    offset: ['start start', 'end start'],
+  });
+  // Hero content gently lifts and fades as the user scrolls toward the Stats scene.
+  const contentY = useTransform(scrollYProgress, [0, 1], [0, reduce ? 0 : -80]);
+  const contentOpacity = useTransform(scrollYProgress, [0, 0.8], [1, reduce ? 1 : 0]);
 
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
@@ -47,7 +58,7 @@ export function Hero() {
   };
 
   return (
-    <section id="hero" className="min-h-screen flex items-center justify-center relative px-4 sm:px-6 lg:px-8 bg-white dark:bg-black">
+    <section ref={sectionRef} id="hero" className="min-h-screen flex items-center justify-center relative px-4 sm:px-6 lg:px-8 bg-white dark:bg-black">
       {/* Top Controls */}
       <motion.div 
         initial={{ opacity: 0, y: -20 }}
@@ -64,6 +75,7 @@ export function Hero() {
         variants={containerVariants}
         initial="hidden"
         animate="visible"
+        style={{ y: contentY, opacity: contentOpacity }}
         className="max-w-4xl mx-auto text-center relative z-10"
       >
         {/* Greeting */}
@@ -169,7 +181,7 @@ export function Hero() {
         animate={{ opacity: 1 }}
         transition={{ delay: 2, duration: 0.8 }}
         className="absolute bottom-8 left-1/2 transform -translate-x-1/2 cursor-pointer"
-        onClick={() => scrollToSection('about')}
+        onClick={() => scrollToSection('stats')}
       >
         <motion.div 
           animate={{ y: [0, 8, 0] }}

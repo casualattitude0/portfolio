@@ -119,28 +119,39 @@ function getIconComponent(tech: TechStack): IconType | null {
   return iconMap[nameKey] || null;
 }
 
-const enhancedTechStack = [
-  { name: 'Unity', icon: 'unity', category: 'game' },
-  { name: 'C#', icon: 'csharp', category: 'language' },
-  { name: 'C++', icon: 'cpp', category: 'language' },
-  { name: 'Python', icon: 'python', category: 'language' },
-  { name: 'Go', icon: 'go', category: 'language' },
-  { name: 'FastAPI', icon: 'fastapi', category: 'backend' },
-  { name: 'LangChain', icon: 'langchain', category: 'ai' },
-  { name: 'TypeScript', icon: 'typescript', category: 'language' },
-  { name: 'JavaScript', icon: 'javascript', category: 'language' },
-  { name: 'Flutter', icon: 'flutter', category: 'mobile' },
-  { name: 'React', icon: 'react', category: 'web' },
-  { name: 'Next.js', icon: 'nextjs', category: 'web' },
-  { name: 'Vue.js', icon: 'vuejs', category: 'web' },
-  { name: 'Node.js', icon: 'nodejs', category: 'backend' },
-  { name: 'Tailwind', icon: 'tailwindcss', category: 'web' },
-  { name: 'GCP', icon: 'gcp', category: 'cloud' },
-  { name: 'Firebase', icon: 'firebase', category: 'cloud' },
-  { name: 'Docker', icon: 'docker', category: 'devops' },
-  { name: 'Git', icon: 'git', category: 'tool' },
-  { name: 'Figma', icon: 'figma', category: 'design' },
-  { name: 'MongoDB', icon: 'mongodb', category: 'database' },
+// Grouped into the six display categories shown on the Skills section.
+// `group` keys map to messages: techStack.categories.*
+const CATEGORY_ORDER = ['language', 'frontend', 'backend', 'mobile', 'cloud', 'tool'] as const;
+type CategoryKey = (typeof CATEGORY_ORDER)[number];
+
+const enhancedTechStack: { name: string; icon: string; group: CategoryKey }[] = [
+  // Languages
+  { name: 'TypeScript', icon: 'typescript', group: 'language' },
+  { name: 'JavaScript', icon: 'javascript', group: 'language' },
+  { name: 'Python', icon: 'python', group: 'language' },
+  { name: 'Go', icon: 'go', group: 'language' },
+  { name: 'C#', icon: 'csharp', group: 'language' },
+  { name: 'C++', icon: 'cpp', group: 'language' },
+  // Frontend
+  { name: 'React', icon: 'react', group: 'frontend' },
+  { name: 'Next.js', icon: 'nextjs', group: 'frontend' },
+  { name: 'Vue.js', icon: 'vuejs', group: 'frontend' },
+  { name: 'Tailwind', icon: 'tailwindcss', group: 'frontend' },
+  // Backend
+  { name: 'Node.js', icon: 'nodejs', group: 'backend' },
+  { name: 'FastAPI', icon: 'fastapi', group: 'backend' },
+  { name: 'LangChain', icon: 'langchain', group: 'backend' },
+  { name: 'MongoDB', icon: 'mongodb', group: 'backend' },
+  // Mobile
+  { name: 'Flutter', icon: 'flutter', group: 'mobile' },
+  { name: 'Unity', icon: 'unity', group: 'mobile' },
+  // Cloud & DevOps
+  { name: 'GCP', icon: 'gcp', group: 'cloud' },
+  { name: 'Firebase', icon: 'firebase', group: 'cloud' },
+  { name: 'Docker', icon: 'docker', group: 'cloud' },
+  // Tools
+  { name: 'Git', icon: 'git', group: 'tool' },
+  { name: 'Figma', icon: 'figma', group: 'tool' },
 ];
 
 export function TechStack({ }: TechStackProps) {
@@ -154,7 +165,7 @@ export function TechStack({ }: TechStackProps) {
   if (!isMounted) return null;
 
   return (
-    <section className="py-32 px-4 sm:px-6 lg:px-8 bg-gray-50 dark:bg-black">
+    <section id="skills" className="py-32 px-4 sm:px-6 lg:px-8 bg-gray-50 dark:bg-black">
       <div className="container mx-auto max-w-5xl">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -172,43 +183,59 @@ export function TechStack({ }: TechStackProps) {
           </p>
         </motion.div>
 
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.8, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
-          className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4"
-        >
-          {enhancedTechStack.map((item, index) => {
-            const IconComponent = getIconComponent({ name: item.name, icon: item.icon });
-            
+        <div className="space-y-12">
+          {CATEGORY_ORDER.map((group) => {
+            const items = enhancedTechStack.filter((item) => item.group === group);
+            if (items.length === 0) return null;
+
             return (
               <motion.div
-                key={item.name}
-                initial={{ opacity: 0, y: 10 }}
+                key={group}
+                initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ 
-                  duration: 0.5, 
-                  delay: index * 0.03,
-                  ease: [0.22, 1, 0.36, 1]
-                }}
-                className="flex flex-col items-center gap-3 p-6 rounded-2xl hover:bg-white dark:hover:bg-gray-900 transition-colors duration-200"
+                viewport={{ once: true, amount: 0.3 }}
+                transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
+                className="grid grid-cols-1 md:grid-cols-[180px_1fr] gap-4 md:gap-8 items-start"
               >
-                <div className="w-12 h-12 flex items-center justify-center">
-                  {IconComponent ? (
-                    <IconComponent className="w-8 h-8 text-gray-900 dark:text-white" />
-                  ) : (
-                    <span className="text-2xl">💻</span>
-                  )}
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white md:text-right md:pt-4">
+                  {t(`categories.${group}`)}
+                </h3>
+
+                <div className="flex flex-wrap gap-3">
+                  {items.map((item, index) => {
+                    const IconComponent = getIconComponent({ name: item.name, icon: item.icon });
+
+                    return (
+                      <motion.div
+                        key={item.name}
+                        initial={{ opacity: 0, y: 10 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        transition={{
+                          duration: 0.4,
+                          delay: index * 0.04,
+                          ease: [0.22, 1, 0.36, 1],
+                        }}
+                        className="flex items-center gap-2.5 px-4 py-3 rounded-xl bg-white dark:bg-gray-900 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors duration-200"
+                      >
+                        <div className="w-6 h-6 flex items-center justify-center shrink-0">
+                          {IconComponent ? (
+                            <IconComponent className="w-5 h-5 text-gray-900 dark:text-white" />
+                          ) : (
+                            <span className="text-lg">💻</span>
+                          )}
+                        </div>
+                        <span className="text-sm text-gray-700 dark:text-gray-300 font-normal whitespace-nowrap">
+                          {item.name}
+                        </span>
+                      </motion.div>
+                    );
+                  })}
                 </div>
-                <span className="text-sm text-gray-600 dark:text-gray-400 font-normal">
-                  {item.name}
-                </span>
               </motion.div>
             );
           })}
-        </motion.div>
+        </div>
       </div>
     </section>
   );
