@@ -3,9 +3,9 @@
     "greeting": "嗨，我是",
     "name": "薛賀升",
     "handle": "又稱 Casual Attitude",
-    "title": "軟體測試工程師 · Apple 平台",
-    "headline": "打造並驗證可靠的 iOS 與 macOS 軟體 — XCTest 測試套件、CI/CD 流程，以及讓團隊持續出貨的自動化。",
-    "valueProp": "熟悉 iOS 鍵盤擴充與文字輸入流程，從 Xcode 到 TestFlight 到 App Store 全程掌握品質，把快速發佈變成可靠發佈。",
+    "title": "資深全端工程師",
+    "headline": "從 Vue、React、Next.js 的前端，到 FastAPI、Go、Node 的服務，再到 GCP 與 Firebase 的部署。產品從頭到尾，我自己做、自己交付。",
+    "valueProp": "從第一個原型到正式上線，整個技術棧，還有讓它穩定運作的流程，都是我負責的範圍。把快速成形的想法，做成大家可以放心依賴的軟體。",
     "availability": "開放創意技術合作、AI/Agent 專案與遊戲工作（支援遠端）。",
     "scroll": "向下滾動",
     "cta": {
@@ -75,7 +75,7 @@
   },
   "stats": {
     "title": "成果一覽",
-    "description": "幾個來自我交付並持續維運的產品數字。",
+    "description": "幾個我交付並持續維運的產品數字。",
     "items": {
       "releases": { "value": "300+", "label": "正式版發布次數" },
       "crashFree": { "value": "99%", "label": "維持無當機工作階段" },
@@ -85,7 +85,7 @@
   },
   "projects": {
     "title": "精選專案",
-    "description": "精選遊戲開發、網頁應用與創意技術專案",
+    "description": "從網頁、行動 App 到 AI agent 與雲端後端，這些是我做過的全端產品、服務與工具。",
     "viewLive": "查看作品",
     "viewRepo": "查看程式碼",
     "watchVideo": "觀看展示",
@@ -118,7 +118,7 @@
   },
   "contact": {
     "title": "聯絡我",
-    "description": "我隨時歡迎討論新專案、創意想法，或成為您願景的一部分。",
+    "description": "想聊新專案、合作機會，或任何有意思的想法，都隨時歡迎。",
     "email": "電子郵件",
     "discord": "Discord",
     "github": "GitHub",
